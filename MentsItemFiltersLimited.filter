@@ -1,4 +1,4 @@
-# Ment's Item Filters Limited ( Hidden Drops: No Exp/Quality gems | Low ilvl Drops [under 60 Rare Under 75 White] | Large RGB Vendor Items | No low Quality Flasks v3.1#
+# Ment's Item Filters Limited ( Hidden Drops: Gems without Exp/Quality | Low ilvl Drops [under 60 Rare Under 75 White] | Large RGB Vendor Items | low Quality Flasks ) v3.2 #
  
 # Ment's Filter highlights
  
@@ -15,6 +15,7 @@
 #
 # Currency
 # Socket/Links
+# RGB
 # Top Bases
 # Labyrinth Misc
 # Essesnce
@@ -31,8 +32,8 @@
 # Magic-Normal Gear
 #
 #-----------------------------------------------------------------------------------------------------------
+
   
-    
 ### Currency
  
 Show
@@ -69,7 +70,6 @@ PlayAlertSound 9 120
 SetFontSize 40
 SetBackgroundColor 0 0 0 230
 SetBorderColor 175 96 37 250
- 
 
 Show
 BaseType "Perandus Coin"
@@ -91,9 +91,9 @@ SetFontSize 35
 SetBackgroundColor 0 0 0 150
  
 Show
- BaseType "Portal Scroll"
- SetFontSize 35
- SetBackgroundColor 0 0 0 100.
+BaseType "Portal Scroll"
+SetFontSize 35
+SetBackgroundColor 0 0 0 100.
  
 ### Socket/Links
   
@@ -109,17 +109,57 @@ Show
 LinkedSockets = 5
 PlayAlertSound 2 150
 SetFontSize 40
- SetTextColor 255 255 255 200
- SetBackgroundColor 200 0 0 80 
- SetBorderColor 255 255 255 150
+SetTextColor 255 255 255 200
+SetBackgroundColor 200 0 0 80 
+SetBorderColor 255 255 255 150
  
 Show
 Sockets = 6
 PlayAlertSound 3 100
 SetTextColor 255 255 153
 SetBorderColor 255 255 153
+
+### RGB
+ 
+Show
+SocketGroup RGB
+Class "Daggers" "Wands" "Gloves" "Boots" "Helmets" "One Hand Swords" "Claws" 
+#Full List - Class "Daggers" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Axes" "One Hand Maces" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Sceptres"
+PlayAlertSound 9 100
+SetFontSize 40
+SetBackgroundColor 0 0 0 200
+SetTextColor 170 158 130
+
+### White items that worth to chance
+ 
+Show
+ItemLevel >= 60
+BaseType "Sorcerer Boots" "Agate Amulet" "Prophecy Wand" "Occultist's Vestment" "Glorious Plate" "Leather Belt"
+# More Available items to chance : "Spine Bow" "Chain Belt" "Siege Axe" "Judgement Staff" "Imperial Bow"
+Rarity = Normal
+SetFontSize 35
+SetBackgroundColor 0 0 0 200
+SetBorderColor 175 96 37 250
+SetTextColor 255 255 240 200
+
+Show
+BaseType "Sapphire Flask"
+SetFontSize 35
+Rarity = Normal
+SetBackgroundColor 0 0 0 200
+SetBorderColor 175 96 37 250
+SetTextColor 255 255 240 200
  
 ### Top Bases
+
+Show
+ItemLevel >= 84
+BaseType "Sorcerer Boots"
+Rarity = Normal
+SetFontSize 35
+SetBackgroundColor 0 0 0 200
+SetBorderColor 175 96 37 250
+SetTextColor 255 255 240 200
 
 # Chests
 Show
@@ -239,7 +279,7 @@ SetTextColor 63 191 63 250
 Show
 BaseType "Golden Key"
 PlayAlertSound 7 100
-SetFontSize 40
+SetFontSize 35
 SetTextColor 0 0 0 250
 SetBackgroundColor 200 200 50 200
 SetBorderColor 0 0 0
@@ -247,7 +287,7 @@ SetBorderColor 0 0 0
 Show
 BaseType "Silver Key"
 PlayAlertSound 7 100
-SetFontSize 20
+SetFontSize 35
 SetTextColor 0 0 0 250
 SetBackgroundColor 200 200 50 200
 SetBorderColor 0 0 0
@@ -255,7 +295,7 @@ SetBorderColor 0 0 0
 Show
 BaseType "Treasure Key" "Sand of Eternity"
 PlayAlertSound 7 100
-SetFontSize 20
+SetFontSize 35
 SetTextColor 0 0 0 250
 SetBackgroundColor 200 200 50 200
 SetBorderColor 0 0 0
@@ -263,7 +303,7 @@ SetBorderColor 0 0 0
 Show
 BaseType "Portal Shredder" "Heart of the Gargoyle" "Bane of the Loyal" "Cogs of Disruption" "Rod of Detonation"
 PlayAlertSound 7 100
-SetFontSize 20
+SetFontSize 35
 SetTextColor 0 0 0 250
 SetBackgroundColor 200 200 50 200
 SetBorderColor 0 0 0
@@ -612,17 +652,6 @@ ItemLevel <= 59
 SetFontSize 35
 SetTextColor 255 255 0
 SetBackgroundColor 0 0 0 180
- 
-### RGB
- 
-Show
-SocketGroup RGB
-Class "Daggers" "Wands" "Gloves" "Boots" "Helmets" "One Hand Swords"
-#Full List - Class "Daggers" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Axes" "One Hand Maces" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Sceptres"
-PlayAlertSound 9 100
-SetFontSize 40
-SetBackgroundColor 0 0 0 200
-SetTextColor 170 158 130
     
 ### Gems
 
@@ -688,10 +717,7 @@ SetBackgroundColor 100 0 0 200
  
  
 ### Misc Items
- 
-Show
-Class "Map Fragment"
- 
+
 Show
  Class "Microtransactions"     
  
@@ -706,7 +732,7 @@ Class Quest
 # Unique Divination Cards
 Show
 Class "Divination Card"
-BaseType "The Chains that Bind" "The Offering" "The Warlord" "The Ethereal" "The Dark Mage" "The Dapper Prodigy" "The Celestial Justicar" "Anarchy's Price" "The Fletcher" "The Surveyor" "The Thaumaturgist" "The Vast" "Audacity" "Bowyer's Dream" "Hunter's Reward" "Last Hope" "The Queen" "Wealth and Power" "The Dragon's Heart" "The Dragon" "The Avenger" "The Feast" "The Fox" "The Trial" "Time-Lost Relic" "House of Mirrors" "The Wind" "The Union" "The Watcher" "The Pact" "The Pack Leader" "The King's Heart" "Humility" "Abandoned Wealth" "The Brittle Emperor" "The Battle Born" "The Doctor" "The Drunken Aristocrat" "The Fiend" "The Gladiator" "The Hoarder" "Hope" "The Hunger" "The Poet" "The Sun" "Vinia's Token" "Birth of the Three" "The Flora's Gift" "The Last One Standing" "The Pack Leader"
+BaseType "The Harvester" "The Chains that Bind" "The Offering" "The Warlord" "The Ethereal" "The Dark Mage" "The Dapper Prodigy" "The Celestial Justicar" "Anarchy's Price" "The Fletcher" "The Surveyor" "The Thaumaturgist" "The Vast" "Audacity" "Bowyer's Dream" "Hunter's Reward" "Last Hope" "The Queen" "Wealth and Power" "The Dragon's Heart" "The Dragon" "The Avenger" "The Feast" "The Fox" "The Trial" "Time-Lost Relic" "House of Mirrors" "The Wind" "The Union" "The Watcher" "The Pact" "The Pack Leader" "The King's Heart" "Humility" "Abandoned Wealth" "The Brittle Emperor" "The Battle Born" "The Doctor" "The Drunken Aristocrat" "The Fiend" "The Gladiator" "The Hoarder" "Hope" "The Hunger" "The Poet" "The Sun" "Vinia's Token" "Birth of the Three" "The Last One Standing" "The Pack Leader"
 PlayAlertSound 4 250
 SetFontSize 42 
 SetTextColor 200 150 200 150
@@ -716,7 +742,7 @@ SetBorderColor 200 150 200
 # Rare Divination Cards
 Show
 Class "Divination Card"
-BaseType "Treasure Hunter" "Gift of the Gemling Queen" "The Enlightened" "Volatile Power" "The Doppelganger" "Hunter's Resolve" "The Gemcutter" "The Conduit" "The Survivalist" "Grave Knowledge" "Coveted Possession" "Rain of Chaos" "Lucky Connections" "Jack in the Box" "The Inventor" "Gemcutter's Promise" "The Road to Power" "The Summoner" "Three Faces in the Dark" "The Cataclysm" "Chaotic Disposition" "The One With All" "The Siren" "The Wrath"
+BaseType "The Explorer" "Emperor's Luck" "Treasure Hunter" "Gift of the Gemling Queen" "The Enlightened" "Volatile Power" "The Doppelganger" "Hunter's Resolve" "The Gemcutter" "The Conduit" "The Survivalist" "Grave Knowledge" "Coveted Possession" "Lucky Connections" "Jack in the Box" "The Inventor" "Gemcutter's Promise" "The Road to Power" "The Summoner" "Three Faces in the Dark" "The Cataclysm" "Chaotic Disposition" "The One With All" "The Siren" "The Wrath"
 PlayAlertSound 2 150
 SetFontSize 35  
 SetTextColor 200 150 200 150
@@ -726,7 +752,7 @@ SetBorderColor 255 255 255 180
 # Normal Divination Cards
 Show
 Class "Divination Card"
-BaseType "The Twins" "The Body" "Scholar of the Seas" "The Traitor" "The Wolf's Shadow" "The Risk" "The Rabid Rhoa" "The Lion" "Her Mask" "Earth Drinker" "Prosperity" "The Sigil" "The Dapper Prodigy" "The Dragon" "Rats" "Tranquillity" "Birth of the Three" "Blind Venture" "The Surgeon" "Merciless Armament" "The Aesthete" "The Lich" "Hubris" "Loyalty" "Assassin's Favour" "The Inoculated" "Lantador's Lost Love" "The Tower" "The Catalyst" "Lantador's Lost Love" "The Hermit" "The Mercenary" "The Gentleman" "The Scarred Meadow" "The Explorer" "Eternal Sword" "The Lover" "The Metalsmith's Gift" "The Scholar" "The Warden" "The Carrion Crow" "Emperor's Luck" "The Gambler"  "The Gambler" "Doedre's Madness" "The Encroaching Darkness" "The Artist" "The Betrayal" "The King's Blade" "The Spoiled Prince" "Death"
+BaseType "The Flora's Gift" "Rain of Chaos" "The Twins" "The Body" "Scholar of the Seas" "The Traitor" "The Wolf's Shadow" "The Risk" "The Rabid Rhoa" "The Lion" "Her Mask" "Earth Drinker" "Prosperity" "The Sigil" "The Dapper Prodigy" "The Dragon" "Rats" "Tranquillity" "Birth of the Three" "Blind Venture" "The Surgeon" "Merciless Armament" "The Aesthete" "The Lich" "Hubris" "Loyalty" "Assassin's Favour" "The Inoculated" "Lantador's Lost Love" "The Tower" "The Catalyst" "Lantador's Lost Love" "The Hermit" "The Mercenary" "The Gentleman" "The Scarred Meadow" "Eternal Sword" "The Lover" "The Metalsmith's Gift" "The Scholar" "The Warden" "The Carrion Crow" "The Gambler"  "The Gambler" "Doedre's Madness" "The Encroaching Darkness" "The Artist" "The Betrayal" "The King's Blade" "The Spoiled Prince" "Death"
 PlayAlertSound 2 100
 SetFontSize 32  
 SetTextColor 255 255 255 180
@@ -742,7 +768,52 @@ SetBackgroundColor 0 0 0 180
 SetBorderColor 255 255 255 180
  
 ### Maps
- 
+
+Show
+Class "Map Fragments"
+BaseType "Eber's Key" "Yriel's Key" "Inya's Key" "Volkuur's Key"
+SetTextColor 255 0 0 255
+SetBorderColor 0 0 0 255
+SetBackgroundColor 0 0 0 255
+SetFontSize 45
+PlayAlertSound 6 200
+
+Show
+Class "Map Fragments"
+BaseType "Mortal Hope" "Mortal Ignorance"
+SetTextColor 255 0 0 255
+SetBorderColor 0 0 0 255
+SetBackgroundColor 0 0 0 255
+SetFontSize 45
+PlayAlertSound 6 200
+
+Show
+Class "Map Fragments"
+BaseType "Mortal Rage" "Mortal Grief"
+SetTextColor 255 0 0 255
+SetBorderColor 0 0 0 255
+SetBackgroundColor 0 0 0 200
+SetFontSize 40
+PlayAlertSound 6 200
+
+Show
+Class "Map Fragments"
+BaseType "Sacrifice at Midnight"
+SetTextColor 255 0 0 255
+SetBorderColor 0 0 0 255
+SetBackgroundColor 0 0 0 255
+SetFontSize 40
+PlayAlertSound 6 150
+
+Show
+Class "Map Fragments"
+BaseType "Sacrifice at Dawn" "Sacrifice at Dusk" "Sacrifice at Noon"
+SetTextColor 255 0 0 255
+SetBorderColor 0 0 0 255
+SetBackgroundColor 0 0 0 180
+SetFontSize 35
+PlayAlertSound 6 150
+
 Show
 Class Map
 Rarity = Unique
@@ -775,9 +846,10 @@ SetFontSize 42
 Show
 Class Map
 Rarity = Rare
-SetFontSize 35
+SetFontSize 38
 SetTextColor 255 255 0
 SetBorderColor 255 255 0
+SetBackgroundColor 70 70 70 250
  
 Show
 Class Map
@@ -794,31 +866,9 @@ PlayAlertSound 9 200
 SetTextColor 192 192 192
 SetBorderColor 192 192 192
 
-### White items that worth to chance
- 
-Show
-ItemLevel >= 60
-BaseType "Sorcerer Boots" "Agate Amulet" "Prophecy Wand" "Occultist's Vestment" "Glorious Plate" "Leather Belt"
-# More Available items to chance : "Spine Bow" "Chain Belt" "Siege Axe" "Judgement Staff" "Imperial Bow"
-Rarity = Normal
-SetFontSize 35
-SetBackgroundColor 0 0 0 200
-SetBorderColor 175 96 37 250
-SetTextColor 255 255 240 200
 
 Show
-BaseType "Sapphire Flask"
-SetFontSize 35
-Rarity = Normal
-
-SetBackgroundColor 0 0 0 200
-SetBorderColor 175 96 37 250
-SetTextColor 255 255 240 200
-
-Hide
-BaseType "Sapphire Flask"
-Rarity = Magic
-
+Class "Map Fragment"
  
 ### Flasks
 
@@ -927,3 +977,6 @@ SetTextColor 255 255 255 180
 SetBackgroundColor 0 0 0 180
  
 Hide
+
+
+

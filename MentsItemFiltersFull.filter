@@ -1,4 +1,4 @@
-# Ment's Item Filters Full v3.1#
+# Ment's Item Filters Full v3.2 #
  
 #Ment's Filter highlights 
  
@@ -15,11 +15,13 @@
 #
 # Currency
 # Socket/Links
+# RGB
 # Labyrinth Misc
 # Essesnce
 # Talisman Gear
 # Unique Gear
 # Rare Gear
+# Low level Linked items
 # Gems
 # Misc Items
 # Divination Cards
@@ -117,6 +119,23 @@ Sockets = 6
 PlayAlertSound 3 100
 SetTextColor 255 255 153
 SetBorderColor 255 255 153
+
+### RGB
+
+Show
+SocketGroup RGB
+PlayAlertSound 9 100
+SetFontSize 40
+SetBackgroundColor 0 0 0 200
+SetTextColor 170 158 130
+
+Show
+SocketGroup RGB
+Class "Daggers" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Axes" "One Hand Maces" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Sceptres"
+Quality = 20
+SetFontSize 30
+SetTextColor 0 200 255 150
+SetBackgroundColor 0 0 0 180
 
 ### Labyrinth Misc
 
@@ -384,14 +403,7 @@ SetFontSize 35
 SetTextColor 255 255 0
 SetBackgroundColor 0 0 0 180
  
-### RGB
- 
-Show
-SocketGroup RGB
-PlayAlertSound 9 100
-SetFontSize 40
-SetBackgroundColor 0 0 0 200
-SetTextColor 170 158 130
+### Low level Linked items
 
 Show
 LinkedSockets = 4
@@ -402,15 +414,7 @@ Show
 LinkedSockets = 3
 SetFontSize 25
 SetBackgroundColor 0 0 0 250 
- 
-Show
-SocketGroup RGB
-Class "Daggers" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Axes" "One Hand Maces" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Sceptres"
-Quality = 20
-SetFontSize 30
-SetTextColor 0 200 255 150
-SetBackgroundColor 0 0 0 180
-   
+
 ### Gems
 
 Show 
