@@ -1,4 +1,4 @@
-# Ment's Item Filters Full v3.2 #
+# Ment's Item Filters Full v3.3#
  
 #Ment's Filter highlights 
  
@@ -15,13 +15,12 @@
 #
 # Currency
 # Socket/Links
-# RGB
 # Labyrinth Misc
 # Essesnce
 # Talisman Gear
 # Unique Gear
+# RGB
 # Rare Gear
-# Low level Linked items
 # Gems
 # Misc Items
 # Divination Cards
@@ -119,23 +118,6 @@ Sockets = 6
 PlayAlertSound 3 100
 SetTextColor 255 255 153
 SetBorderColor 255 255 153
-
-### RGB
-
-Show
-SocketGroup RGB
-PlayAlertSound 9 100
-SetFontSize 40
-SetBackgroundColor 0 0 0 200
-SetTextColor 170 158 130
-
-Show
-SocketGroup RGB
-Class "Daggers" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Axes" "One Hand Maces" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Sceptres"
-Quality = 20
-SetFontSize 30
-SetTextColor 0 200 255 150
-SetBackgroundColor 0 0 0 180
 
 ### Labyrinth Misc
 
@@ -391,19 +373,16 @@ Rarity Rare
 ItemLevel >= 75
 SetTextColor 200 145 0
 SetBorderColor 255 255 0 255
-SetFontSize 40 
- 
-### Rare Gear
+SetFontSize 40
+
+### RGB
  
 Show
-Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Sceptres" "Shields" "Small Relics" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands"
-Rarity = Rare
-DropLevel >= 1
-SetFontSize 35
-SetTextColor 255 255 0
-SetBackgroundColor 0 0 0 180
- 
-### Low level Linked items
+SocketGroup RGB
+PlayAlertSound 9 100
+SetFontSize 40
+SetBackgroundColor 0 0 0 200
+SetTextColor 170 158 130
 
 Show
 LinkedSockets = 4
@@ -414,7 +393,25 @@ Show
 LinkedSockets = 3
 SetFontSize 25
 SetBackgroundColor 0 0 0 250 
-
+ 
+Show
+SocketGroup RGB
+Class "Daggers" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Axes" "One Hand Maces" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Sceptres"
+Quality = 20
+SetFontSize 30
+SetTextColor 0 200 255 150
+SetBackgroundColor 0 0 0 180 
+ 
+### Rare Gear
+ 
+Show
+Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Sceptres" "Shields" "Small Relics" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands"
+Rarity = Rare
+DropLevel >= 1
+SetFontSize 35
+SetTextColor 255 255 0
+SetBackgroundColor 0 0 0 180
+   
 ### Gems
 
 Show 
@@ -492,31 +489,29 @@ Class Quest
 # Unique Divination Cards
 Show
 Class "Divination Card"
-BaseType "The Chains that Bind" "The Offering" "The Warlord" "The Ethereal" "The Dark Mage" "The Dapper Prodigy" "The Celestial Justicar" "Anarchy's Price" "The Fletcher" "The Surveyor" "The Thaumaturgist" "The Vast" "Audacity" "Bowyer's Dream" "Hunter's Reward" "Last Hope" "The Queen" "Wealth and Power" "The Dragon's Heart" "The Dragon" "The Avenger" "The Feast" "The Fox" "The Trial" "Time-Lost Relic" "House of Mirrors" "The Wind" "The Union" "The Watcher" "The Pact" "The Pack Leader" "The King's Heart" "Humility" "Abandoned Wealth" "The Brittle Emperor" "The Battle Born" "The Doctor" "The Drunken Aristocrat" "The Fiend" "The Gladiator" "The Hoarder" "Hope" "The Hunger" "The Poet" "The Sun" "Vinia's Token" "Birth of the Three" "The Flora's Gift" "The Last One Standing" "The Pack Leader"
+BaseType "The Immortal" "Mawr Blaidd" "Heterochromia" "The Harvester" "Hunter's Reward" "The Queen" "House of Mirrors" "The Brittle Emperor" "The Doctor" "The Fiend" 
 PlayAlertSound 4 250
-SetFontSize 42 
-SetTextColor 200 150 200 150
+SetFontSize 50 
+SetTextColor 200 150 200 250
 SetBackgroundColor 0 0 0 250
 SetBorderColor 200 150 200
  
 # Rare Divination Cards
 Show
 Class "Divination Card"
-BaseType "Treasure Hunter" "Gift of the Gemling Queen" "The Enlightened" "Volatile Power" "The Doppelganger" "Hunter's Resolve" "The Gemcutter" "The Conduit" "The Survivalist" "Grave Knowledge" "Coveted Possession" "Rain of Chaos" "Lucky Connections" "Jack in the Box" "The Inventor" "Gemcutter's Promise" "The Road to Power" "The Summoner" "Three Faces in the Dark" "The Cataclysm" "Chaotic Disposition" "The One With All" "The Siren" "The Wrath"
+BaseType "Wealth and Power" "The Void" "The Vast" "The Valkyrie" "The Trial" "The Warlord" "The Thaumaturgist" "The Surveyor" "The Stormcaller" "The Sephirot" "The Penitent" "The Offering" "The Last One Standing" "The King's Heart" "The Hunger" "Hope" "The Formless Sea" "The Fox" "The Ethereal" "The Dragon's Heart" "The Devastator" "The Dark Mage" "The Dapper Prodigy" "The Chains that Bind" "The Celestial Justicar" "The Brittle Emperor" "Pride Before the Fall" "Last Hope" "Earth Drinker" "Dialla's Subjugation" "Bowyer's Dream" "Abandoned Wealth" "Treasure Hunter" "The Enlightened" "Volatile Power" "The Doppelganger" "Hunter's Resolve" "The Conduit" "Coveted Possession" "Lucky Connections" "The Summoner" "Three Faces in the Dark" "The Cataclysm" "Chaotic Disposition" "The Wrath"
 PlayAlertSound 2 150
-SetFontSize 35  
-SetTextColor 200 150 200 150
-SetBackgroundColor 0 0 0 250
+SetFontSize 37  
+SetTextColor 200 150 200 250
+SetBackgroundColor 0 0 0 235
 SetBorderColor 255 255 255 180
- 
-# Normal Divination Cards
+
 Show
 Class "Divination Card"
-BaseType "The Twins" "The Body" "Scholar of the Seas" "The Traitor" "The Wolf's Shadow" "The Risk" "The Rabid Rhoa" "The Lion" "Her Mask" "Earth Drinker" "Prosperity" "The Sigil" "The Dapper Prodigy" "The Dragon" "Rats" "Tranquillity" "Birth of the Three" "Blind Venture" "The Surgeon" "Merciless Armament" "The Aesthete" "The Lich" "Hubris" "Loyalty" "Assassin's Favour" "The Inoculated" "Lantador's Lost Love" "The Tower" "The Catalyst" "Lantador's Lost Love" "The Hermit" "The Mercenary" "The Gentleman" "The Scarred Meadow" "The Explorer" "Eternal Sword" "The Lover" "The Metalsmith's Gift" "The Scholar" "The Warden" "The Carrion Crow" "Emperor's Luck" "The Gambler"  "The Gambler" "Doedre's Madness" "The Encroaching Darkness" "The Artist" "The Betrayal" "The King's Blade" "The Spoiled Prince" "Death"
-PlayAlertSound 2 100
-SetFontSize 32  
-SetTextColor 255 255 255 180
-SetBackgroundColor 0 0 0 180
+PlayAlertSound 2 10
+SetFontSize 30 
+SetTextColor 200 150 200 250
+SetBackgroundColor 0 0 0 200
 SetBorderColor 255 255 255 180
  
 Show
