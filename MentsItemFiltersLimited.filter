@@ -1,4 +1,4 @@
-# Ment's Item Filters Limited ( Hidden Drops: Gems without Exp/Quality | Low ilvl Drops [under 60 Rare Under 75 White] | Large RGB Vendor Items | low Quality Flasks ) v3.3 #
+# Ment's Item Filters Limited ( Hidden Drops: Gems without Exp/Quality | Low ilvl Drops [under 60 Rare Under 75 White] | Large RGB Vendor Items | low Quality Flasks ) v3.4 #
  
 #Ment's Filter highlights
  
@@ -15,7 +15,6 @@
 #
 # Currency
 # Socket/Links
-
 # Top Bases
 # Labyrinth Misc
 # Essesnce
@@ -40,13 +39,21 @@
 Show
 BaseType "Mirror of Kalandra" "Exalted Orb"
 PlayAlertSound 1 300
-SetFontSize 45
+SetFontSize 50
 SetTextColor 0 0 0
 SetBackgroundColor 255 0 255 250
 SetBorderColor 0 0 0
+
+Show
+BaseType "Divine Orb"
+PlayAlertSound 5 250
+SetFontSize 47
+SetTextColor 255 255 150
+SetBackgroundColor 25 0 0 250
+SetBorderColor 255 255 150
  
 Show
-BaseType "Divine Orb" "Chaos Orb" "Regal Orb" "Vaal Orb" "Gemcutter's Prism" "Orb of Regret"
+BaseType "Chaos Orb" "Regal Orb" "Vaal Orb" "Gemcutter's Prism" "Orb of Regret"
 PlayAlertSound 5 200
 SetFontSize 40
 SetTextColor 255 255 150
@@ -85,6 +92,7 @@ PlayAlertSound 9 100
 SetTextColor 55 110 55
 SetFontSize 40
 SetBackgroundColor 0 0 0 250
+SetBorderColor 0 96 100 50
  
 Show
 BaseType "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Transmutation" "Orb of Augmentation"
@@ -104,9 +112,9 @@ Show
 LinkedSockets = 6
 PlayAlertSound 1 300
 SetFontSize 45
-SetTextColor 255 255 153
-SetBackgroundColor 250 0 0 200
-SetBorderColor 255 255 153
+SetTextColor 255 255 255
+SetBackgroundColor 250 100 100 100
+SetBorderColor 255 0 0
 
 Show
 LinkedSockets = 5
@@ -129,7 +137,7 @@ BaseType "Sorcerer Boots" "Sapphire Flask"
 ItemLevel >= 60
 PlayAlertSound 3 150
 Rarity = Normal
-SetFontSize 80
+SetFontSize 40
 SetBackgroundColor 0 0 0 200
 SetBorderColor 175 96 37 250
 SetTextColor 255 255 240 200
@@ -139,7 +147,7 @@ ItemLevel >= 60
 BaseType "Prophecy Wand" "Occultist's Vestment"
 # More Available items to chance : "Agate Amulet" "Spine Bow" "Chain Belt" "Siege Axe" "Judgement Staff" "Imperial Bow" "Glorious Plate" "Leather Belt"
 Rarity = Normal
-SetFontSize 35
+SetFontSize 40
 SetBackgroundColor 0 0 0 200
 SetBorderColor 175 96 37 250
 SetTextColor 255 255 240 200
@@ -151,7 +159,7 @@ BaseType "Sorcerer Boots"
 ItemLevel >= 84
 PlayAlertSound 3 150
 Rarity = Normal
-SetFontSize 80
+SetFontSize 40
 SetBackgroundColor 0 0 0 200
 SetBorderColor 175 96 37 250
 SetTextColor 255 255 240 200
@@ -423,11 +431,38 @@ PlayAlertSound 2 250
 Show
 Class Currency
 BaseType "Master Cartographer"
-SetTextColor 0 0 0 255
+SetTextColor 255 255 255 200
 SetBorderColor 0 0 0 255
-SetBackgroundColor 100 150 130 200
+SetBackgroundColor 50 100 130 250
 SetFontSize 45
 PlayAlertSound 2 250	
+
+Show
+Class Currency
+BaseType "Remnant of Corruption"
+SetTextColor 0 0 0 255
+SetBorderColor 0 0 0 255
+SetBackgroundColor 50 100 130 200
+SetFontSize 40
+PlayAlertSound 2 250
+
+Show
+Class Currency
+BaseType "Journeyman Cartographer's"
+SetTextColor 255 255 255 180
+SetBorderColor 0 0 0 255
+SetBackgroundColor 100 100 200 150
+SetFontSize 38
+PlayAlertSound 2 200
+	
+Show
+Class Currency
+BaseType "Apprentice Cartographer's"
+SetTextColor 255 255 255 150
+SetBorderColor 0 0 0 255
+SetBackgroundColor 100 100 200 120
+SetFontSize 32
+PlayAlertSound 2 150
 	
 Show
 Class Currency
@@ -436,42 +471,6 @@ SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
 SetBackgroundColor 100 150 130 200
 SetFontSize 35
-PlayAlertSound 2 250
-	
-Show
-Class Currency
-BaseType "Remnant of Corruption"
-SetTextColor 0 0 0 255
-SetBorderColor 0 0 0 255
-SetBackgroundColor 50 100 130 250
-SetFontSize 40
-PlayAlertSound 2 250
-	
-Show
-Class Currency
-BaseType "Apprentice Cartographer's"
-SetTextColor 0 0 0 255
-SetBorderColor 0 0 0 255
-SetBackgroundColor 50 100 130 250
-SetFontSize 35
-PlayAlertSound 2 150
-	
-Show
-Class Currency
-BaseType "Journeyman Cartographer's"
-SetTextColor 0 0 0 255
-SetBorderColor 0 0 0 255
-SetBackgroundColor 50 100 130 250
-SetFontSize 35
-PlayAlertSound 2 200
-	
-Show
-Class Currency
-BaseType "Master Cartographer's"
-SetTextColor 0 0 0 255
-SetBorderColor 0 0 0 255
-SetBackgroundColor 50 100 130 250
-SetFontSize 40
 PlayAlertSound 2 250
 	
 Show
@@ -774,7 +773,7 @@ Show
 Class "Divination Card"
 BaseType "Wealth and Power" "The Void" "The Vast" "The Valkyrie" "The Trial" "The Warlord" "The Thaumaturgist" "The Surveyor" "The Stormcaller" "The Sephirot" "The Penitent" "The Offering" "The Last One Standing" "The King's Heart" "The Hunger" "Hope" "The Formless Sea" "The Fox" "The Ethereal" "The Dragon's Heart" "The Devastator" "The Dark Mage" "The Dapper Prodigy" "The Chains that Bind" "The Celestial Justicar" "The Brittle Emperor" "Pride Before the Fall" "Last Hope" "Earth Drinker" "Dialla's Subjugation" "Bowyer's Dream" "Abandoned Wealth" "Treasure Hunter" "The Enlightened" "Volatile Power" "The Doppelganger" "Hunter's Resolve" "The Conduit" "Coveted Possession" "Lucky Connections" "The Summoner" "Three Faces in the Dark" "The Cataclysm" "Chaotic Disposition" "The Wrath"
 PlayAlertSound 2 150
-SetFontSize 37  
+SetFontSize 40  
 SetTextColor 200 150 200 250
 SetBackgroundColor 0 0 0 235
 SetBorderColor 255 255 255 180
@@ -788,6 +787,15 @@ SetBackgroundColor 0 0 0 200
 SetBorderColor 255 255 255 180
 
 ### Maps
+
+Show
+Class "Map Fragments"
+BaseType "Fragment of the"
+SetTextColor 255 0 0 255
+SetBorderColor 0 0 0 255
+SetBackgroundColor 0 0 0 255
+SetFontSize 45
+PlayAlertSound 6 200
 
 Show
 Class "Map Fragments"
@@ -836,18 +844,31 @@ PlayAlertSound 6 150
 
 Show
 Class Map
+BaseType "Offering to the Goddess"
+SetFontSize 37
+SetTextColor 0 200 100 250
+SetBorderColor 0 70 0 250
+
+Show
+Class Map
 Rarity = Unique
-SetFontSize 40
+SetFontSize 43
 SetTextColor 200 70 0
 SetBackgroundColor 100 0 0 200
 SetBorderColor 200 70 0
 
 Show
 Class Map
-DropLevel >= 81
-SetFontSize 43
+DropLevel >= 82
+SetFontSize 45
 PlayAlertSound 6 200
-SetFontSize 42
+SetTextColor 255 0 0 150
+
+Show
+Class Map
+DropLevel >= 81
+SetFontSize 45
+PlayAlertSound 6 200
 
 Show
 Class Map
@@ -859,7 +880,7 @@ SetFontSize 42
 Show
 Class Map
 DropLevel >= 77
-SetFontSize 37
+SetFontSize 35
 PlayAlertSound 6 100
 SetFontSize 42
  
@@ -875,8 +896,6 @@ Show
 Class Map
 Rarity = Magic
 SetFontSize 35
-SetTextColor 0 0 255
-SetBorderColor 0 0 255
  
 Show
 Class Map
