@@ -1,4 +1,4 @@
-# Ment's Item Filters Full v3.4#
+# Ment's Item Filters Full v3.5#
  
 #Ment's Filter highlights 
  
@@ -34,12 +34,12 @@
  
  
 
-# Currency
-
+### Currency
+ 
 Show
 BaseType "Mirror of Kalandra" "Exalted Orb"
 PlayAlertSound 1 300
-SetFontSize 45
+SetFontSize 50
 SetTextColor 0 0 0
 SetBackgroundColor 255 0 255 250
 SetBorderColor 0 0 0
@@ -47,11 +47,29 @@ SetBorderColor 0 0 0
 Show
 BaseType "Divine Orb"
 PlayAlertSound 5 250
-SetFontSize 45
+SetFontSize 47
 SetTextColor 255 255 150
 SetBackgroundColor 25 0 0 250
 SetBorderColor 255 255 150
 
+Show
+Class Currency
+BaseType "Blessing"
+SetFontSize 40
+SetTextColor 255 255 150
+SetBackgroundColor 0 0 0 250
+SetBorderColor 255 255 150
+PlayAlertSound 5 200
+
+Show
+Class Currency
+BaseType "Splinter"
+SetFontSize 40
+SetTextColor 255 255 150
+SetBackgroundColor 0 0 0 250
+SetBorderColor 255 255 150
+PlayAlertSound 5 200
+ 
 Show
 BaseType "Chaos Orb" "Regal Orb" "Vaal Orb" "Gemcutter's Prism" "Orb of Regret"
 PlayAlertSound 5 200
@@ -67,7 +85,7 @@ SetFontSize 40
 SetBackgroundColor 0 0 0 250
 
 Show
-BaseType "Jeweller's Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Transmutation" "Orb of Augmentation" "Glassblower's Bauble"
+BaseType "Jeweller's Orb" "Chromatic Orb" "Orb of Alteration" "Glassblower's Bauble"
 PlayAlertSound 9 100
 SetFontSize 40
 SetBackgroundColor 0 0 0 250
@@ -92,16 +110,19 @@ PlayAlertSound 9 100
 SetTextColor 55 110 55
 SetFontSize 40
 SetBackgroundColor 0 0 0 250
+SetBorderColor 0 96 100 50
  
 Show
-BaseType "Scroll of Wisdom" "Blacksmith's Whetstone" "Armourer's Scrap"
+BaseType "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Transmutation" "Orb of Augmentation"
 SetFontSize 35
-SetBackgroundColor 0 0 0 150
+SetBackgroundColor 0 0 0 250
+
  
 Show
-BaseType "Portal Scroll"
+BaseType "Portal Scroll" "Scroll of Wisdom"
+PlayAlertSound 9 1
 SetFontSize 35
-SetBackgroundColor 0 0 0 100
+SetBackgroundColor 0 0 0 250
 
 ### Socket/Links
  
@@ -376,9 +397,8 @@ SetBorderColor 175 96 37
 ### New Bases (Temp Location)
 
 Show 
-BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+BaseType "Breach Ring" "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
 Rarity Rare
-ItemLevel >= 75
 SetTextColor 200 145 0
 SetBorderColor 255 255 0 255
 SetFontSize 40
@@ -394,11 +414,13 @@ SetTextColor 170 158 130
 
 Show
 LinkedSockets = 4
+ItemLevel <= 50
 SetFontSize 30
 SetBackgroundColor 0 0 0 250
  
 Show
 LinkedSockets = 3
+ItemLevel <= 40
 SetFontSize 25
 SetBackgroundColor 0 0 0 250 
  
@@ -411,6 +433,22 @@ SetTextColor 0 200 255 150
 SetBackgroundColor 0 0 0 180 
  
 ### Rare Gear
+
+Show
+Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Sceptres" "Shields" "Small Relics" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands"
+Rarity = Rare
+DropLevel >= 50
+SetFontSize 35
+SetTextColor 255 255 0
+SetBackgroundColor 0 0 0 120
+
+Show
+Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Sceptres" "Shields" "Small Relics" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands"
+Rarity = Rare
+DropLevel >= 30
+SetFontSize 35
+SetTextColor 255 255 0
+SetBackgroundColor 0 0 0 150
  
 Show
 Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Sceptres" "Shields" "Small Relics" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands"
@@ -418,7 +456,7 @@ Rarity = Rare
 DropLevel >= 1
 SetFontSize 35
 SetTextColor 255 255 0
-SetBackgroundColor 0 0 0 180
+SetBackgroundColor 0 0 0 250
    
 ### Gems
 
@@ -613,21 +651,34 @@ SetFontSize 35
 SetBackgroundColor 0 0 0 150
 SetBorderColor 0 255 0 50
 
-
 Show
 Class "Life Flask" "Mana Flask" "Hybrid Flask"
-Quality >= 0
-Quality <= 14
+ItemLevel <= 65
 Rarity >= Normal
 SetFontSize 30
-SetBackgroundColor 0 0 0 180
- 
+SetBackgroundColor 0 0 0 250
+
 Show
 Class "Life Flask" "Mana Flask" "Hybrid Flask"
 Quality >= 15
 Rarity >= Normal
 SetFontSize 35
 SetBackgroundColor 0 0 0 180
+
+Show
+Class "Life Flask" "Mana Flask" "Hybrid Flask"
+Quality >= 0
+Quality <= 14
+Rarity >= Normal
+SetFontSize 35
+SetBackgroundColor 0 0 0 180
+ 
+Show
+BaseType "Quicksilver Flask" 
+Rarity >= Normal
+ItemLevel <= 65
+SetFontSize 35
+SetBackgroundColor 0 0 0 250
 
 Show
 BaseType "Diamond Flask" "Granite Flask" "Topaz Flask" "Ruby Flask" "Quicksilver Flask" 
@@ -638,8 +689,6 @@ SetBackgroundColor 0 0 0 150
 Show
 Class "Utility Flask"
  
-### Jewels
-### Jewels
 ### Jewels
  
 Show
@@ -692,5 +741,3 @@ SetBackgroundColor 0 0 0 180
  
  
 Hide
-	
-	

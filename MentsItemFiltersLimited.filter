@@ -1,4 +1,4 @@
-# Ment's Item Filters Limited ( Hidden Drops: Gems without Exp/Quality | Low ilvl Drops [under 60 Rare Under 75 White] | Large RGB Vendor Items | low Quality Flasks ) v3.4 #
+# Ment's Item Filters Limited ( Hidden Drops: Gems without Exp/Quality | Low ilvl Drops [under 60 Rare Under 75 White] | Large RGB Vendor Items | low Quality Flasks ) v3.5 #
  
 #Ment's Filter highlights
  
@@ -51,6 +51,24 @@ SetFontSize 47
 SetTextColor 255 255 150
 SetBackgroundColor 25 0 0 250
 SetBorderColor 255 255 150
+
+Show
+Class Currency
+BaseType "Blessing"
+SetFontSize 40
+SetTextColor 255 255 150
+SetBackgroundColor 0 0 0 250
+SetBorderColor 255 255 150
+PlayAlertSound 5 200
+
+Show
+Class Currency
+BaseType "Splinter"
+SetFontSize 40
+SetTextColor 255 255 150
+SetBackgroundColor 0 0 0 250
+SetBorderColor 255 255 150
+PlayAlertSound 5 200
  
 Show
 BaseType "Chaos Orb" "Regal Orb" "Vaal Orb" "Gemcutter's Prism" "Orb of Regret"
@@ -262,7 +280,7 @@ SetTextColor 63 191 63 250
 
 # Rings & Amulets
 Show
-BaseType "Diamond Ring" "Coral Ring" "Moonstone Ring" "Amethyst Ring" "Two-Stone Ring" "Onyx Amulet" "Agate Amulet" "Turquoise Amulet" "Citrine Amulet"
+BaseType "Diamond Ring" "Coral Ring" "Moonstone Ring" "Amethyst Ring" "Two-Stone Ring" "Onyx Amulet" "Agate Amulet" "Turquoise Amulet" "Citrine Amulet" "Breach"
 Rarity Rare
 ItemLevel >= 84
 SetBackgroundColor 0 0 0 250
@@ -526,7 +544,7 @@ SetFontSize 40
 ### New Bases (Temp Location)
 
 Show 
-BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+BaseType "Breach Ring" "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
 Rarity Rare
 ItemLevel >= 75
 SetTextColor 200 145 0
@@ -674,7 +692,7 @@ SetTextColor 255 255 0
 SetBackgroundColor 0 0 0 180
  
 Hide
-Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Sceptres" "Shields" "Small Relics" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands"
+Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Sceptres" "Shields" "Small Relics" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" 
 Rarity = Rare
 ItemLevel >= 1
 ItemLevel <= 59
@@ -790,7 +808,7 @@ SetBorderColor 255 255 255 180
 
 Show
 Class "Map Fragments"
-BaseType "Fragment of the"
+BaseType "Fragment of the" "Xoph's Breachstone" "Tul's Breachstone" "Esh's Breachstone" "Uul-Netol's Breachstone" "Chayula's Breachstone"
 SetTextColor 255 0 0 255
 SetBorderColor 0 0 0 255
 SetBackgroundColor 0 0 0 255
