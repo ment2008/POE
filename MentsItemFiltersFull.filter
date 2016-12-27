@@ -1,4 +1,4 @@
-# Ment's Item Filters Full v3.5#
+# Ment's Item Filters Full v3.6#
  
 #Ment's Filter highlights 
  
@@ -35,7 +35,7 @@
  
 
 ### Currency
- 
+  
 Show
 BaseType "Mirror of Kalandra" "Exalted Orb"
 PlayAlertSound 1 300
@@ -63,12 +63,21 @@ PlayAlertSound 5 200
 
 Show
 Class Currency
-BaseType "Splinter"
-SetFontSize 40
+BaseType "Splinter of Uul-Netol" "Splinter of Chayula"
+SetFontSize 42
 SetTextColor 255 255 150
 SetBackgroundColor 0 0 0 250
 SetBorderColor 255 255 150
 PlayAlertSound 5 200
+
+Show
+Class Currency
+BaseType "Splinter of Xoph" "Splinter of Esh" "Splinter of Tul"
+SetFontSize 37
+SetTextColor 255 255 150
+SetBackgroundColor 0 0 0 250
+SetBorderColor 255 255 150
+PlayAlertSound 5 120
  
 Show
 BaseType "Chaos Orb" "Regal Orb" "Vaal Orb" "Gemcutter's Prism" "Orb of Regret"
@@ -138,12 +147,13 @@ Show
 LinkedSockets = 5
 PlayAlertSound 2 150
 SetFontSize 40
- SetTextColor 255 255 255 200
- SetBackgroundColor 200 0 0 80 
- SetBorderColor 255 255 255 150
+SetTextColor 255 255 255 200
+SetBackgroundColor 200 0 0 80 
+SetBorderColor 255 255 255 150
  
 Show
 Sockets = 6
+SetFontSize 35
 PlayAlertSound 3 100
 SetTextColor 255 255 153
 SetBorderColor 255 255 153
@@ -408,25 +418,37 @@ SetFontSize 40
 Show
 SocketGroup RGB
 PlayAlertSound 9 100
-SetFontSize 40
+SetFontSize 30
+ItemLevel >= 60
 SetBackgroundColor 0 0 0 200
 SetTextColor 170 158 130
 
 Show
-LinkedSockets = 4
-ItemLevel <= 50
-SetFontSize 30
-SetBackgroundColor 0 0 0 250
- 
-Show
-LinkedSockets = 3
-ItemLevel <= 40
-SetFontSize 25
-SetBackgroundColor 0 0 0 250 
- 
+SocketGroup RGB
+PlayAlertSound 9 100
+SetFontSize 34
+ItemLevel >= 35
+SetBackgroundColor 0 0 0 200
+SetTextColor 170 158 130
+
 Show
 SocketGroup RGB
-Class "Daggers" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Axes" "One Hand Maces" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Sceptres"
+PlayAlertSound 9 100
+SetFontSize 37
+ItemLevel >= 20
+SetBackgroundColor 0 0 0 220
+SetTextColor 170 158 130
+
+Show
+SocketGroup RGB
+PlayAlertSound 9 100
+SetFontSize 40
+ItemLevel >= 1
+SetBackgroundColor 0 0 0 250
+SetTextColor 170 158 130
+
+Show
+SocketGroup RGB
 Quality = 20
 SetFontSize 30
 SetTextColor 0 200 255 150
@@ -435,29 +457,32 @@ SetBackgroundColor 0 0 0 180
 ### Rare Gear
 
 Show
-Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Sceptres" "Shields" "Small Relics" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands"
 Rarity = Rare
-DropLevel >= 50
+ItemLevel >= 50
 SetFontSize 35
 SetTextColor 255 255 0
 SetBackgroundColor 0 0 0 120
 
 Show
-Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Sceptres" "Shields" "Small Relics" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands"
 Rarity = Rare
-DropLevel >= 30
-SetFontSize 35
+ItemLevel >= 25
+SetFontSize 37
 SetTextColor 255 255 0
 SetBackgroundColor 0 0 0 150
  
 Show
-Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Sceptres" "Shields" "Small Relics" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands"
 Rarity = Rare
-DropLevel >= 1
-SetFontSize 35
+ItemLevel >= 1
+SetFontSize 40
 SetTextColor 255 255 0
 SetBackgroundColor 0 0 0 250
-   
+
+Show
+Rarity = Rare
+SetFontSize 35
+SetTextColor 255 255 0
+SetBackgroundColor 0 0 0 120
+
 ### Gems
 
 Show 
@@ -486,20 +511,22 @@ SetBackgroundColor 100 0 0 150
 Show
 Class Gem
 BaseType Vaal
- 
+
 Show
 Class Gem
-Quality >= 0
-Quality <= 9
-SetFontSize 25
-SetTextColor 0 255 255    
-SetBackgroundColor 0 0 0 100  
- 
+Quality >= 15
+Quality <= 20
+PlayAlertSound 2 160
+SetFontSize 35
+SetTextColor 0 255 255
+SetBorderColor 0 255 255    
+SetBackgroundColor 100 0 0 200
+
 Show
 Class Gem
 Quality >= 10
 Quality <= 14
-PlayAlertSound 3 150
+PlayAlertSound 2 120
 SetFontSize  30
 SetTextColor 0 255 255
 SetBorderColor 0 255 255
@@ -507,14 +534,12 @@ SetBackgroundColor 100 0 0 150
  
 Show
 Class Gem
-Quality >= 15
-Quality <= 20
-PlayAlertSound 2 200
-SetFontSize 40
+Quality >= 0
+Quality <= 9
+SetFontSize  30
 SetTextColor 0 255 255
-SetBorderColor 0 255 255    
-SetBackgroundColor 100 0 0 200
- 
+SetBackgroundColor 0 0 0 100
+  
 ### Misc Items
  
 Show
@@ -535,7 +560,7 @@ Class Quest
 # Unique Divination Cards
 Show
 Class "Divination Card"
-BaseType "The Immortal" "Mawr Blaidd" "Heterochromia" "The Harvester" "Hunter's Reward" "The Queen" "House of Mirrors" "The Brittle Emperor" "The Doctor" "The Fiend" 
+BaseType "The Immortal" "Mawr Blaidd" "Hunter's Reward" "House of Mirrors" "The Doctor" "The Fiend" 
 PlayAlertSound 4 250
 SetFontSize 50 
 SetTextColor 200 150 200 250
@@ -545,9 +570,9 @@ SetBorderColor 200 150 200
 # Rare Divination Cards
 Show
 Class "Divination Card"
-BaseType "Wealth and Power" "The Void" "The Vast" "The Valkyrie" "The Trial" "The Warlord" "The Thaumaturgist" "The Surveyor" "The Stormcaller" "The Sephirot" "The Penitent" "The Offering" "The Last One Standing" "The King's Heart" "The Hunger" "Hope" "The Formless Sea" "The Fox" "The Ethereal" "The Dragon's Heart" "The Devastator" "The Dark Mage" "The Dapper Prodigy" "The Chains that Bind" "The Celestial Justicar" "The Brittle Emperor" "Pride Before the Fall" "Last Hope" "Earth Drinker" "Dialla's Subjugation" "Bowyer's Dream" "Abandoned Wealth" "Treasure Hunter" "The Enlightened" "Volatile Power" "The Doppelganger" "Hunter's Resolve" "The Conduit" "Coveted Possession" "Lucky Connections" "The Summoner" "Three Faces in the Dark" "The Cataclysm" "Chaotic Disposition" "The Wrath"
+BaseType "The Queen" "The Last One Standing" "The Spark and the Flame" "Lingering Remnants" "The Brittle Emperor" "The Harvester" "Heterochromia" "Wealth and Power" "The Void" "The Vast" "The Valkyrie" "The Trial" "The Warlord" "The Thaumaturgist" "The Surveyor" "The Stormcaller" "The Sephirot" "The Penitent" "The Offering" "The Last One Standing" "The King's Heart" "The Hunger" "Hope" "The Formless Sea" "The Fox" "The Ethereal" "The Dragon's Heart" "The Devastator" "The Dark Mage" "The Dapper Prodigy" "The Chains that Bind" "The Celestial Justicar" "The Brittle Emperor" "Pride Before the Fall" "Last Hope" "Earth Drinker" "Dialla's Subjugation" "Bowyer's Dream" "Abandoned Wealth" "Treasure Hunter" "The Enlightened" "Volatile Power" "The Doppelganger" "Hunter's Resolve" "The Conduit" "Coveted Possession" "Lucky Connections" "The Summoner" "Three Faces in the Dark" "The Cataclysm" "Chaotic Disposition" "The Wrath"
 PlayAlertSound 2 150
-SetFontSize 37  
+SetFontSize 40  
 SetTextColor 200 150 200 250
 SetBackgroundColor 0 0 0 235
 SetBorderColor 255 255 255 180
@@ -558,14 +583,6 @@ PlayAlertSound 2 10
 SetFontSize 30 
 SetTextColor 200 150 200 250
 SetBackgroundColor 0 0 0 200
-SetBorderColor 255 255 255 180
- 
-Show
-Class "Divination Card"
-PlayAlertSound 2 100
-SetFontSize 32  
-SetTextColor 255 255 255 180
-SetBackgroundColor 0 0 0 180
 SetBorderColor 255 255 255 180
  
 ### Maps
@@ -638,6 +655,36 @@ SetTextColor 255 255 240 200
 ### Flasks
 
 Show
+LinkedSockets = 4
+ItemLevel >= 50
+SetFontSize 25
+SetBackgroundColor 0 0 0 170
+
+Show
+LinkedSockets = 4
+ItemLevel >= 40
+SetFontSize 27
+SetBackgroundColor 0 0 0 200
+
+Show
+LinkedSockets = 4
+ItemLevel >= 25
+SetFontSize 30
+SetBackgroundColor 0 0 0 250
+ 
+Show
+LinkedSockets = 3
+ItemLevel >= 25
+SetFontSize 25
+SetBackgroundColor 0 0 0 170 
+
+Show
+LinkedSockets = 3
+ItemLevel >= 1
+SetFontSize 30
+SetBackgroundColor 0 0 0 250
+
+Show
 BaseType "Sapphire Flask"
 Rarity = Normal
 SetBackgroundColor 0 0 0 200
@@ -651,19 +698,27 @@ SetFontSize 35
 SetBackgroundColor 0 0 0 150
 SetBorderColor 0 255 0 50
 
+
 Show
 Class "Life Flask" "Mana Flask" "Hybrid Flask"
-ItemLevel <= 65
+ItemLevel >= 50
 Rarity >= Normal
 SetFontSize 30
 SetBackgroundColor 0 0 0 250
 
 Show
 Class "Life Flask" "Mana Flask" "Hybrid Flask"
-Quality >= 15
+ItemLevel >= 30
+Rarity >= Normal
+SetFontSize 33
+SetBackgroundColor 0 0 0 250
+
+Show
+Class "Life Flask" "Mana Flask" "Hybrid Flask"
+ItemLevel >= 1
 Rarity >= Normal
 SetFontSize 35
-SetBackgroundColor 0 0 0 180
+SetBackgroundColor 0 0 0 250
 
 Show
 Class "Life Flask" "Mana Flask" "Hybrid Flask"
@@ -671,20 +726,32 @@ Quality >= 0
 Quality <= 14
 Rarity >= Normal
 SetFontSize 35
-SetBackgroundColor 0 0 0 180
- 
+SetBackgroundColor 0 0 0 200
+
 Show
 BaseType "Quicksilver Flask" 
-Rarity >= Normal
-ItemLevel <= 65
-SetFontSize 35
+ItemLevel >= 30
+SetFontSize 30
 SetBackgroundColor 0 0 0 250
 
 Show
-BaseType "Diamond Flask" "Granite Flask" "Topaz Flask" "Ruby Flask" "Quicksilver Flask" 
-Rarity >= Normal
+BaseType "Quicksilver Flask" 
+ItemLevel >= 1
+SetFontSize 37
+SetBackgroundColor 0 0 0 250
+
+Show
+BaseType "Diamond Flask" "Granite Flask" "Topaz Flask" "Ruby Flask"
+Rarity = Normal
+ItemLevel >= 40
 SetFontSize 25
 SetBackgroundColor 0 0 0 150
+
+Show
+BaseType "Diamond Flask" "Granite Flask" "Topaz Flask" "Ruby Flask"
+Rarity >= Normal
+SetFontSize 25
+SetBackgroundColor 0 0 0 200
 
 Show
 Class "Utility Flask"
@@ -714,30 +781,68 @@ SetBackgroundColor 0 0 0 200
 Show
 Class Rings Amulets Belts
 Rarity = Magic
-SetFontSize 25
-SetTextColor 131 131 247 180
-SetBackgroundColor 0 0 0 180
+ItemLevel >= 25
+SetFontSize 30
+SetBackgroundColor 0 0 0 200
+ 
+Show
+Class Rings Amulets Belts
+Rarity = Magic
+ItemLevel >= 1
+SetFontSize 40
+SetBackgroundColor 0 0 0 250
+
+Show
+Class Rings Amulets Belts
+Rarity = Normal
+ItemLevel >= 25
+SetFontSize 30
+SetTextColor 255 255 255 160
+SetBackgroundColor 0 0 0 200
  
 Show
 Class Rings Amulets Belts
 Rarity = Normal
+ItemLevel >= 1
 SetFontSize 35
 SetTextColor 255 255 255 180
-SetBackgroundColor 0 0 0 180
- 
+SetBackgroundColor 0 0 0 250
+
+
 Show
 Rarity = Magic
-DropLevel >= 1
+ItemLevel >= 20
 SetFontSize 25
 SetTextColor 131 131 247 180
 SetBackgroundColor 0 0 0 180
  
 Show
+Rarity = Magic
+ItemLevel >= 1
+SetFontSize 35
+SetTextColor 131 131 247 180
+SetBackgroundColor 0 0 0 230
+
+Show
 Rarity = Normal
-DropLevel >= 1
+ItemLevel >= 40
 SetFontSize 25
 SetTextColor 255 255 255 180
-SetBackgroundColor 0 0 0 180  
+SetBackgroundColor 0 0 0 150  
+
+Show
+Rarity = Normal
+ItemLevel >= 20
+SetFontSize 27
+SetTextColor 255 255 255 180
+SetBackgroundColor 0 0 0 150  
+ 
+Show
+Rarity = Normal
+ItemLevel >= 1
+SetFontSize 30
+SetTextColor 255 255 255 180
+SetBackgroundColor 0 0 0 170  
  
  
 Hide
