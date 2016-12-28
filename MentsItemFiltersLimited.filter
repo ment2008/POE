@@ -1031,7 +1031,7 @@ Rarity = Normal
 SetFontSize 35
 SetBackgroundColor 0 0 0 200
  
-Show
+Hide
 Rarity = Magic
 ItemLevel >= 83
 SetFontSize 25
@@ -1046,7 +1046,7 @@ SetFontSize 25
 SetTextColor 131 131 247 180
 SetBackgroundColor 0 0 0 180
  
-Show
+Hide
 Rarity = Normal
 ItemLevel >= 83
 SetFontSize 25
@@ -1073,4 +1073,5 @@ Hide
 # (Full Filter) Diamond Flask, Granite Flask, Topaz Flask, Ruby Flask will lose size by ItemLevel
 # (Full Filter) Rings, Amulets & Belts will lose size and background transparency by ItemLevel
 # (Full Filter) Normal & Magic & Rare items will lose size and background transparency by ItemLevel
-# (Full & Limited Filter) Many divination cards relocation.
+# (Full & Limited Filter) Divination Cards rework.
+
