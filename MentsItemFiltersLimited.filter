@@ -1,4 +1,4 @@
-# Ment's Item Filters Limited ( Hidden Drops: Gems without Exp/Quality | Low ilvl Drops [under 60 Rare Under 75 White] | Large RGB Vendor Items | low Quality Flasks ) v3.6 #
+# Ment's Item Filters Limited ( Hidden Drops: Gems without Exp/Quality | Low ilvl Drops [under 60 Rare Under 75 White] | Large RGB Vendor Items | low Quality Flasks ) v3.7 #
  
 #Ment's Filter highlights
  
@@ -37,7 +37,7 @@
 ### Currency
  
 Show
-BaseType "Mirror of Kalandra" "Exalted Orb"
+BaseType "Mirror of Kalandra" "Exalted Orb" "Eternal Orb" "Ancient Reliquary Key"
 PlayAlertSound 1 300
 SetFontSize 50
 SetTextColor 0 0 0
@@ -45,7 +45,7 @@ SetBackgroundColor 255 0 255 250
 SetBorderColor 0 0 0
 
 Show
-BaseType "Divine Orb"
+BaseType "Divine Orb" "Albino Rhoa Feather"
 PlayAlertSound 5 250
 SetFontSize 47
 SetTextColor 255 255 150
@@ -55,7 +55,7 @@ SetBorderColor 255 255 150
 Show
 Class Currency
 BaseType "Blessing"
-SetFontSize 40
+SetFontSize 42
 SetTextColor 255 255 150
 SetBackgroundColor 0 0 0 250
 SetBorderColor 255 255 150
@@ -82,7 +82,7 @@ PlayAlertSound 5 120
 Show
 BaseType "Chaos Orb" "Regal Orb" "Vaal Orb" "Gemcutter's Prism" "Orb of Regret"
 PlayAlertSound 5 200
-SetFontSize 40
+SetFontSize 42
 SetTextColor 255 255 150
 SetBackgroundColor 0 0 0 250
 SetBorderColor 255 255 150
@@ -90,19 +90,20 @@ SetBorderColor 255 255 150
 Show
 BaseType "Blessed Orb" "Orb of Scouring" "Orb of Fusing" "Orb of Alchemy" "Cartographer's Chisel"
 PlayAlertSound 3 150
-SetFontSize 40
-SetBackgroundColor 0 0 0 250
+SetFontSize 42
+SetBackgroundColor 0 0 0 240
+SetBorderColor 255 255 150 250
 
 Show
 BaseType "Jeweller's Orb" "Chromatic Orb" "Orb of Alteration" "Glassblower's Bauble"
 PlayAlertSound 9 100
-SetFontSize 40
+SetFontSize 42
 SetBackgroundColor 0 0 0 250
 
 Show
 BaseType "Orb of Chance"
 PlayAlertSound 9 120
-SetFontSize 40
+SetFontSize 42
 SetBackgroundColor 0 0 0 230
 SetBorderColor 175 96 37 250
 
@@ -110,20 +111,69 @@ Show
 BaseType "Perandus Coin"
 PlayAlertSound 9 100
 SetTextColor 55 110 55
-SetFontSize 40
+SetFontSize 42
 SetBackgroundColor 0 0 0 250
+
+Show
+Class Currency
+BaseType "Prophecy"
+SetFontSize 42
+PlayAlertSound 9 100
+SetTextColor 114 0 83 250
+SetBackgroundColor 0 0 0 250
+SetBorderColor 114 0 83 250
 
 Show
 BaseType "Silver Coin"
 PlayAlertSound 9 100
 SetTextColor 55 110 55
-SetFontSize 40
+SetFontSize 42
 SetBackgroundColor 0 0 0 250
 SetBorderColor 0 96 100 50
+
+Show
+Class Leaguestone
+BaseType "Onslaught" "Domination" "Breach" "Nemesis" "Bloodline" "Perandus" "Beyond"
+Rarity = Magic
+ItemLevel >= 67
+SetFontSize 42
+SetTextColor 255 255 50
+SetBackgroundColor 25 0 0 250
+SetBorderColor 136 136 255 250
+PlayAlertSound 2 100
+
+Show
+Class Leaguestone
+Rarity >= Magic
+SetFontSize 42
+SetTextColor 255 255 50 130
+SetBackgroundColor 25 0 0 250
+SetBorderColor 136 136 255 250
+PlayAlertSound 2 100
+
+Show
+Class Leaguestone
+BaseType "Onslaught" "Domination" "Breach" "Nemesis" "Bloodline" "Perandus" "Beyond"
+Rarity = Normal
+ItemLevel >= 67
+SetFontSize 37
+SetTextColor 255 255 50 130
+SetBackgroundColor 25 0 0 250
+SetBorderColor 255 255 255 250
+PlayAlertSound 2 100
+
+Show
+Class Leaguestone
+Rarity = Normal
+SetFontSize 37
+SetTextColor 255 255 50 120
+SetBackgroundColor 25 0 0 250
+SetBorderColor 255 255 255 250
+PlayAlertSound 2 100
  
 Show
 BaseType "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Transmutation" "Orb of Augmentation"
-SetFontSize 35
+SetFontSize 37
 SetBackgroundColor 0 0 0 150
 
  
@@ -141,6 +191,14 @@ PlayAlertSound 1 300
 SetFontSize 45
 SetTextColor 255 255 255
 SetBackgroundColor 250 100 100 100
+SetBorderColor 255 0 0
+
+Show
+Class "Fishing Rod"
+PlayAlertSound 1 300
+SetFontSize 45
+SetTextColor 255 255 255
+SetBackgroundColor 200 100 0 200
 SetBorderColor 255 0 0
 
 Show
@@ -187,7 +245,7 @@ BaseType "Sorcerer Boots"
 ItemLevel >= 84
 PlayAlertSound 3 150
 Rarity = Normal
-SetFontSize 40
+SetFontSize 42
 SetBackgroundColor 0 0 0 200
 SetBorderColor 175 96 37 250
 SetTextColor 255 255 240 200
@@ -333,7 +391,7 @@ SetTextColor 63 191 63 250
 Show
 BaseType "Golden Key"
 PlayAlertSound 7 100
-SetFontSize 35
+SetFontSize 40
 SetTextColor 0 0 0 250
 SetBackgroundColor 200 200 50 200
 SetBorderColor 0 0 0
@@ -341,7 +399,7 @@ SetBorderColor 0 0 0
 Show
 BaseType "Silver Key"
 PlayAlertSound 7 100
-SetFontSize 35
+SetFontSize 40
 SetTextColor 0 0 0 250
 SetBackgroundColor 200 200 50 200
 SetBorderColor 0 0 0
@@ -349,7 +407,7 @@ SetBorderColor 0 0 0
 Show
 BaseType "Treasure Key" "Sand of Eternity"
 PlayAlertSound 7 100
-SetFontSize 35
+SetFontSize 40
 SetTextColor 0 0 0 250
 SetBackgroundColor 200 200 50 200
 SetBorderColor 0 0 0
@@ -357,7 +415,7 @@ SetBorderColor 0 0 0
 Show
 BaseType "Portal Shredder" "Heart of the Gargoyle" "Bane of the Loyal" "Cogs of Disruption" "Rod of Detonation"
 PlayAlertSound 7 100
-SetFontSize 35
+SetFontSize 40
 SetTextColor 0 0 0 250
 SetBackgroundColor 200 200 50 200
 SetBorderColor 0 0 0
@@ -731,6 +789,8 @@ SetBackgroundColor 0 0 0 180
     
 ### Gems
 
+
+
 Show 
 Class Gem
 BaseType "Empower" "Enlighten"
@@ -755,13 +815,13 @@ PlayAlertSound 3 150
 SetTextColor 255 255 255 250
 SetBackgroundColor 100 0 0 150
 
-Hide
+Show
 Class Gem
-Quality = 0
+BaseType Vaal
 
 Hide
 Class Gem
-BaseType Vaal
+Quality = 0
 
 Show
 Class Gem
@@ -817,7 +877,7 @@ SetBorderColor 200 150 200
 # Rare Divination Cards
 Show
 Class "Divination Card"
-BaseType "The Queen" "The Last One Standing" "The Spark and the Flame" "Lingering Remnants" "The Brittle Emperor" "The Harvester" "Heterochromia" "Wealth and Power" "The Void" "The Vast" "The Valkyrie" "The Trial" "The Warlord" "The Thaumaturgist" "The Surveyor" "The Stormcaller" "The Sephirot" "The Penitent" "The Offering" "The Last One Standing" "The King's Heart" "The Hunger" "Hope" "The Formless Sea" "The Fox" "The Ethereal" "The Dragon's Heart" "The Devastator" "The Dark Mage" "The Dapper Prodigy" "The Chains that Bind" "The Celestial Justicar" "The Brittle Emperor" "Pride Before the Fall" "Last Hope" "Earth Drinker" "Dialla's Subjugation" "Bowyer's Dream" "Abandoned Wealth" "Treasure Hunter" "The Enlightened" "Volatile Power" "The Doppelganger" "Hunter's Resolve" "The Conduit" "Coveted Possession" "Lucky Connections" "The Summoner" "Three Faces in the Dark" "The Cataclysm" "Chaotic Disposition" "The Wrath"
+BaseType "The Sephirot" "The Queen" "The Last One Standing" "The Spark and the Flame" "Lingering Remnants" "The Brittle Emperor" "The Harvester" "Heterochromia" "Wealth and Power" "The Void" "The Vast" "The Valkyrie" "The Trial" "The Warlord" "The Thaumaturgist" "The Surveyor" "The Stormcaller" "The Sephirot" "The Penitent" "The Offering" "The Last One Standing" "The King's Heart" "The Hunger" "Hope" "The Formless Sea" "The Fox" "The Ethereal" "The Dragon's Heart" "The Devastator" "The Dark Mage" "The Dapper Prodigy" "The Chains that Bind" "The Celestial Justicar" "The Brittle Emperor" "Pride Before the Fall" "Last Hope" "Earth Drinker" "Dialla's Subjugation" "Bowyer's Dream" "Abandoned Wealth" "Treasure Hunter" "The Enlightened" "Volatile Power" "The Doppelganger" "Hunter's Resolve" "The Conduit" "Coveted Possession" "Lucky Connections" "The Summoner" "Three Faces in the Dark" "The Cataclysm" "Chaotic Disposition" "The Wrath"
 PlayAlertSound 2 150
 SetFontSize 40  
 SetTextColor 200 150 200 250
@@ -891,7 +951,7 @@ PlayAlertSound 6 150
 Show
 Class Map
 BaseType "Offering to the Goddess"
-SetFontSize 37
+SetFontSize 42
 SetTextColor 0 200 100 250
 SetBorderColor 0 70 0 250
 
