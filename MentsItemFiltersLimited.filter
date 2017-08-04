@@ -77,8 +77,7 @@ SetBackgroundColor 220 0 220 180
 SetBorderColor 255 255 150
 
 Show
-BaseType "Exalted Shard" "Mirror Shard" "Harbinger's Orb" "Orb of Annulment" "Ancient Orb" "Engineer's Orb" "Orb of Binding" 
-#"Orb Of Horizons"
+BaseType "Exalted Shard" "Mirror Shard" "Harbinger's Orb" "Orb of Annulment" "Ancient Orb" "Engineer's Orb" "Orb of Binding" "Orb Of Horizons"
 PlayAlertSoundPositional 13 250
 SetFontSize 47
 SetTextColor 255 255 150
