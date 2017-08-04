@@ -1,4 +1,4 @@
-# Ment's Item Filters Full v3.7#
+# Ment's Item Filters Full v3.0a #
  
 #Ment's Filter highlights 
  
@@ -7,10 +7,9 @@
 #Keep it organized, sizeable rarity (white low size, magic mid size, rare normal size).
 #Fit it to your screen, you won't get a mess over the whole screen.
 #A lot of tests have been made during the awakening beta. the original code have been improved to enhance the performance and the quality for the Novice~Experienced Exile.
-#Red highlight version is available for players with color blindness, more highlight colours may be implanted by requests.
 #Filter have been splitted into a two parts: Full & Limited, for letting the Novice players (Without basic coding knowledge) the ability to edit or modificate the script.
 #Filter have been splitted into a two parts: Full & Limited, Full for leveling and LIMITED for farming.
-#You still will be able to see the "Hidden" drops simply by hold the "ALT" key.
+#You still will be able to see the "Hidden" drops simply by holding the "ALT" key.
 #
 #
 # Currency
@@ -32,21 +31,54 @@
 # 
 #-----------------------------------------------------------------------------------------------------------
  
- 
-
 ### Currency
-  
+ 
 Show
-BaseType "Mirror of Kalandra" "Exalted Orb" "Eternal Orb" "Ancient Reliquary Key"
-PlayAlertSound 1 300
+BaseType "Mirror of Kalandra"
+PlayAlertSoundPositional 1 300
 SetFontSize 50
 SetTextColor 0 0 0
 SetBackgroundColor 255 0 255 250
 SetBorderColor 0 0 0
 
 Show
-BaseType "Divine Orb" "Albino Rhoa Feather"
-PlayAlertSound 5 250
+BaseType "Exalted Orb"
+PlayAlertSoundPositional 1 300
+PlayAlertSoundPositional ShExalted 300
+SetFontSize 50
+SetTextColor 0 0 0
+SetBackgroundColor 255 0 255 250
+SetBorderColor 0 0 0
+
+Show
+BaseType "Eternal Orb" "Ancient Reliquary Key"
+PlayAlertSoundPositional 1 300
+SetFontSize 50
+SetTextColor 0 0 0
+SetBackgroundColor 255 0 255 250
+SetBorderColor 0 0 0
+
+Show
+BaseType "Albino Rhoa Feather"
+PlayAlertSoundPositional 5 250
+SetFontSize 50
+SetTextColor 255 255 150 250
+SetBackgroundColor 220 0 220 180
+SetBorderColor 255 255 150
+
+Show
+BaseType "Divine Orb"
+PlayAlertSoundPositional 5 250
+PlayAlertSoundPositional ShDivine 300
+SetFontSize 50
+SetTextColor 255 255 150 250
+SetBackgroundColor 220 0 220 180
+SetBorderColor 255 255 150
+
+Show
+BaseType "Exalted Shard" "Mirror Shard" "Harbinger's Orb" "Orb of Annulment" "Ancient Orb" "Engineer's Orb" "Orb of Binding" 
+#"Orb Of Horizons"
+PlayAlertSoundPositional 13 250
 SetFontSize 47
 SetTextColor 255 255 150
 SetBackgroundColor 25 0 0 250
@@ -55,11 +87,11 @@ SetBorderColor 255 255 150
 Show
 Class Currency
 BaseType "Blessing"
+PlayAlertSoundPositional 5 200
 SetFontSize 42
 SetTextColor 255 255 150
 SetBackgroundColor 0 0 0 250
 SetBorderColor 255 255 150
-PlayAlertSound 5 200
 
 Show
 Class Currency
@@ -68,7 +100,16 @@ SetFontSize 42
 SetTextColor 255 255 150
 SetBackgroundColor 0 0 0 250
 SetBorderColor 255 255 150
-PlayAlertSound 5 200
+PlayAlertSoundPositional 5 200
+
+Show
+Class Currency
+BaseType "Annulment Shard" "Engineer's Shard" "Binding Shard" "Ancient Shard" "Harbinger's Shard" "Horizon Shard"
+SetFontSize 42
+SetTextColor 255 255 150
+SetBackgroundColor 0 0 0 250
+SetBorderColor 255 255 150
+PlayAlertSoundPositional 15 200
 
 Show
 Class Currency
@@ -77,39 +118,91 @@ SetFontSize 37
 SetTextColor 255 255 150
 SetBackgroundColor 0 0 0 250
 SetBorderColor 255 255 150
-PlayAlertSound 5 120
+PlayAlertSoundPositional 5 120
  
 Show
-BaseType "Chaos Orb" "Regal Orb" "Vaal Orb" "Gemcutter's Prism" "Orb of Regret"
-PlayAlertSound 5 200
-SetFontSize 42
+BaseType "Chaos Orb"
+PlayAlertSoundPositional 5 200
+PlayAlertSoundPositional ShChaos 300
+SetFontSize 43
+SetTextColor 255 255 150
+SetBackgroundColor 0 0 0 250
+SetBorderColor 255 255 150
+
+Show
+BaseType "Regal Orb"
+PlayAlertSoundPositional 5 200
+PlayAlertSoundPositional ShRegal 300
+SetFontSize 43
+SetTextColor 255 255 150
+SetBackgroundColor 0 0 0 250
+SetBorderColor 255 255 150
+
+Show
+BaseType "Vaal Orb"
+PlayAlertSoundPositional 5 200
+PlayAlertSoundPositional ShVaal 300
+SetFontSize 43
+SetTextColor 255 255 150
+SetBackgroundColor 0 0 0 250
+SetBorderColor 255 255 150
+
+Show
+BaseType "Gemcutter's Prism" "Orb of Regret"
+PlayAlertSoundPositional 5 200
+SetFontSize 43
 SetTextColor 255 255 150
 SetBackgroundColor 0 0 0 250
 SetBorderColor 255 255 150
  
 Show
-BaseType "Blessed Orb" "Orb of Scouring" "Orb of Fusing" "Orb of Alchemy" "Cartographer's Chisel"
-PlayAlertSound 3 150
+BaseType "Orb of Alchemy"
+PlayAlertSoundPositional 3 150
+PlayAlertSoundPositional ShAlchemy 300
 SetFontSize 42
-SetBackgroundColor 0 0 0 240
-SetBorderColor 255 255 150 250
+SetTextColor 0 0 0 250
+SetBackgroundColor 255 255 204 200
+SetBorderColor 255 255 255 250
+
+Show
+BaseType "Orb of Fusing"
+PlayAlertSoundPositional 3 150
+PlayAlertSoundPositional ShFusing 300
+SetFontSize 42
+SetTextColor 0 0 0 250
+SetBackgroundColor 255 255 204 200
+SetBorderColor 255 255 255 250
+
+Show
+BaseType "Blessed Orb" "Orb of Scouring" "Cartographer's Chisel"
+PlayAlertSoundPositional 3 150
+SetFontSize 42
+SetTextColor 0 0 0 250
+SetBackgroundColor 255 255 204 200
+SetBorderColor 255 255 255 250
+
+Show
+BaseType "Chaos Shard" "Regal Shard"
+PlayAlertSoundPositional 9 100
+SetFontSize 40
+SetBackgroundColor 0 0 0 250
 
 Show
 BaseType "Jeweller's Orb" "Chromatic Orb" "Orb of Alteration" "Glassblower's Bauble"
-PlayAlertSound 9 100
+PlayAlertSoundPositional 9 100
 SetFontSize 42
 SetBackgroundColor 0 0 0 250
 
 Show
 BaseType "Orb of Chance"
-PlayAlertSound 9 120
+PlayAlertSoundPositional 9 120
 SetFontSize 42
 SetBackgroundColor 0 0 0 230
 SetBorderColor 175 96 37 250
 
 Show
 BaseType "Perandus Coin"
-PlayAlertSound 9 100
+PlayAlertSoundPositional 9 100
 SetTextColor 55 110 55
 SetFontSize 42
 SetBackgroundColor 0 0 0 250
@@ -118,18 +211,18 @@ Show
 Class Currency
 BaseType "Prophecy"
 SetFontSize 42
-PlayAlertSound 9 100
+PlayAlertSoundPositional 9 100
 SetTextColor 114 0 83 250
 SetBackgroundColor 0 0 0 250
 SetBorderColor 114 0 83 250
 
 Show
 BaseType "Silver Coin"
-PlayAlertSound 9 100
-SetTextColor 55 110 55
+PlayAlertSoundPositional 9 100
+SetTextColor 0 0 0 250
 SetFontSize 42
-SetBackgroundColor 0 0 0 250
-SetBorderColor 0 96 100 50
+SetBackgroundColor 192 192 192 150
+SetBorderColor 255 255 255 150
 
 Show
 Class Leaguestone
@@ -140,7 +233,7 @@ SetFontSize 42
 SetTextColor 255 255 50
 SetBackgroundColor 25 0 0 250
 SetBorderColor 136 136 255 250
-PlayAlertSound 2 100
+PlayAlertSoundPositional 2 100
 
 Show
 Class Leaguestone
@@ -149,7 +242,7 @@ SetFontSize 42
 SetTextColor 255 255 50 130
 SetBackgroundColor 25 0 0 250
 SetBorderColor 136 136 255 250
-PlayAlertSound 2 100
+PlayAlertSoundPositional 2 100
 
 Show
 Class Leaguestone
@@ -160,7 +253,7 @@ SetFontSize 37
 SetTextColor 255 255 50 130
 SetBackgroundColor 25 0 0 250
 SetBorderColor 255 255 255 250
-PlayAlertSound 2 100
+PlayAlertSoundPositional 2 100
 
 Show
 Class Leaguestone
@@ -169,7 +262,7 @@ SetFontSize 37
 SetTextColor 255 255 50 120
 SetBackgroundColor 25 0 0 250
 SetBorderColor 255 255 255 250
-PlayAlertSound 2 100
+PlayAlertSoundPositional 2 100
  
 Show
 BaseType "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Transmutation" "Orb of Augmentation"
@@ -179,7 +272,7 @@ SetBackgroundColor 0 0 0 250
  
 Show
 BaseType "Portal Scroll" "Scroll of Wisdom"
-PlayAlertSound 9 1
+PlayAlertSoundPositional 9 1
 SetFontSize 37
 SetBackgroundColor 0 0 0 250
 
@@ -187,15 +280,15 @@ SetBackgroundColor 0 0 0 250
  
 Show
 LinkedSockets = 6
-PlayAlertSound 1 300
-SetFontSize 45
-SetTextColor 255 255 255
-SetBackgroundColor 250 100 100 100
-SetBorderColor 255 0 0
+PlayAlertSoundPositional 1 250
+SetFontSize 50
+SetTextColor 255 255 255 250
+SetBackgroundColor 90 0 0 250
+SetBorderColor 255 255 255 255
 
 Show
 Class "Fishing Rod"
-PlayAlertSound 1 300
+PlayAlertSoundPositional 1 300
 SetFontSize 45
 SetTextColor 255 255 255
 SetBackgroundColor 200 100 0 200
@@ -203,16 +296,16 @@ SetBorderColor 255 0 0
 
 Show
 LinkedSockets = 5
-PlayAlertSound 2 150
+PlayAlertSoundPositional 2 150
 SetFontSize 40
-SetTextColor 255 255 255 200
-SetBackgroundColor 200 0 0 80 
+SetTextColor 255 255 255
+SetBackgroundColor 0 0 50 250 
 SetBorderColor 255 255 255 150
  
 Show
 Sockets = 6
-SetFontSize 35
-PlayAlertSound 3 100
+PlayAlertSoundPositional 3 100
+SetFontSize 40
 SetTextColor 255 255 153
 SetBorderColor 255 255 153
 
@@ -220,23 +313,71 @@ SetBorderColor 255 255 153
 
 Show
 BaseType "Golden Key"
-PlayAlertSound 7 100
-SetFontSize 40
+PlayAlertSoundPositional 7 100
+SetFontSize 45
 SetTextColor 0 0 0 250
 SetBackgroundColor 200 200 50 200
 SetBorderColor 0 0 0
 
 Show
 BaseType "Silver Key"
-PlayAlertSound 7 100
-SetFontSize 35
+PlayAlertSoundPositional 7 100
+SetTextColor 0 0 0 250
+SetFontSize 43
+SetBackgroundColor 192 192 192 150
+SetBorderColor 255 255 255 150
+
+Show
+BaseType "Treasure Key"
+PlayAlertSoundPositional 7 100
+SetFontSize 42
 SetTextColor 0 0 0 250
 SetBackgroundColor 200 200 50 200
 SetBorderColor 0 0 0
 
 Show
-BaseType "Treasure Key"
-PlayAlertSound 7 100
+BaseType "Sand of Eternity"
+PlayAlertSoundPositional 7 100
+SetFontSize 42
+SetTextColor 0 0 0 250
+SetBackgroundColor 200 200 50 200
+SetBorderColor 0 0 0
+
+Show
+BaseType "Portal Shredder"
+PlayAlertSoundPositional 7 100
+SetFontSize 40
+SetTextColor 0 0 0 250
+SetBackgroundColor 200 200 50 200
+SetBorderColor 0 0 0
+
+Show
+BaseType "Heart of the Gargoyle"
+PlayAlertSoundPositional 7 100
+SetFontSize 40
+SetTextColor 0 0 0 250
+SetBackgroundColor 200 200 50 200
+SetBorderColor 0 0 0
+
+Show
+BaseType "Bane of the Loyal"
+PlayAlertSoundPositional 7 100
+SetFontSize 40
+SetTextColor 0 0 0 250
+SetBackgroundColor 200 200 50 200
+SetBorderColor 0 0 0
+
+Show
+BaseType "Cogs of Disruption"
+PlayAlertSoundPositional 7 100
+SetFontSize 40
+SetTextColor 0 0 0 250
+SetBackgroundColor 200 200 50 200
+SetBorderColor 0 0 0
+
+Show
+BaseType "Rod of Detonation"
+PlayAlertSoundPositional 7 100
 SetFontSize 40
 SetTextColor 0 0 0 250
 SetBackgroundColor 200 200 50 200
@@ -251,7 +392,7 @@ SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
 SetBackgroundColor 100 150 130 200
 SetFontSize 35
-PlayAlertSound 2 250
+PlayAlertSoundPositional 2 250
 	
 Show
 Class Currency
@@ -260,7 +401,7 @@ SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
 SetBackgroundColor 100 150 130 200
 SetFontSize 35
-PlayAlertSound 2 250
+PlayAlertSoundPositional 2 250
 	
 Show
 Class Currency
@@ -269,7 +410,7 @@ SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
 SetBackgroundColor 100 150 130 200
 SetFontSize 35
-PlayAlertSound 2 250
+PlayAlertSoundPositional 2 250
 	
 Show
 Class Currency
@@ -278,7 +419,7 @@ SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
 SetBackgroundColor 100 150 130 200
 SetFontSize 35
-PlayAlertSound 2 250
+PlayAlertSoundPositional 2 250
 	
 Show
 Class Currency
@@ -287,7 +428,7 @@ SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
 SetBackgroundColor 100 150 130 200
 SetFontSize 35
-PlayAlertSound 2 250
+PlayAlertSoundPositional 2 250
 	
 Show
 Class Currency
@@ -296,7 +437,7 @@ SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
 SetBackgroundColor 100 150 130 200
 SetFontSize 35
-PlayAlertSound 2 250
+PlayAlertSoundPositional 2 250
 
 Show
 Class Currency
@@ -305,7 +446,7 @@ SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
 SetBackgroundColor 100 150 130 200
 SetFontSize 35
-PlayAlertSound 2 250
+PlayAlertSoundPositional 2 250
 
 Show
 Class Currency
@@ -314,7 +455,7 @@ SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
 SetBackgroundColor 100 150 130 200
 SetFontSize 35
-PlayAlertSound 2 250
+PlayAlertSoundPositional 2 250
 
 Show
 Class Currency
@@ -323,7 +464,7 @@ SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
 SetBackgroundColor 100 150 130 200
 SetFontSize 35
-PlayAlertSound 2 250
+PlayAlertSoundPositional 2 250
 
 Show
 Class Currency
@@ -332,7 +473,7 @@ SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
 SetBackgroundColor 100 150 130 200
 SetFontSize 35
-PlayAlertSound 2 250
+PlayAlertSoundPositional 2 250
 	
 Show
 Class Currency
@@ -341,7 +482,7 @@ SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
 SetBackgroundColor 100 150 130 200
 SetFontSize 35
-PlayAlertSound 2 250	
+PlayAlertSoundPositional 2 250	
 	
 Show
 Class Currency
@@ -350,7 +491,7 @@ SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
 SetBackgroundColor 100 150 130 200
 SetFontSize 35
-PlayAlertSound 2 250	
+PlayAlertSoundPositional 2 250	
 	
 Show
 Class Currency
@@ -359,7 +500,7 @@ SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
 SetBackgroundColor 100 150 130 200
 SetFontSize 35
-PlayAlertSound 2 250
+PlayAlertSoundPositional 2 250
 	
 Show
 Class Currency
@@ -368,7 +509,7 @@ SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
 SetBackgroundColor 50 100 130 250
 SetFontSize 40
-PlayAlertSound 2 250
+PlayAlertSoundPositional 2 250
 	
 Show
 Class Currency
@@ -377,7 +518,7 @@ SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
 SetBackgroundColor 50 100 130 250
 SetFontSize 40
-PlayAlertSound 2 250
+PlayAlertSoundPositional 2 250
 	
 Show
 Class Currency
@@ -386,7 +527,7 @@ SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
 SetBackgroundColor 50 100 130 250
 SetFontSize 40
-PlayAlertSound 2 250
+PlayAlertSoundPositional 2 250
 	
 Show
 Class Currency
@@ -395,7 +536,7 @@ SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
 SetBackgroundColor 50 100 130 250
 SetFontSize 40
-PlayAlertSound 2 250
+PlayAlertSoundPositional 2 250
 	
 Show
 Class Currency
@@ -404,20 +545,20 @@ SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
 SetBackgroundColor 50 100 130 250
 SetFontSize 40
-PlayAlertSound 2 250
+PlayAlertSoundPositional 2 250
 	
 ### Talisman Gear
  
 Show
 BaseType "Talisman"
 Rarity Unique
-PlayAlertSound 3 150
+PlayAlertSoundPositional 3 150
 SetBorderColor 200 200 200 200
  
 Show
 BaseType "Talisman"
 Rarity Rare
-PlayAlertSound 9 100
+PlayAlertSoundPositional 9 100
 SetBackgroundColor 35 35 35 200
 SetBorderColor 200 200 200 200
 SetTextColor 255 255 0
@@ -425,14 +566,14 @@ SetTextColor 255 255 0
 Show
 BaseType "Talisman"
 Rarity Magic
-PlayAlertSound 9 100
+PlayAlertSoundPositional 9 100
 SetBackgroundColor 35 35 35 200
 SetBorderColor 200 200 200 200
  
 Show
 BaseType "Talisman"
 Rarity Normal
-PlayAlertSound 9 100
+PlayAlertSoundPositional 9 100
 
 SetBackgroundColor 35 35 35 200
 SetBorderColor 200 200 200 200
@@ -442,7 +583,7 @@ SetBorderColor 200 200 200 200
 Show
 BaseType "Gavel" "Agate Amulet" "Prophecy Wand" "Imperial Bow" "Occultist's Vestment" "Infernal Axe" "Vaal Gauntlets" "Gold Ring" "Vaal Axe" "Spine Bow" "Fishing Rod" "Vaal Sceptre"
 Rarity = Unique
-PlayAlertSound 1 300
+PlayAlertSoundPositional 1 300
 SetFontSize 45
 SetTextColor 255 0 255
 SetBackgroundColor 0 0 0 200
@@ -451,7 +592,7 @@ SetBorderColor 255 0 255
 Show
 BaseType "Glorious Plate" "Nightmare Bascinet" "Slaughter Knife" "Diamond Ring" "Ursine Pelt" "Chain Belt" "Penetrating Arrow Quiver" "Amethyst Ring" "Granite Flask" "Siege Axe" "Vaal Mask" "Judgement Staff"
 Rarity = Unique
-PlayAlertSound 2 200
+PlayAlertSoundPositional 2 200
 SetFontSize 45
 SetBackgroundColor 0 0 0 200
 SetBorderColor 255 0 255
@@ -459,11 +600,9 @@ SetBorderColor 255 0 255
 Show
 Rarity = Unique
 SetFontSize 40
-PlayAlertSound 8 150  
+PlayAlertSoundPositional 8 150  
 SetBorderColor 175 96 37
  
-### New Bases (Temp Location)
-
 Show 
 BaseType "Breach Ring" "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
 Rarity Rare
@@ -475,7 +614,7 @@ SetFontSize 40
  
 Show
 SocketGroup RGB
-PlayAlertSound 9 100
+PlayAlertSoundPositional 9 100
 SetFontSize 30
 ItemLevel >= 60
 SetBackgroundColor 0 0 0 200
@@ -483,7 +622,7 @@ SetTextColor 170 158 130
 
 Show
 SocketGroup RGB
-PlayAlertSound 9 100
+PlayAlertSoundPositional 9 100
 SetFontSize 34
 ItemLevel >= 35
 SetBackgroundColor 0 0 0 200
@@ -491,7 +630,7 @@ SetTextColor 170 158 130
 
 Show
 SocketGroup RGB
-PlayAlertSound 9 100
+PlayAlertSoundPositional 9 100
 SetFontSize 37
 ItemLevel >= 20
 SetBackgroundColor 0 0 0 220
@@ -499,7 +638,7 @@ SetTextColor 170 158 130
 
 Show
 SocketGroup RGB
-PlayAlertSound 9 100
+PlayAlertSoundPositional 9 100
 SetFontSize 40
 ItemLevel >= 1
 SetBackgroundColor 0 0 0 250
@@ -513,6 +652,30 @@ SetTextColor 0 200 255 150
 SetBackgroundColor 0 0 0 180 
  
 ### Rare Gear
+
+Show
+Class Rings Amulets Belts
+Rarity = Rare
+ItemLevel >= 25
+SetFontSize 35
+SetBackgroundColor 0 0 0 200
+SetBorderColor 255 255 150
+
+Show
+Class Rings Amulets Belts
+Rarity = Rare
+ItemLevel >= 15
+SetFontSize 40
+SetBackgroundColor 0 0 0 200
+SetBorderColor 255 255 150
+
+Show
+Class Rings Amulets Belts
+Rarity = Rare
+ItemLevel >= 1
+SetFontSize 45
+SetBackgroundColor 0 0 0 200
+SetBorderColor 255 255 150
 
 Show
 Rarity = Rare
@@ -534,6 +697,8 @@ ItemLevel >= 1
 SetFontSize 40
 SetTextColor 255 255 0
 SetBackgroundColor 0 0 0 250
+SetBorderColor 255 255 255 200
+
 
 Show
 Rarity = Rare
@@ -545,8 +710,17 @@ SetBackgroundColor 0 0 0 120
 
 Show 
 Class Gem
-BaseType "Empower" "Enlighten"
-PlayAlertSound 3 150
+BaseType "Empower"
+PlayAlertSoundPositional 3 150
+SetFontSize 40
+SetTextColor 0 255 255
+SetBorderColor 0 255 255
+SetBackgroundColor 100 0 0 150
+
+Show 
+Class Gem
+BaseType "Enlighten"
+PlayAlertSoundPositional 3 150
 SetFontSize 40
 SetTextColor 0 255 255
 SetBorderColor 0 255 255
@@ -554,50 +728,88 @@ SetBackgroundColor 100 0 0 150
  
 Show
 Class Gem
-BaseType "Portal" "Enhance" "Added Chaos Damage" "Detonate Mines"
-PlayAlertSound 9 50
+BaseType "Portal"
+PlayAlertSoundPositional 9 50
 SetTextColor 0 255 255
 SetBackgroundColor 0 0 0 100
 
 Show
 Class Gem
-BaseType "Vaal Haste" "Vaal Grace" "Vaal Haste" "Vaal Discipline"
+BaseType "Enhance"
+PlayAlertSoundPositional 9 50
+SetTextColor 0 255 255
+SetBackgroundColor 0 0 0 100
+
+Show
+Class Gem
+BaseType "Added Chaos Damage"
+PlayAlertSoundPositional 9 50
+SetTextColor 0 255 255
+SetBackgroundColor 0 0 0 100
+
+Show
+Class Gem
+BaseType "Detonate Mines"
+PlayAlertSoundPositional 9 50
+SetTextColor 0 255 255
+SetBackgroundColor 0 0 0 100
+
+Show
+Class Gem
+BaseType "Vaal Haste"
 SetFontSize 35
+PlayAlertSoundPositional 3 150
 SetTextColor 255 255 255 250
 SetBackgroundColor 100 0 0 150
 
 Show
 Class Gem
-BaseType Vaal
+BaseType "Vaal Grace"
+SetFontSize 35
+PlayAlertSoundPositional 3 150
+SetTextColor 255 255 255 250
+SetBackgroundColor 100 0 0 150
+
+Show
+Class Gem
+BaseType "Vaal Discipline"
+SetFontSize 35
+PlayAlertSoundPositional 3 150
+SetTextColor 255 255 255 250
+SetBackgroundColor 100 0 0 150
 
 Show
 Class Gem
 Quality >= 15
-Quality <= 20
-PlayAlertSound 2 160
-SetFontSize 35
-SetTextColor 0 255 255
-SetBorderColor 0 255 255    
-SetBackgroundColor 100 0 0 200
+SetFontSize 38
+PlayAlertSoundPositional 2 150
+SetTextColor 0 255 255 250
+SetBorderColor 0 255 255 250
 
 Show
 Class Gem
 Quality >= 10
-Quality <= 14
-PlayAlertSound 2 120
-SetFontSize  30
-SetTextColor 0 255 255
-SetBorderColor 0 255 255
-SetBackgroundColor 100 0 0 150
- 
+SetFontSize 34
+PlayAlertSoundPositional 2 100
+SetTextColor 0 255 255 200
+SetBorderColor 0 255 255 210
+
 Show
 Class Gem
-Quality >= 0
-Quality <= 9
-SetFontSize  30
-SetTextColor 0 255 255
-SetBackgroundColor 0 0 0 100
-  
+Quality >= 1
+SetFontSize 30
+PlayAlertSoundPositional 2 20
+SetBorderColor 0 255 255 170
+
+Show
+Class Gem
+BaseType Vaal
+SetBorderColor 255 0 0 150
+
+Show
+Class Gem
+SetFontSize 30
+
 ### Misc Items
  
 Show
@@ -608,9 +820,18 @@ Class "Microtransactions"
  
 Show
 Class "Hideout Doodads"    
- 
+
 Show
 Class Quest
+SetFontSize 35
+DropLevel > 20
+SetBorderColor 0 191 0 200
+
+Show
+Class Quest
+SetFontSize 45
+DropLevel <= 20
+SetBorderColor 0 191 0 250
 
  
 ### Divination Cards
@@ -619,7 +840,7 @@ Class Quest
 Show
 Class "Divination Card"
 BaseType "The Immortal" "Mawr Blaidd" "Hunter's Reward" "House of Mirrors" "The Doctor" "The Fiend" 
-PlayAlertSound 4 250
+PlayAlertSoundPositional 4 250
 SetFontSize 50 
 SetTextColor 200 150 200 250
 SetBackgroundColor 0 0 0 250
@@ -628,8 +849,8 @@ SetBorderColor 200 150 200
 # Rare Divination Cards
 Show
 Class "Divination Card"
-BaseType "The Queen" "The Last One Standing" "The Spark and the Flame" "Lingering Remnants" "The Brittle Emperor" "The Harvester" "Heterochromia" "Wealth and Power" "The Void" "The Vast" "The Valkyrie" "The Trial" "The Warlord" "The Thaumaturgist" "The Surveyor" "The Stormcaller" "The Sephirot" "The Penitent" "The Offering" "The Last One Standing" "The King's Heart" "The Hunger" "Hope" "The Formless Sea" "The Fox" "The Ethereal" "The Dragon's Heart" "The Devastator" "The Dark Mage" "The Dapper Prodigy" "The Chains that Bind" "The Celestial Justicar" "The Brittle Emperor" "Pride Before the Fall" "Last Hope" "Earth Drinker" "Dialla's Subjugation" "Bowyer's Dream" "Abandoned Wealth" "Treasure Hunter" "The Enlightened" "Volatile Power" "The Doppelganger" "Hunter's Resolve" "The Conduit" "Coveted Possession" "Lucky Connections" "The Summoner" "Three Faces in the Dark" "The Cataclysm" "Chaotic Disposition" "The Wrath"
-PlayAlertSound 2 150
+BaseType "The Queen" "The Last One Standing" "The Spark and the Flame" "Lingering Remnants" "The Brittle Emperor" "The Harvester" "Heterochromia" "Wealth and Power" "The Void" "The Vast" "The Valkyrie" "The Trial" "The Warlord" "The Thaumaturgist" "The Surveyor" "The Stormcaller" "The Sephirot" "The Penitent" "The Offering" "The Last One Standing" "The King's Heart" "The Hunger" "Hope" "The Formless Sea" "The Fox" "The Ethereal" "The Dragon's Heart" "The Devastator" "The Dark Mage" "The Dapper Prodigy" "The Chains that Bind" "The Celestial Justicar" "The Brittle Emperor" "Pride Before the Fall" "Last Hope" "Earth Drinker" "Dialla's Subjugation" "Bowyer's Dream" "Abandoned Wealth" "The Enlightened" "Volatile Power" "The Doppelganger" "Hunter's Resolve" "The Conduit" "Coveted Possession" "Lucky Connections" "The Summoner" "Three Faces in the Dark" "The Cataclysm" "Chaotic Disposition" "The Wrath"
+PlayAlertSoundPositional 2 150
 SetFontSize 40  
 SetTextColor 200 150 200 250
 SetBackgroundColor 0 0 0 235
@@ -637,13 +858,31 @@ SetBorderColor 255 255 255 180
 
 Show
 Class "Divination Card"
-PlayAlertSound 2 10
+PlayAlertSoundPositional 2 10
 SetFontSize 30 
 SetTextColor 200 150 200 250
 SetBackgroundColor 0 0 0 200
 SetBorderColor 255 255 255 180
  
 ### Maps
+
+Show
+Class "Map Fragments"
+BaseType "Divine Vessel"
+SetTextColor 255 51 51 255
+SetBorderColor 100 0 0 255
+SetBackgroundColor 0 0 0 255
+SetFontSize 45
+PlayAlertSoundPositional 10 200
+
+Show
+Class "Map Fragments"
+BaseType "Divine Vessel"
+SetTextColor 100 0 0 255
+SetBorderColor 100 0 0 255
+SetBackgroundColor 0 0 0 255
+SetFontSize 45
+PlayAlertSoundPositional 10 200
  
 Show
 Class Map
@@ -663,19 +902,19 @@ SetBorderColor 200 70 0
 Show
 Class Map
 DropLevel >= 80
-PlayAlertSound 6 200
+PlayAlertSoundPositional 6 200
 SetFontSize 42
 
 Show
 Class Map
 DropLevel >= 78
-PlayAlertSound 6 170
+PlayAlertSoundPositional 6 170
 SetFontSize 42
  
 Show
 Class Map
 DropLevel >= 76
-PlayAlertSound 6 150
+PlayAlertSoundPositional 6 150
 SetFontSize 42
 
 Show
@@ -704,50 +943,107 @@ SetFontSize 35
 SetTextColor 192 192 192
 SetBorderColor 192 192 192
 
-### White items that worth to chance
- 
+### White items that worth to chance 
+
+# Can be chanced anywhere
 Show
-ItemLevel >= 60
-BaseType "Sorcerer Boots" "Agate Amulet" "Prophecy Wand" "Occultist's Vestment" "Glorious Plate" "Leather Belt"
-# More Available items to chance : "Spine Bow" "Chain Belt" "Siege Axe" "Judgement Staff" "Imperial Bow"
+BaseType "Sorcerer Boots"
+ItemLevel >= 67
+PlayAlertSoundPositional 3 150
 Rarity = Normal
-SetFontSize 35
+SetFontSize 40
 SetBackgroundColor 0 0 0 200
 SetBorderColor 175 96 37 250
 SetTextColor 255 255 240 200
 
- 
+# Can be chanced anywhere
+Show
+BaseType "Sapphire Flask"
+ItemLevel >= 12
+PlayAlertSoundPositional 3 150
+Rarity = Normal
+SetFontSize 40
+SetBackgroundColor 0 0 0 200
+SetBorderColor 175 96 37 250
+SetTextColor 255 255 240 200
+
+# Chace "Agate Amulet" only on Zana's level 2 Onslaught Map Device mod
+Show
+BaseType "Agate Amulet"
+PlayAlertSoundPositional 3 150
+Rarity = Normal
+SetFontSize 40
+SetBackgroundColor 0 0 0 200
+SetBorderColor 175 96 37 250
+SetTextColor 255 255 240 200
+
+# Chace "Leather Belt" only on Zana's level 7 Neemesis Map Device mod
+Show
+BaseType "Leather Belt"
+PlayAlertSoundPositional 3 150
+Rarity = Normal
+SetFontSize 40
+SetBackgroundColor 0 0 0 200
+SetBorderColor 175 96 37 250
+SetTextColor 255 255 240 200
+
+# More Chance Bases: "Leather Belt" "Agate Amulet" "Glorious Plate" "Occultist's Vestment" "Prophecy Wand" "Spine Bow" "Chain Belt" "Siege Axe" "Judgement Staff" "Imperial Bow"
+
 ### Flasks
 
 Show
-LinkedSockets = 4
+LinkedSockets = 6
+PlayAlertSoundPositional 1 300
+SetFontSize 50
+SetTextColor 255 255 255 250
+SetBackgroundColor 250 100 100 250
+SetBorderColor 255 255 255 250
+
+Show
+LinkedSockets >= 4
 ItemLevel >= 50
 SetFontSize 25
 SetBackgroundColor 0 0 0 170
 
 Show
-LinkedSockets = 4
+LinkedSockets >= 4
 ItemLevel >= 40
 SetFontSize 27
 SetBackgroundColor 0 0 0 200
 
 Show
-LinkedSockets = 4
+LinkedSockets >= 4
 ItemLevel >= 25
 SetFontSize 30
 SetBackgroundColor 0 0 0 250
+
+Show
+Class "Two Hand"
+LinkedSockets >= 3
+ItemLevel <= 15
+SetFontSize 35
+SetBackgroundColor 0 0 0 200
+SetBorderColor 255 255 255 100
  
 Show
-LinkedSockets = 3
-ItemLevel >= 25
-SetFontSize 25
+LinkedSockets >= 3
+ItemLevel >= 15
+SetFontSize 26
 SetBackgroundColor 0 0 0 170 
 
 Show
-LinkedSockets = 3
-ItemLevel >= 1
-SetFontSize 30
+LinkedSockets >= 3
+ItemLevel >= 10
+SetFontSize 35
 SetBackgroundColor 0 0 0 250
+SetBorderColor 255 255 255 100
+
+Show
+LinkedSockets >= 3
+ItemLevel >= 1
+SetFontSize 40
+SetBackgroundColor 0 0 0 250
+SetBorderColor 255 255 255 150
 
 Show
 BaseType "Sapphire Flask"
@@ -758,39 +1054,79 @@ SetTextColor 255 255 240 200
 
 Show
 BaseType "Basalt Flask" "Aquamarine Flask" "Stibnite Flask" "Sulphur Flask"  "Bismuth Flask" "Silver Flask"
-Rarity >= Normal
+ItemLevel >= 25
 SetFontSize 35
 SetBackgroundColor 0 0 0 150
-SetBorderColor 0 255 0 50
+SetBorderColor 0 0 0 250
 
+Show
+BaseType "Basalt Flask" "Aquamarine Flask" "Stibnite Flask" "Sulphur Flask"  "Bismuth Flask" "Silver Flask"
+ItemLevel >= 15
+SetFontSize 40
+PlayAlertSoundPositional 9
+SetBackgroundColor 0 100 0 100
+SetBorderColor 0 0 0 250
+
+Show
+BaseType "Basalt Flask" "Aquamarine Flask" "Stibnite Flask" "Sulphur Flask"  "Bismuth Flask" "Silver Flask"
+ItemLevel >= 1
+SetFontSize 45
+PlayAlertSoundPositional 9
+SetBackgroundColor 0 100 0 150
+SetBorderColor 0 0 0 250
 
 Show
 Class "Life Flask" "Mana Flask" "Hybrid Flask"
 ItemLevel >= 50
 Rarity >= Normal
 SetFontSize 30
-SetBackgroundColor 0 0 0 250
+SetBackgroundColor 0 0 0 200
 
 Show
 Class "Life Flask" "Mana Flask" "Hybrid Flask"
 ItemLevel >= 30
 Rarity >= Normal
 SetFontSize 33
-SetBackgroundColor 0 0 0 250
+SetBackgroundColor 0 0 0 210
+
+Show
+Class "Life Flask" "Mana Flask" "Hybrid Flask"
+ItemLevel >= 15
+Rarity >= Normal
+SetFontSize 35
+SetBackgroundColor 0 0 0 230
+SetBorderColor 255 0 0 100
 
 Show
 Class "Life Flask" "Mana Flask" "Hybrid Flask"
 ItemLevel >= 1
-Rarity >= Normal
-SetFontSize 35
+Rarity = Magic
+SetFontSize 37
 SetBackgroundColor 0 0 0 250
+SetBorderColor 255 0 0 100
 
 Show
 Class "Life Flask" "Mana Flask" "Hybrid Flask"
-Quality >= 0
-Quality <= 14
+ItemLevel >= 1
+Rarity = Normal
+SetFontSize 35
+SetBackgroundColor 0 0 0 250
+SetBorderColor 255 0 0 100
+
+Show
+Class "Life Flask" "Mana Flask" "Hybrid Flask"
+ItemLevel < 20
+Quality >= 1
 Rarity >= Normal
 SetFontSize 35
+SetBackgroundColor 0 0 0 200
+
+Show
+Class "Life Flask" "Mana Flask" "Hybrid Flask"
+ItemLevel < 20
+Quality >= 1
+Rarity >= Normal
+SetFontSize 40
 SetBackgroundColor 0 0 0 200
 
 Show
@@ -798,12 +1134,25 @@ BaseType "Quicksilver Flask"
 ItemLevel >= 30
 SetFontSize 30
 SetBackgroundColor 0 0 0 250
+SetBorderColor 0 0 0 250
+
+Show
+BaseType "Quicksilver Flask" 
+ItemLevel >= 15
+SetFontSize 35
+PlayAlertSoundPositional 9 150
+SetBackgroundColor 0 0 0 250
+SetTextColor 255 255 255 250
+SetBorderColor 0 0 0 250
 
 Show
 BaseType "Quicksilver Flask" 
 ItemLevel >= 1
-SetFontSize 37
-SetBackgroundColor 0 0 0 250
+SetFontSize 40
+PlayAlertSoundPositional 9 200
+SetBackgroundColor 0 50 0 250
+SetTextColor 255 255 255 250
+SetBorderColor 0 0 0 250
 
 Show
 BaseType "Diamond Flask" "Granite Flask" "Topaz Flask" "Ruby Flask"
@@ -826,7 +1175,7 @@ Class "Utility Flask"
 Show
 Class "Jewel"
 SetFontSize 40
-PlayAlertSound 3 100
+PlayAlertSoundPositional 3 100
 SetBackgroundColor 0 0 0 200
  
 ### Rings & Amulets
@@ -864,15 +1213,29 @@ ItemLevel >= 25
 SetFontSize 30
 SetTextColor 255 255 255 160
 SetBackgroundColor 0 0 0 200
+
+Show
+Class Rings Amulets Belts
+Rarity = Normal
+ItemLevel >= 10
+SetFontSize 35
+SetTextColor 255 255 255 180
+SetBackgroundColor 0 0 0 250
  
 Show
 Class Rings Amulets Belts
 Rarity = Normal
 ItemLevel >= 1
-SetFontSize 35
+SetFontSize 37
 SetTextColor 255 255 255 180
 SetBackgroundColor 0 0 0 250
 
+Show 
+BaseType "Leatherscale Boots" "Fishscale Gauntlets" "Scale Vest" "Battered Helm" "Light Brigandine" "Light Brigandine" 
+Rarity Magic
+ItemLevel < 20
+SetFontSize 30
+SetBorderColor 0 191 0 150
 
 Show
 Rarity = Magic
@@ -880,20 +1243,69 @@ ItemLevel >= 20
 SetFontSize 25
 SetTextColor 131 131 247 180
 SetBackgroundColor 0 0 0 180
- 
+
+Show
+Class Dagger Wand Sceptre "One Hand" 
+Width <= 1
+Height <= 3
+Rarity Magic
+ItemLevel < 20
+SetFontSize 30
+SetBorderColor 136 136 255 100
+
+Show
+Class Gloves Boots Helmets Claws
+Width <= 2
+Height <= 2
+Rarity Magic
+ItemLevel < 20
+SetFontSize 30
+SetBorderColor 136 136 255 100
+
+Show
+Class "Two Hand"
+Width <= 2
+Height <= 4
+Rarity Magic
+ItemLevel > 15
+SetFontSize 30
+SetBackgroundColor 0 0 0 150
+
+Show
+Class "Two Hand"
+Width <= 2
+Height <= 4
+Rarity Magic
+ItemLevel < 15
+SetFontSize 30
+SetBackgroundColor 0 0 0 150
+SetBorderColor 0 0 0 100
+
 Show
 Rarity = Magic
-ItemLevel >= 1
-SetFontSize 35
-SetTextColor 131 131 247 180
-SetBackgroundColor 0 0 0 230
+ItemLevel < 10
+SetFontSize 30
+SetBackgroundColor 0 0 0 180
+
+Show
+Rarity = Magic
+ItemLevel < 10
+SetFontSize 33
+SetBackgroundColor 0 0 0 200
 
 Show
 Rarity = Normal
 ItemLevel >= 40
 SetFontSize 25
 SetTextColor 255 255 255 180
-SetBackgroundColor 0 0 0 150  
+SetBackgroundColor 0 0 0 150 
+ 
+Show 
+BaseType "Leatherscale Boots" "Fishscale Gauntlets" "Scale Vest" "Battered Helm" "Light Brigandine" "Light Brigandine" 
+Rarity Normal
+ItemLevel < 15
+SetFontSize 37
+SetBorderColor 0 191 0 150
 
 Show
 Rarity = Normal
@@ -909,5 +1321,10 @@ SetFontSize 30
 SetTextColor 255 255 255 180
 SetBackgroundColor 0 0 0 170  
  
- 
-Hide
+Show
+
+################################################################################################
+# Your opinions is very important to me.                                                       #
+# I appreciate your feedback and will use it to evaluate changes and make improvements.        #
+# If you need assistance contact me via https://www.pathofexile.com/forum/view-thread/1243499  #
+################################################################################################
