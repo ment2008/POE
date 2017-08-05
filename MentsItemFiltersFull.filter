@@ -76,8 +76,7 @@ SetBackgroundColor 220 0 220 180
 SetBorderColor 255 255 150
 
 Show
-BaseType "Exalted Shard" "Mirror Shard" "Harbinger's Orb" "Orb of Annulment" "Ancient Orb" "Engineer's Orb" "Orb of Binding"
-# "Orb Of Horizons"
+BaseType "Exalted Shard" "Mirror Shard" "Harbinger's Orb" "Orb of Annulment" "Ancient Orb" "Engineer's Orb" "Orb of Binding" "Orb of Horizons"
 PlayAlertSoundPositional 13 250
 SetFontSize 47
 SetTextColor 255 255 150
@@ -1158,13 +1157,13 @@ Show
 BaseType "Diamond Flask" "Granite Flask" "Topaz Flask" "Ruby Flask"
 Rarity = Normal
 ItemLevel >= 40
-SetFontSize 25
+SetFontSize 30
 SetBackgroundColor 0 0 0 150
 
 Show
 BaseType "Diamond Flask" "Granite Flask" "Topaz Flask" "Ruby Flask"
 Rarity >= Normal
-SetFontSize 25
+SetFontSize 35
 SetBackgroundColor 0 0 0 200
 
 Show
