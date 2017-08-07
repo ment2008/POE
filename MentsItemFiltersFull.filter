@@ -959,7 +959,6 @@ SetTextColor 255 255 240 200
 # Chace "Agate Amulet" only on Zana's level 2 Onslaught Map Device mod
 Show
 BaseType "Agate Amulet"
-PlayAlertSound 3 150
 Rarity = Normal
 SetFontSize 40
 SetBackgroundColor 0 0 0 200
@@ -976,7 +975,7 @@ SetBackgroundColor 0 0 0 200
 SetBorderColor 175 96 37 250
 SetTextColor 255 255 240 200
 
-# More Chance Bases: "Leather Belt" "Agate Amulet" "Glorious Plate" "Occultist's Vestment" "Prophecy Wand" "Spine Bow" "Chain Belt" "Siege Axe" "Judgement Staff" "Imperial Bow"
+# More Chance Bases: "Glorious Plate" "Occultist's Vestment" "Prophecy Wand" "Spine Bow" "Chain Belt" "Siege Axe" "Judgement Staff" "Imperial Bow"
 
 ### Flasks
 
