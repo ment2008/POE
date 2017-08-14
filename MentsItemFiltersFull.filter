@@ -43,8 +43,8 @@ SetBorderColor 0 0 0
 
 Show
 BaseType "Exalted Orb"
-PlayAlertSound 1 300
-#PlayAlertSound ShExalted 300
+#PlayAlertSound 1 300
+PlayAlertSound ShExalted 300
 SetFontSize 50
 SetTextColor 0 0 0
 SetBackgroundColor 255 0 255 250
@@ -68,8 +68,8 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Divine Orb"
-PlayAlertSound 5 250
-#PlayAlertSound ShDivine 300
+#PlayAlertSound 5 250
+PlayAlertSound ShDivine 300
 SetFontSize 50
 SetTextColor 255 255 150 250
 SetBackgroundColor 220 0 220 180
@@ -129,7 +129,7 @@ PlayAlertSound 5 120
  
 Show
 BaseType "Chaos Orb"
-PlayAlertSound 5 200
+#PlayAlertSound 5 200
 PlayAlertSound ShChaos 300
 SetFontSize 43
 SetTextColor 255 255 150
@@ -138,7 +138,7 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Regal Orb"
-PlayAlertSound 5 200
+#PlayAlertSound 5 200
 PlayAlertSound ShRegal 300
 SetFontSize 43
 SetTextColor 255 255 150
@@ -147,7 +147,7 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Vaal Orb"
-PlayAlertSound 5 200
+#PlayAlertSound 5 200
 PlayAlertSound ShVaal 300
 SetFontSize 43
 SetTextColor 255 255 150
@@ -164,7 +164,7 @@ SetBorderColor 255 255 150
  
 Show
 BaseType "Orb of Alchemy"
-PlayAlertSound 3 150
+#PlayAlertSound 3 150
 PlayAlertSound ShAlchemy 300
 SetFontSize 42
 SetTextColor 0 0 0 250
@@ -173,7 +173,7 @@ SetBorderColor 255 255 255 250
 
 Show
 BaseType "Orb of Fusing"
-PlayAlertSound 3 150
+#PlayAlertSound 3 150
 PlayAlertSound ShFusing 300
 SetFontSize 42
 SetTextColor 0 0 0 250
@@ -181,8 +181,16 @@ SetBackgroundColor 255 255 204 200
 SetBorderColor 255 255 255 250
 
 Show
-BaseType "Blessed Orb" "Orb of Scouring" "Cartographer's Chisel"
+BaseType "Orb of Scouring" "Cartographer's Chisel"
 PlayAlertSound 3 150
+SetFontSize 42
+SetTextColor 0 0 0 250
+SetBackgroundColor 255 255 204 200
+SetBorderColor 255 255 255 250
+
+Show
+BaseType "Blessed Orb"
+PlayAlertSound ShBlessed 3 150
 SetFontSize 42
 SetTextColor 0 0 0 250
 SetBackgroundColor 255 255 204 200
@@ -201,7 +209,7 @@ SetFontSize 42
 SetBackgroundColor 0 0 0 250
 
 Show
-BaseType "Orb of Chance"
+BaseType "Orb of Chance
 PlayAlertSound 9 120
 SetFontSize 42
 SetBackgroundColor 0 0 0 230
@@ -932,7 +940,7 @@ SetFontSize 35
 SetTextColor 192 192 192
 SetBorderColor 192 192 192
 
-### White items that worth to chance 
+### White items that worth to chance
 
 # Can be chanced anywhere
 Show
@@ -956,11 +964,12 @@ SetBackgroundColor 0 0 0 200
 SetBorderColor 175 96 37 250
 SetTextColor 255 255 240 200
 
-# Chace "Agate Amulet" only on Zana's level 2 Onslaught Map Device mod
+# Can be chanced anywhere
 Show
-BaseType "Agate Amulet"
+BaseType "Glorious Plate"
+ItemLevel >= 60
 Rarity = Normal
-SetFontSize 40
+SetFontSize 35
 SetBackgroundColor 0 0 0 200
 SetBorderColor 175 96 37 250
 SetTextColor 255 255 240 200
@@ -968,14 +977,22 @@ SetTextColor 255 255 240 200
 # Chace "Leather Belt" only on Zana's level 7 Neemesis Map Device mod
 Show
 BaseType "Leather Belt"
-PlayAlertSound 3 150
 Rarity = Normal
-SetFontSize 40
+SetFontSize 35
 SetBackgroundColor 0 0 0 200
 SetBorderColor 175 96 37 250
 SetTextColor 255 255 240 200
 
-# More Chance Bases: "Glorious Plate" "Occultist's Vestment" "Prophecy Wand" "Spine Bow" "Chain Belt" "Siege Axe" "Judgement Staff" "Imperial Bow"
+# Chace "Agate Amulet" only on Zana's level 2 Onslaught Map Device mod
+Show
+BaseType "Agate Amulet"
+Rarity = Normal
+SetFontSize 35
+SetBackgroundColor 0 0 0 200
+SetBorderColor 175 96 37 250
+SetTextColor 255 255 240 200
+
+# More Chance Bases: "Occultist's Vestment" "Prophecy Wand" "Spine Bow" "Chain Belt" "Siege Axe" "Judgement Staff" "Imperial Bow"
 
 ### Flasks
 
@@ -1159,10 +1176,18 @@ Show
 Class "Utility Flask"
  
 ### Jewels
+
+Show
+Class "Jewel"
+Rarity = Rare
+SetFontSize 40
+PlayAlertSound 3 150
+SetTextColor 200 250 0 250
+SetBorderColor 200 250 0 250
  
 Show
 Class "Jewel"
-SetFontSize 40
+SetFontSize 38
 PlayAlertSound 3 100
 SetBackgroundColor 0 0 0 200
  
