@@ -44,8 +44,8 @@ SetBorderColor 0 0 0
 
 Show
 BaseType "Exalted Orb"
-PlayAlertSound 1 300
-#PlayAlertSound ShExalted 300
+#PlayAlertSound 1 300
+PlayAlertSound ShExalted 300
 SetFontSize 50
 SetTextColor 0 0 0
 SetBackgroundColor 255 0 255 250
@@ -69,8 +69,8 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Divine Orb"
-PlayAlertSound 5 250
-#PlayAlertSound ShDivine 300
+#PlayAlertSound 5 250
+PlayAlertSound ShDivine 300
 SetFontSize 50
 SetTextColor 255 255 150 250
 SetBackgroundColor 220 0 220 180
@@ -95,7 +95,8 @@ SetBorderColor 255 255 150
 Show
 Class Currency
 BaseType "Blessing"
-PlayAlertSound 5 200
+#PlayAlertSound 5 200
+PlayAlertSound ShBlessed  300
 SetFontSize 42
 SetTextColor 255 255 150
 SetBackgroundColor 0 0 0 250
@@ -130,8 +131,8 @@ PlayAlertSound 5 120
  
 Show
 BaseType "Chaos Orb"
-PlayAlertSound 5 150
-#PlayAlertSound ShChaos 300
+#PlayAlertSound 5 150
+PlayAlertSound ShChaos 300
 SetFontSize 43
 SetTextColor 255 255 150
 SetBackgroundColor 0 0 0 250
@@ -139,8 +140,8 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Regal Orb"
-PlayAlertSound 5 150
-#PlayAlertSound ShRegal 300
+#PlayAlertSound 5 150
+PlayAlertSound ShRegal 300
 SetFontSize 43
 SetTextColor 255 255 150
 SetBackgroundColor 0 0 0 250
@@ -148,8 +149,8 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Vaal Orb"
-PlayAlertSound 5 150
-#PlayAlertSound ShVaal 300
+#PlayAlertSound 5 150
+PlayAlertSound ShVaal 300
 SetFontSize 43
 SetTextColor 255 255 150
 SetBackgroundColor 0 0 0 250
@@ -157,7 +158,7 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Gemcutter's Prism" "Orb of Regret"
-PlayAlertSound 5 150
+PlayAlertSound ShGeneral 300
 SetFontSize 43
 SetTextColor 255 255 150
 SetBackgroundColor 0 0 0 250
@@ -165,8 +166,8 @@ SetBorderColor 255 255 150
  
 Show
 BaseType "Orb of Alchemy"
-PlayAlertSound 3 150
-#PlayAlertSound ShAlchemy 300
+#PlayAlertSound 3 150
+PlayAlertSound ShAlchemy 300
 SetFontSize 42
 SetTextColor 0 0 0 250
 SetBackgroundColor 255 255 204 200
@@ -174,8 +175,8 @@ SetBorderColor 255 255 255 250
 
 Show
 BaseType "Orb of Fusing"
-PlayAlertSound 3 150
-#PlayAlertSound ShFusing 300
+#PlayAlertSound 3 150
+PlayAlertSound ShFusing 300
 SetFontSize 42
 SetTextColor 0 0 0 250
 SetBackgroundColor 255 255 204 200
@@ -279,7 +280,7 @@ SetBackgroundColor 0 0 0 150
 
 Show
 BaseType "Portal Scroll" "Scroll of Wisdom"
-PlayAlertSound 9 1
+#PlayAlertSound 9 1
 SetFontSize 36
 SetBackgroundColor 0 0 0 140
  
@@ -302,19 +303,55 @@ SetBackgroundColor 200 100 0 200
 SetBorderColor 255 0 0
 
 Show
+Sockets = 6
 LinkedSockets = 5
-PlayAlertSound 2 150
+PlayAlertSound 3 100
 SetFontSize 40
-SetTextColor 255 255 255
-SetBackgroundColor 0 0 50 250 
-SetBorderColor 255 255 255 150
- 
+SetTextColor 255 255 153
+SetBorderColor 255 255 153
+
 Show
 Sockets = 6
 PlayAlertSound 3 100
 SetFontSize 40
 SetTextColor 255 255 153
 SetBorderColor 255 255 153
+
+Show
+LinkedSockets = 5
+ItemLevel >= 80
+PlayAlertSound 2 150
+SetFontSize 30
+SetTextColor 255 255 255
+SetBackgroundColor 0 0 50 250 
+SetBorderColor 255 255 255 150
+
+Show
+LinkedSockets = 5
+ItemLevel >= 76
+PlayAlertSound 2 150
+SetFontSize 34
+SetTextColor 255 255 255
+SetBackgroundColor 0 0 50 250 
+SetBorderColor 255 255 255 150
+
+Show
+LinkedSockets = 5
+ItemLevel >= 72
+PlayAlertSound 2 150
+SetFontSize 37
+SetTextColor 255 255 255
+SetBackgroundColor 0 0 50 250 
+SetBorderColor 255 255 255 150
+
+Show
+LinkedSockets = 5
+ItemLevel >= 69
+PlayAlertSound 2 150
+SetFontSize 40
+SetTextColor 255 255 255
+SetBackgroundColor 0 0 50 250 
+SetBorderColor 255 255 255 150
 
 ### White items that worth to chance
 
@@ -1623,7 +1660,7 @@ SetBorderColor 200 150 200
 # Rare Divination Cards
 Show
 Class "Divination Card"
-BaseType "The Sephirot" "The Queen" "The Last One Standing" "The Spark and the Flame" "Lingering Remnants" "The Brittle Emperor" "The Harvester" "Heterochromia" "Wealth and Power" "The Void" "The Vast" "The Valkyrie" "The Trial" "The Warlord" "The Thaumaturgist" "The Surveyor" "The Stormcaller" "The Sephirot" "The Penitent" "The Offering" "The Last One Standing" "The King's Heart" "The Hunger" "Hope" "The Formless Sea" "The Fox" "The Ethereal" "The Dragon's Heart" "The Devastator" "The Dark Mage" "The Dapper Prodigy" "The Chains that Bind" "The Celestial Justicar" "The Brittle Emperor" "Pride Before the Fall" "Last Hope" "Earth Drinker" "Dialla's Subjugation" "Bowyer's Dream" "Abandoned Wealth" "The Enlightened" "Volatile Power" "The Doppelganger" "Hunter's Resolve" "The Conduit" "Coveted Possession" "Lucky Connections" "The Summoner" "Three Faces in the Dark" "The Cataclysm" "Chaotic Disposition" "The Wrath"
+BaseType "The Sephirot" "The Queen" "The Last One Standing" "The Spark and the Flame" "Lingering Remnants" "The Brittle Emperor" "The Harvester" "Heterochromia" "Wealth and Power" "The Void" "The Vast" "The Valkyrie" "The Trial" "The Warlord" "The Thaumaturgist" "The Surveyor" "The Stormcaller" "The Sephirot" "The Penitent" "The Offering" "The Last One Standing" "The King's Heart" "The Hunger" "Hope" "The Formless Sea" "The Fox" "The Ethereal" "The Dragon's Heart" "The Devastator" "The Dark Mage" "The Dapper Prodigy" "The Chains that Bind" "The Celestial Justicar" "The Brittle Emperor" "Pride Before the Fall" "Last Hope" "Earth Drinker" "Dialla's Subjugation" "Bowyer's Dream" "Abandoned Wealth" "The Enlightened" "Volatile Power" "The Doppelganger" "Hunter's Resolve" "The Conduit" "Coveted Possession" "Lucky Connections" "Three Faces in the Dark" "The Cataclysm" "Chaotic Disposition" "The Wrath"
 PlayAlertSound 2 150
 SetFontSize 40  
 SetTextColor 200 150 200 250
