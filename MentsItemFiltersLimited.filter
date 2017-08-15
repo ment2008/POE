@@ -44,8 +44,8 @@ SetBorderColor 0 0 0
 
 Show
 BaseType "Exalted Orb"
-#PlayAlertSound 1 300
-PlayAlertSound ShExalted 300
+PlayAlertSound 1 300
+#PlayAlertSound ShExalted 300
 SetFontSize 50
 SetTextColor 0 0 0
 SetBackgroundColor 255 0 255 250
@@ -69,8 +69,8 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Divine Orb"
-#PlayAlertSound 5 250
-PlayAlertSound ShDivine 300
+PlayAlertSound 5 250
+#PlayAlertSound ShDivine 300
 SetFontSize 50
 SetTextColor 255 255 150 250
 SetBackgroundColor 220 0 220 180
@@ -95,8 +95,8 @@ SetBorderColor 255 255 150
 Show
 Class Currency
 BaseType "Blessing"
-#PlayAlertSound 5 200
-PlayAlertSound ShBlessed  300
+PlayAlertSound 5 200
+#PlayAlertSound ShBlessed  300
 SetFontSize 42
 SetTextColor 255 255 150
 SetBackgroundColor 0 0 0 250
@@ -131,8 +131,8 @@ PlayAlertSound 5 120
  
 Show
 BaseType "Chaos Orb"
-#PlayAlertSound 5 150
-PlayAlertSound ShChaos 300
+PlayAlertSound 5 150
+#PlayAlertSound ShChaos 300
 SetFontSize 43
 SetTextColor 255 255 150
 SetBackgroundColor 0 0 0 250
@@ -140,8 +140,8 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Regal Orb"
-#PlayAlertSound 5 150
-PlayAlertSound ShRegal 300
+PlayAlertSound 5 150
+#PlayAlertSound ShRegal 300
 SetFontSize 43
 SetTextColor 255 255 150
 SetBackgroundColor 0 0 0 250
@@ -149,8 +149,8 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Vaal Orb"
-#PlayAlertSound 5 150
-PlayAlertSound ShVaal 300
+PlayAlertSound 5 150
+#PlayAlertSound ShVaal 300
 SetFontSize 43
 SetTextColor 255 255 150
 SetBackgroundColor 0 0 0 250
@@ -166,8 +166,8 @@ SetBorderColor 255 255 150
  
 Show
 BaseType "Orb of Alchemy"
-#PlayAlertSound 3 150
-PlayAlertSound ShAlchemy 300
+PlayAlertSound 3 150
+#PlayAlertSound ShAlchemy 300
 SetFontSize 42
 SetTextColor 0 0 0 250
 SetBackgroundColor 255 255 204 200
@@ -175,8 +175,8 @@ SetBorderColor 255 255 255 250
 
 Show
 BaseType "Orb of Fusing"
-#PlayAlertSound 3 150
-PlayAlertSound ShFusing 300
+PlayAlertSound 3 150
+#PlayAlertSound ShFusing 300
 SetFontSize 42
 SetTextColor 0 0 0 250
 SetBackgroundColor 255 255 204 200
@@ -305,7 +305,7 @@ SetBorderColor 255 0 0
 Show
 Sockets = 6
 LinkedSockets = 5
-PlayAlertSound 3 100
+PlayAlertSound 3 150
 SetFontSize 40
 SetTextColor 255 255 153
 SetBorderColor 255 255 153
@@ -320,7 +320,7 @@ SetBorderColor 255 255 153
 Show
 LinkedSockets = 5
 ItemLevel >= 80
-PlayAlertSound 2 150
+PlayAlertSound 2 100
 SetFontSize 30
 SetTextColor 255 255 255
 SetBackgroundColor 0 0 50 250 
@@ -329,7 +329,7 @@ SetBorderColor 255 255 255 150
 Show
 LinkedSockets = 5
 ItemLevel >= 76
-PlayAlertSound 2 150
+PlayAlertSound 2 110
 SetFontSize 34
 SetTextColor 255 255 255
 SetBackgroundColor 0 0 50 250 
@@ -338,7 +338,7 @@ SetBorderColor 255 255 255 150
 Show
 LinkedSockets = 5
 ItemLevel >= 72
-PlayAlertSound 2 150
+PlayAlertSound 2 120
 SetFontSize 37
 SetTextColor 255 255 255
 SetBackgroundColor 0 0 50 250 
@@ -347,7 +347,7 @@ SetBorderColor 255 255 255 150
 Show
 LinkedSockets = 5
 ItemLevel >= 69
-PlayAlertSound 2 150
+PlayAlertSound 2 130
 SetFontSize 40
 SetTextColor 255 255 255
 SetBackgroundColor 0 0 50 250 
