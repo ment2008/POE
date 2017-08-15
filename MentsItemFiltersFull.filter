@@ -52,7 +52,7 @@ SetBorderColor 0 0 0
 
 Show
 BaseType "Eternal Orb" "Ancient Reliquary Key"
-PlayAlertSound 1 300
+PlayAlertSound 1 250
 SetFontSize 50
 SetTextColor 0 0 0
 SetBackgroundColor 255 0 255 250
@@ -94,7 +94,8 @@ SetBorderColor 255 255 150
 Show
 Class Currency
 BaseType "Blessing"
-PlayAlertSound 5 200
+#PlayAlertSound 5 200
+PlayAlertSound ShBlessed  300
 SetFontSize 42
 SetTextColor 255 255 150
 SetBackgroundColor 0 0 0 250
@@ -129,7 +130,7 @@ PlayAlertSound 5 120
  
 Show
 BaseType "Chaos Orb"
-#PlayAlertSound 5 200
+#PlayAlertSound 5 150
 PlayAlertSound ShChaos 300
 SetFontSize 43
 SetTextColor 255 255 150
@@ -138,7 +139,7 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Regal Orb"
-#PlayAlertSound 5 200
+#PlayAlertSound 5 150
 PlayAlertSound ShRegal 300
 SetFontSize 43
 SetTextColor 255 255 150
@@ -147,7 +148,7 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Vaal Orb"
-#PlayAlertSound 5 200
+#PlayAlertSound 5 150
 PlayAlertSound ShVaal 300
 SetFontSize 43
 SetTextColor 255 255 150
@@ -156,7 +157,7 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Gemcutter's Prism" "Orb of Regret"
-PlayAlertSound 5 200
+PlayAlertSound ShGeneral 300
 SetFontSize 43
 SetTextColor 255 255 150
 SetBackgroundColor 0 0 0 250
@@ -181,16 +182,8 @@ SetBackgroundColor 255 255 204 200
 SetBorderColor 255 255 255 250
 
 Show
-BaseType "Orb of Scouring" "Cartographer's Chisel"
+BaseType "Blessed Orb" "Orb of Scouring" "Cartographer's Chisel"
 PlayAlertSound 3 150
-SetFontSize 42
-SetTextColor 0 0 0 250
-SetBackgroundColor 255 255 204 200
-SetBorderColor 255 255 255 250
-
-Show
-BaseType "Blessed Orb"
-PlayAlertSound ShBlessed 3 150
 SetFontSize 42
 SetTextColor 0 0 0 250
 SetBackgroundColor 255 255 204 200
@@ -209,7 +202,7 @@ SetFontSize 42
 SetBackgroundColor 0 0 0 250
 
 Show
-BaseType "Orb of Chance
+BaseType "Orb of Chance"
 PlayAlertSound 9 120
 SetFontSize 42
 SetBackgroundColor 0 0 0 230
@@ -230,14 +223,6 @@ PlayAlertSound 9 100
 SetTextColor 114 0 83 250
 SetBackgroundColor 0 0 0 250
 SetBorderColor 114 0 83 250
-
-Show
-BaseType "Silver Coin"
-PlayAlertSound 9 100
-SetTextColor 0 0 0 250
-SetFontSize 42
-SetBackgroundColor 192 192 192 150
-SetBorderColor 255 255 255 150
 
 Show
 Class Leaguestone
@@ -846,7 +831,7 @@ SetBorderColor 200 150 200
 # Rare Divination Cards
 Show
 Class "Divination Card"
-BaseType "The Queen" "The Last One Standing" "The Spark and the Flame" "Lingering Remnants" "The Brittle Emperor" "The Harvester" "Heterochromia" "Wealth and Power" "The Void" "The Vast" "The Valkyrie" "The Trial" "The Warlord" "The Thaumaturgist" "The Surveyor" "The Stormcaller" "The Sephirot" "The Penitent" "The Offering" "The Last One Standing" "The King's Heart" "The Hunger" "Hope" "The Formless Sea" "The Fox" "The Ethereal" "The Dragon's Heart" "The Devastator" "The Dark Mage" "The Dapper Prodigy" "The Chains that Bind" "The Celestial Justicar" "The Brittle Emperor" "Pride Before the Fall" "Last Hope" "Earth Drinker" "Dialla's Subjugation" "Bowyer's Dream" "Abandoned Wealth" "The Enlightened" "Volatile Power" "The Doppelganger" "Hunter's Resolve" "The Conduit" "Coveted Possession" "Lucky Connections" "The Summoner" "Three Faces in the Dark" "The Cataclysm" "Chaotic Disposition" "The Wrath"
+BaseType "The Queen" "The Last One Standing" "The Spark and the Flame" "Lingering Remnants" "The Brittle Emperor" "The Harvester" "Heterochromia" "Wealth and Power" "The Void" "The Vast" "The Valkyrie" "The Trial" "The Warlord" "The Thaumaturgist" "The Surveyor" "The Stormcaller" "The Sephirot" "The Penitent" "The Offering" "The Last One Standing" "The King's Heart" "The Hunger" "Hope" "The Formless Sea" "The Fox" "The Ethereal" "The Dragon's Heart" "The Devastator" "The Dark Mage" "The Dapper Prodigy" "The Chains that Bind" "The Celestial Justicar" "The Brittle Emperor" "Pride Before the Fall" "Last Hope" "Earth Drinker" "Dialla's Subjugation" "Bowyer's Dream" "Abandoned Wealth" "The Enlightened" "Volatile Power" "The Doppelganger" "Hunter's Resolve" "The Conduit" "Coveted Possession" "Lucky Connections" "Three Faces in the Dark" "The Cataclysm" "Chaotic Disposition" "The Wrath"
 PlayAlertSound 2 150
 SetFontSize 40  
 SetTextColor 200 150 200 250
