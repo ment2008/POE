@@ -43,8 +43,8 @@ SetBorderColor 0 0 0
 
 Show
 BaseType "Exalted Orb"
-#PlayAlertSound 1 300
-PlayAlertSound ShExalted 300
+PlayAlertSound 1 300
+#PlayAlertSound ShExalted 300
 SetFontSize 50
 SetTextColor 0 0 0
 SetBackgroundColor 255 0 255 250
@@ -68,8 +68,8 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Divine Orb"
-#PlayAlertSound 5 250
-PlayAlertSound ShDivine 300
+PlayAlertSound 5 250
+#PlayAlertSound ShDivine 300
 SetFontSize 50
 SetTextColor 255 255 150 250
 SetBackgroundColor 220 0 220 180
@@ -94,8 +94,8 @@ SetBorderColor 255 255 150
 Show
 Class Currency
 BaseType "Blessing"
-#PlayAlertSound 5 200
-PlayAlertSound ShBlessed  300
+PlayAlertSound 5 200
+#PlayAlertSound ShBlessed  300
 SetFontSize 42
 SetTextColor 255 255 150
 SetBackgroundColor 0 0 0 250
@@ -130,8 +130,8 @@ PlayAlertSound 5 120
  
 Show
 BaseType "Chaos Orb"
-#PlayAlertSound 5 150
-PlayAlertSound ShChaos 300
+PlayAlertSound 5 150
+#PlayAlertSound ShChaos 300
 SetFontSize 43
 SetTextColor 255 255 150
 SetBackgroundColor 0 0 0 250
@@ -139,8 +139,8 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Regal Orb"
-#PlayAlertSound 5 150
-PlayAlertSound ShRegal 300
+PlayAlertSound 5 150
+#PlayAlertSound ShRegal 300
 SetFontSize 43
 SetTextColor 255 255 150
 SetBackgroundColor 0 0 0 250
@@ -148,8 +148,8 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Vaal Orb"
-#PlayAlertSound 5 150
-PlayAlertSound ShVaal 300
+PlayAlertSound 5 150
+#PlayAlertSound ShVaal 300
 SetFontSize 43
 SetTextColor 255 255 150
 SetBackgroundColor 0 0 0 250
@@ -165,8 +165,8 @@ SetBorderColor 255 255 150
  
 Show
 BaseType "Orb of Alchemy"
-#PlayAlertSound 3 150
-PlayAlertSound ShAlchemy 300
+PlayAlertSound 3 150
+#PlayAlertSound ShAlchemy 300
 SetFontSize 42
 SetTextColor 0 0 0 250
 SetBackgroundColor 255 255 204 200
@@ -174,8 +174,8 @@ SetBorderColor 255 255 255 250
 
 Show
 BaseType "Orb of Fusing"
-#PlayAlertSound 3 150
-PlayAlertSound ShFusing 300
+PlayAlertSound 3 150
+#PlayAlertSound ShFusing 300
 SetFontSize 42
 SetTextColor 0 0 0 250
 SetBackgroundColor 255 255 204 200
@@ -223,6 +223,14 @@ PlayAlertSound 9 100
 SetTextColor 114 0 83 250
 SetBackgroundColor 0 0 0 250
 SetBorderColor 114 0 83 250
+
+Show
+BaseType "Silver Coin"
+PlayAlertSound 9 100
+SetTextColor 0 0 0 250
+SetFontSize 42
+SetBackgroundColor 192 192 192 150
+SetBorderColor 255 255 255 150
 
 Show
 Class Leaguestone
