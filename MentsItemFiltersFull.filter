@@ -1,4 +1,4 @@
-# Ment's Item Filters Full v3.0b #
+# Ment's Item Filters Full v3.0c #
  
 #Ment's Filter highlights 
  
@@ -103,12 +103,12 @@ SetBorderColor 255 255 150
 
 Show
 Class Currency
-BaseType "Splinter of Uul-Netol" "Splinter of Chayula"
-SetFontSize 42
-SetTextColor 255 255 150
+BaseType "Splinter of Uul-Netol" "Splinter of Chayula" "Splinter of Xoph" "Splinter of Esh" "Splinter of Tul"
+SetFontSize 38
+SetTextColor 255 200 180 250
 SetBackgroundColor 0 0 0 250
-SetBorderColor 255 255 150
-PlayAlertSound 5 200
+SetBorderColor 255 200 180 250
+PlayAlertSound 14 110
 
 Show
 Class Currency
@@ -116,18 +116,9 @@ BaseType "Engineer's Orb" "Orb of Binding" "Orb of Horizons" "Annulment Shard" "
 SetFontSize 38
 SetTextColor 255 255 100
 SetBackgroundColor 0 0 0 250
-SetBorderColor 255 255 150
+SetBorderColor 50 50 250 250
 PlayAlertSound 15 200
 
-Show
-Class Currency
-BaseType "Splinter of Xoph" "Splinter of Esh" "Splinter of Tul"
-SetFontSize 37
-SetTextColor 255 255 150
-SetBackgroundColor 0 0 0 250
-SetBorderColor 255 255 150
-PlayAlertSound 5 120
- 
 Show
 BaseType "Chaos Orb"
 PlayAlertSound 5 150
@@ -156,8 +147,18 @@ SetBackgroundColor 0 0 0 250
 SetBorderColor 255 255 150
 
 Show
-BaseType "Gemcutter's Prism" "Orb of Regret"
-PlayAlertSound ShGeneral 300
+BaseType "Gemcutter's Prism"
+PlayAlertSound 5 150
+#PlayAlertSound ShGeneral 300
+SetFontSize 43
+SetTextColor 255 255 150
+SetBackgroundColor 0 0 0 250
+SetBorderColor 255 255 150
+
+Show
+BaseType "Orb of Regret"
+PlayAlertSound 5 150
+#PlayAlertSound ShGeneral 300
 SetFontSize 43
 SetTextColor 255 255 150
 SetBackgroundColor 0 0 0 250
@@ -192,8 +193,17 @@ SetBorderColor 255 255 255 250
 Show
 BaseType "Chaos Shard" "Regal Shard"
 PlayAlertSound 9 100
-SetFontSize 40
+SetFontSize 35
+SetTextColor 255 255 100 150
 SetBackgroundColor 0 0 0 250
+SetBorderColor 50 50 250 150
+
+Show
+BaseType "Alchemy Shard"
+PlayAlertSound 9 100
+SetFontSize 32
+SetBackgroundColor 0 0 0 250
+SetBorderColor 50 50 250 100
 
 Show
 BaseType "Jeweller's Orb" "Chromatic Orb" "Orb of Alteration" "Glassblower's Bauble"
@@ -891,33 +901,51 @@ SetBorderColor 200 70 0
  
 Show
 Class Map
-DropLevel >= 80
+DropLevel >= 82
+SetFontSize 45
 PlayAlertSound 6 200
-SetFontSize 42
+SetTextColor 255 0 0 250
 
 Show
 Class Map
-DropLevel >= 78
-PlayAlertSound 6 170
+DropLevel >= 81
+SetFontSize 45
+PlayAlertSound 6 200
+
+Show
+Class Map
+DropLevel >= 79
+SetFontSize 40
+PlayAlertSound 6 100
 SetFontSize 42
  
 Show
 Class Map
-DropLevel >= 76
-PlayAlertSound 6 150
+DropLevel >= 77
+SetFontSize 35
+PlayAlertSound 6 100
 SetFontSize 42
-
-Show
-Class Map
-DropLevel >= 72
-SetFontSize 40
  
 Show
 Class Map
 Rarity = Rare
-SetFontSize 35
+SetFontSize 38
 SetTextColor 255 255 0
 SetBorderColor 255 255 0
+SetBackgroundColor 70 70 70 250
+ 
+Show
+Class Map
+Rarity = Magic
+SetFontSize 35
+ 
+Show
+Class Map
+Rarity = Normal
+SetFontSize 35
+PlayAlertSound 9 200
+SetTextColor 192 192 192
+SetBorderColor 192 192 192
  
 Show
 Class Map
@@ -934,6 +962,17 @@ SetTextColor 192 192 192
 SetBorderColor 192 192 192
 
 ### White items that worth to chance
+
+# Can be chanced anywhere
+Show
+BaseType "Ebony Tower Shield"
+ItemLevel >= 61
+PlayAlertSound 3 150
+Rarity = Normal
+SetFontSize 40
+SetBackgroundColor 0 0 0 200
+SetBorderColor 175 96 37 250
+SetTextColor 255 255 240 200
 
 # Can be chanced anywhere
 Show
