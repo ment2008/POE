@@ -840,7 +840,6 @@ SetFontSize 40
 
 Show 
 BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
-Rarity Rare
 SetTextColor 200 145 0
 SetBorderColor 255 255 0 100
 SetFontSize 38
