@@ -1,4 +1,4 @@
-# Ment's Item Filters Full v3.0c #
+# Ment's Item Filters Full v3.0d #
  
 #Ment's Filter highlights 
  
@@ -121,47 +121,45 @@ PlayAlertSound 15 200
 
 Show
 BaseType "Chaos Orb"
-PlayAlertSound 5 150
+PlayAlertSound 5 120
 #PlayAlertSound ShChaos 300
 SetFontSize 43
-SetTextColor 255 255 150
-SetBackgroundColor 0 0 0 250
+SetTextColor 255 255 150 250
+SetBackgroundColor 50 50 50 250
 SetBorderColor 255 255 150
 
 Show
 BaseType "Regal Orb"
-PlayAlertSound 5 150
+PlayAlertSound 5 120
 #PlayAlertSound ShRegal 300
 SetFontSize 43
-SetTextColor 255 255 150
-SetBackgroundColor 0 0 0 250
+SetTextColor 255 255 150 250
+SetBackgroundColor 50 50 50 250
 SetBorderColor 255 255 150
 
 Show
 BaseType "Vaal Orb"
-PlayAlertSound 5 150
+PlayAlertSound 5 120
 #PlayAlertSound ShVaal 300
 SetFontSize 43
-SetTextColor 255 255 150
-SetBackgroundColor 0 0 0 250
+SetTextColor 255 255 150 250
+SetBackgroundColor 50 50 50 250
 SetBorderColor 255 255 150
 
 Show
 BaseType "Gemcutter's Prism"
-PlayAlertSound 5 150
-#PlayAlertSound ShGeneral 300
+PlayAlertSound 5 120
 SetFontSize 43
-SetTextColor 255 255 150
-SetBackgroundColor 0 0 0 250
+SetTextColor 255 255 150 250
+SetBackgroundColor 50 50 50 250
 SetBorderColor 255 255 150
 
 Show
 BaseType "Orb of Regret"
-PlayAlertSound 5 150
-#PlayAlertSound ShGeneral 300
+PlayAlertSound 5 120
 SetFontSize 43
-SetTextColor 255 255 150
-SetBackgroundColor 0 0 0 250
+SetTextColor 255 255 150 250
+SetBackgroundColor 50 50 50 250
 SetBorderColor 255 255 150
  
 Show
@@ -837,19 +835,20 @@ SetBorderColor 0 191 0 250
 ### Divination Cards
  
 # Unique Divination Cards
+
 Show
 Class "Divination Card"
-BaseType "The Immortal" "Mawr Blaidd" "Hunter's Reward" "House of Mirrors" "The Doctor" "The Fiend" 
-PlayAlertSound 4 250
-SetFontSize 50 
-SetTextColor 200 150 200 250
+BaseType "The Immortal" "Mawr Blaidd" "Hunter's Reward" "House of Mirrors" "The Doctor" "The Fiend" "Pride Before the Fall" 
+PlayAlertSound 10 300
+SetFontSize 50
+SetTextColor 255 51 51 255
 SetBackgroundColor 0 0 0 250
 SetBorderColor 200 150 200
  
 # Rare Divination Cards
 Show
 Class "Divination Card"
-BaseType "The Queen" "The Last One Standing" "The Spark and the Flame" "Lingering Remnants" "The Brittle Emperor" "The Harvester" "Heterochromia" "Wealth and Power" "The Void" "The Vast" "The Valkyrie" "The Trial" "The Warlord" "The Thaumaturgist" "The Surveyor" "The Stormcaller" "The Sephirot" "The Penitent" "The Offering" "The Last One Standing" "The King's Heart" "The Hunger" "Hope" "The Formless Sea" "The Fox" "The Ethereal" "The Dragon's Heart" "The Devastator" "The Dark Mage" "The Dapper Prodigy" "The Chains that Bind" "The Celestial Justicar" "The Brittle Emperor" "Pride Before the Fall" "Last Hope" "Earth Drinker" "Dialla's Subjugation" "Bowyer's Dream" "Abandoned Wealth" "The Enlightened" "Volatile Power" "The Doppelganger" "Hunter's Resolve" "The Conduit" "Coveted Possession" "Lucky Connections" "Three Faces in the Dark" "The Cataclysm" "Chaotic Disposition" "The Wrath"
+BaseType "The Queen" "The Last One Standing" "The Spark and the Flame" "Lingering Remnants" "The Brittle Emperor" "The Harvester" "Heterochromia" "Wealth and Power" "The Void" "The Vast" "The Valkyrie" "The Trial" "The Warlord" "The Thaumaturgist" "The Surveyor" "The Stormcaller" "The Sephirot" "The Penitent" "The Offering" "The Last One Standing" "The King's Heart" "The Hunger" "Hope" "The Formless Sea" "The Fox" "The Ethereal" "The Dragon's Heart" "The Devastator" "The Dark Mage" "The Dapper Prodigy" "The Chains that Bind" "The Celestial Justicar" "The Brittle Emperor" "Last Hope" "Earth Drinker" "Dialla's Subjugation" "Bowyer's Dream" "Abandoned Wealth" "The Enlightened" "Volatile Power" "The Doppelganger" "Hunter's Resolve" "The Conduit" "Coveted Possession" "Lucky Connections" "Three Faces in the Dark" "The Cataclysm" "Chaotic Disposition" "The Wrath"
 PlayAlertSound 2 150
 SetFontSize 40  
 SetTextColor 200 150 200 250
@@ -859,6 +858,14 @@ SetBorderColor 255 255 255 180
 Show
 Class "Divination Card"
 PlayAlertSound 2 10
+SetFontSize 30 
+SetTextColor 200 150 200 250
+SetBackgroundColor 0 0 0 200
+SetBorderColor 255 255 255 180
+
+Hide
+Class "Divination Card"
+BaseType "The Carrion Crow"
 SetFontSize 30 
 SetTextColor 200 150 200 250
 SetBackgroundColor 0 0 0 200
@@ -908,23 +915,21 @@ SetTextColor 255 0 0 250
 
 Show
 Class Map
-DropLevel >= 81
+DropLevel >= 80
 SetFontSize 45
-PlayAlertSound 6 200
+PlayAlertSound 6 150
 
 Show
 Class Map
 DropLevel >= 79
-SetFontSize 40
-PlayAlertSound 6 100
 SetFontSize 42
+PlayAlertSound 6 100
  
 Show
 Class Map
 DropLevel >= 77
-SetFontSize 35
-PlayAlertSound 6 100
-SetFontSize 42
+SetFontSize 37
+PlayAlertSound 6 50
  
 Show
 Class Map
