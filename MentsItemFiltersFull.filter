@@ -603,7 +603,6 @@ SetBorderColor 175 96 37
  
 Show 
 BaseType "Breach Ring" "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
-Rarity Rare
 SetTextColor 200 145 0
 SetBorderColor 255 255 0 255
 SetFontSize 40
