@@ -1,4 +1,4 @@
-# Ment's Item Filters Limited ( Hidden Drops: Gems without Exp/Quality | Low ilvl Drops [under 60 Rare Under 75 White] | Large RGB Vendor Items | low Quality Flasks ) v3.0d #
+# Ment's Item Filters Limited ( Hidden Drops: Gems without Exp/Quality | Low ilvl Drops [under 60 Rare Under 75 White] | Large RGB Vendor Items | low Quality Flasks ) v3.1a #
  
 #Ment's Filter highlights
  
@@ -7,8 +7,8 @@
 #Keep it organized, sizeable rarity (white low size, magic mid size, rare normal size).
 #Fit it to your screen, you won't get a mess over the whole screen.
 #A lot of tests have been made during the awakening beta. the original code have been improved to enhance the performance and the quality for the Novice~Experienced Exile.
-#Filter have been splitted into a two parts: Full & Limited, for letting the Novice players (Without basic coding knowledge) the ability to edit or modificate the script.
-#Filter have been splitted into a two parts: Full & Limited, Full for leveling and LIMITED for farming.
+#Filter have been spitted into a two parts: Full & Limited, for letting the Novice players (Without basic coding knowledge) the ability to edit or modificate the script.
+#Filter have been spitted into a two parts: Full & Limited, Full for leveling and LIMITED for farming.
 #You still will be able to see the "Hidden" drops simply by holding the "ALT" key.
 #
 #
@@ -16,10 +16,12 @@
 # Socket/Links
 # Top Bases
 # Labyrinth Misc
+# Abyss Jewel
 # Essesnce
 # Talisman Gear
 # Unique Gear
 # RGB
+# Elder Gear
 # Rare Gear
 # Gems
 # Misc Items
@@ -94,7 +96,7 @@ SetBorderColor 255 255 150
 
 Show
 Class Currency
-BaseType "Blessing"
+BaseType "Blessing" "Orb of Annulment"
 PlayAlertSound 5 200
 #PlayAlertSound ShBlessed  300
 SetFontSize 42
@@ -364,6 +366,22 @@ SetTextColor 255 255 255
 SetBackgroundColor 0 0 50 250 
 SetBorderColor 255 255 255 150
 
+Show
+BaseType "Stygian Vise"
+Rarity Rare
+SetFontSize 35
+SetBackgroundColor 0 0 0 200
+SetBorderColor 175 96 37 250
+PlayAlertSound 10 150
+
+Show
+BaseType "Stygian Vise"
+SetFontSize 35
+SetBackgroundColor 0 0 0 200
+SetBorderColor 175 96 37 250
+SetTextColor 255 255 240 200
+PlayAlertSound 10 150
+
 ### White items that worth to chance
 
 # Can be chanced anywhere
@@ -403,15 +421,6 @@ SetTextColor 255 255 240 200
 Show
 BaseType "Glorious Plate"
 ItemLevel >= 60
-Rarity = Normal
-SetFontSize 35
-SetBackgroundColor 0 0 0 200
-SetBorderColor 175 96 37 250
-SetTextColor 255 255 240 200
-
-# Chace "Leather Belt" only on Zana's level 7 Neemesis Map Device mod
-Show
-BaseType "Leather Belt"
 Rarity = Normal
 SetFontSize 35
 SetBackgroundColor 0 0 0 200
@@ -644,13 +653,49 @@ SetTextColor 0 0 0 250
 SetBackgroundColor 200 200 50 200
 SetBorderColor 0 0 0
 
+### Abyss Jewel
+
+Show
+Class "Abyss Jewel"
+Rarity = Rare
+ItemLevel >= 84
+SetFontSize 42
+SetBorderColor 0 50 0 255
+SetBackgroundColor 200 100 0 100
+PlayAlertSound 14 200
+
+Show
+Class "Abyss Jewel"
+Rarity <= Magic
+ItemLevel >= 84
+SetFontSize 40
+SetBorderColor 0 50 0 255
+SetBackgroundColor 200 50 20 100
+PlayAlertSound 14 200 
+	
+Show
+Class "Abyss Jewel"
+Rarity = Rare
+SetFontSize 40
+SetBorderColor 0 50 0 255
+SetBackgroundColor 200 100 0 100
+PlayAlertSound 14 200
+
+Show
+Class "Abyss Jewel"
+Rarity Magic
+SetFontSize 37
+SetBorderColor 0 50 0 255
+SetBackgroundColor 200 50 20 100
+PlayAlertSound 14 200
+
 ### Essence
 
 Show
 Class Currency
 BaseType "Screaming Essence of"
 SetTextColor 0 0 0 255
-SetBorderColor 0 0 0 255
+SetBorderColor 0 50 0 255
 SetBackgroundColor 100 150 130 200
 SetFontSize 35
 PlayAlertSound 2 250
@@ -865,6 +910,15 @@ Height <= 4
 SetFontSize 40
 SetBackgroundColor 0 0 0 200
 SetTextColor 170 158 130
+
+### Ekder Gear
+
+Show
+Rarity <= Rare 
+ElderItem True 
+SetFontSize 40
+SetBorderColor 135 0 220 255
+PlayAlertSound 12 100
  
 ### Rare Gear
 
@@ -1716,6 +1770,16 @@ SetTextColor 200 150 200 250
 SetBackgroundColor 0 0 0 235
 SetBorderColor 255 255 255 180
 
+# 3.1 Divination Cards
+Show
+Class "Divination Card"
+BaseType "The Ruthless Ceinture" "No Traces" "The Realm" "The Eye of the Dragon" "The Blazing Fire" "Left to Fate"
+PlayAlertSound 2 150
+SetFontSize 40  
+SetTextColor 200 150 200 250
+SetBackgroundColor 0 0 0 235
+SetBorderColor 255 255 255 180
+
 Show
 Class "Divination Card"
 PlayAlertSound 2 10
@@ -1733,6 +1797,13 @@ SetBackgroundColor 0 0 0 200
 SetBorderColor 255 255 255 180
 
 ### Maps
+
+Show
+Class "Maps" 
+ShapedMap True 
+SetFontSize 40 
+SetBorderColor 255 0 0 255
+PlayAlertSound 6 90
 
 Show
 Class "Map Fragments"
