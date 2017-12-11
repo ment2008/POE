@@ -708,7 +708,9 @@ Show
 Rarity <= Rare 
 ElderItem True 
 SetFontSize 40
-SetBorderColor 135 0 220 255
+SetBorderColor 0 100 0 255
+SetTextColor 255 255 220 255
+SetBackgroundColor 0 100 150 100
 PlayAlertSound 12 100
 
 ### Rare Gear
