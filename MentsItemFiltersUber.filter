@@ -925,16 +925,71 @@ SetFontSize 40
 SetBackgroundColor 0 0 0 200
 SetTextColor 170 158 130
 
-### Ekder Gear
+### Elder Gear
+
+### Elder Gear
 
 Show
+ShaperItem True
+BaseType "Stygian Vise" "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Onyx Amulet" "Diamond" "Two-Stone" "Titan Gauntlets" "Slink Gloves" "Royal Burgonet" "Lion Pelt" "Titan Greaves" "Slink Boots" "Hubris Circlet" "Profane Wand" "Sambar Sceptre" "Void Sceptre" "Imbued Wand" "Pinnacle Tower Shield" "Kris" "Prismatic" "Astral Plate" "Assassin's Garb" "Vaal Axe" "Coronal Maul" "Exquisite Blade" "Fleshripper" "Harbinger Bow" "Gemini Claw" "Ambusher" "Siege Axe" "Harpy Rapier" "Demon Dagger" "Skean" "Spiraled Foil" "Jewelled Foil" "Profane Wand" "Sambar Sceptre" "Void Sceptre" "Imbued Wand" "Pinnacle Tower Shield" "Kris" "Prismatic" "Astral Plate" "Assassin's Garb"  "Vanguard Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Crystal Belt" 
 Rarity <= Rare 
 ElderItem True 
-SetFontSize 40
-SetBorderColor 0 100 0 255
-SetTextColor 255 255 220 255
-SetBackgroundColor 0 100 150 100
-PlayAlertSound 12 100
+SetFontSize 45
+SetTextColor 255 255 255 255
+SetBorderColor 0 255 255 255
+SetBackgroundColor 0 0 165 150
+PlayAlertSound 12 300
+	
+Show
+ElderItem True
+BaseType "Stygian Vise" "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt"  "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Onyx Amulet" "Diamond" "Two-Stone" "Titan Gauntlets" "Slink Gloves" "Royal Burgonet" "Lion Pelt" "Titan Greaves" "Slink Boots" "Hubris Circlet" "Profane Wand" "Sambar Sceptre" "Void Sceptre" "Imbued Wand" "Pinnacle Tower Shield" "Kris" "Prismatic" "Astral Plate" "Assassin's Garb" "Vaal Axe" "Coronal Maul" "Exquisite Blade" "Fleshripper" "Harbinger Bow" "Gemini Claw" "Ambusher" "Siege Axe" "Harpy Rapier" "Demon Dagger" "Skean" "Spiraled Foil" "Jewelled Foil" "Profane Wand" "Sambar Sceptre" "Void Sceptre" "Imbued Wand" "Pinnacle Tower Shield" "Kris" "Prismatic" "Astral Plate" "Assassin's Garb" "Crystal Belt"
+Rarity <= Rare 
+ElderItem True 
+SetFontSize 45
+SetTextColor 255 255 255 255
+SetBorderColor 0 255 255 255
+SetBackgroundColor 0 0 165 150
+PlayAlertSound 12 300
+
+Show
+ElderItem True
+Class "Boots" "Gloves" "Belt" "Ring" "Amulet" "Helmet" "Dagger" "Sceptre" "Wand" "Claw" "Sword" "Axe" "Shield" "Bow" "Mace"
+Rarity <= Rare 
+ElderItem True 
+SetFontSize 45
+SetTextColor 255 255 255 255
+SetBorderColor 0 255 255 255
+SetBackgroundColor 0 0 165 150
+PlayAlertSound 12 300
+
+Show
+ElderItem True
+Rarity <= Rare
+SetFontSize 45
+SetTextColor 255 255 255 255
+SetBorderColor 0 255 255 255
+SetBackgroundColor 0 0 165 150
+PlayAlertSound 12 300
+
+Show
+ShaperItem True
+Class "Boots" "Gloves" "Belt" "Ring" "Amulet" "Helmet" "Dagger" "Sceptre" "Wand" "Claw" "Sword" "Axe" "Shield" "Bow" "Mace"
+Rarity <= Rare 
+ElderItem True 
+SetFontSize 45
+SetTextColor 255 255 255 255
+SetBorderColor 0 255 255 255
+SetBackgroundColor 0 0 165 150
+PlayAlertSound 12 300
+
+Show
+ShaperItem True
+Rarity <= Rare
+SetFontSize 45
+SetTextColor 255 255 255 255
+SetBorderColor 0 255 255 255
+SetBackgroundColor 0 0 165 150
+PlayAlertSound 12 300
  
 ### Rare Gear
 
