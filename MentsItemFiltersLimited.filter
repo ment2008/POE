@@ -450,7 +450,7 @@ SetBackgroundColor 0 0 0 250
 SetBorderColor 63 191 63 250
 
 Show
-BaseType "Ambusher" "Copper Kris" "Golden Kris" "Platinum Kris" "Fleshripper" "Vaal Axe" "Lion Sword" "Vaal Greatsword" "Ambusher" "Coronal Maul" "Exquisite Blade"  "Harbinger Bow" "Gemini Claw" "Void Sceptre" "Opal Sceptre" "Profane Wand" "Prophecy Wand" "Opal Wand" "Sambar Sceptre" "Imbued Wand""Demon Dagger" "Imperial Skean" "Vaal Hatchet" "Runic Hatchet" "Behemoth Mace" "Eternal Sword" "Tiger Hook" "Eclipse Staff" "Maelstr" "Judgement Staff" "Jewelled Foil" "Dragoon Sword"
+BaseType "Ambusher" "Copper Kris" "Golden Kris" "Platinum Kris" "Fleshripper" "Vaal Axe" "Lion Sword" "Vaal Greatsword" "Ambusher" "Coronal Maul" "Exquisite Blade"  "Harbinger Bow" "Gemini Claw" "Void Sceptre" "Opal Sceptre" "Profane Wand" "Prophecy Wand" "Opal Wand" "Sambar Sceptre" "Imbued Wand" "Demon Dagger" "Imperial Skean" "Vaal Hatchet" "Runic Hatchet" "Behemoth Mace" "Eternal Sword" "Tiger Hook" "Eclipse Staff" "Maelstr" "Judgement Staff" "Jewelled Foil" "Dragoon Sword"
 Rarity Normal Magic
 ItemLevel >= 84
 SetBackgroundColor 0 0 0 250
