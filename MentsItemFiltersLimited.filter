@@ -435,15 +435,6 @@ SetBackgroundColor 0 0 0 200
 SetBorderColor 175 96 37 250
 SetTextColor 255 255 240 200
 
-# Chace "Agate Amulet" only on Zana's level 2 Onslaught Map Device mod
-Show
-BaseType "Agate Amulet"
-Rarity = Normal
-SetFontSize 35
-SetBackgroundColor 0 0 0 200
-SetBorderColor 175 96 37 250
-SetTextColor 255 255 240 200
-
 # More Chance Bases: "Occultist's Vestment" "Prophecy Wand" "Spine Bow" "Chain Belt" "Siege Axe" "Judgement Staff" "Imperial Bow"
 
 ### Top Bases
@@ -453,106 +444,106 @@ SetTextColor 255 255 240 200
 Show
 BaseType "Ambusher" "Copper Kris" "Golden Kris" "Platinum Kris" "Fleshripper" "Vaal Axe" "Lion Sword" "Vaal Greatsword" "Ambusher" "Coronal Maul" "Exquisite Blade" "Harbinger Bow" "Gemini Claw" "Void Sceptre" "Opal Sceptre" "Profane Wand" "Prophecy Wand" "Opal Wand" "Sambar Sceptre" "Imbued Wand" "Demon Dagger" "Imperial Skean" "Vaal Hatchet" "Runic Hatchet" "Behemoth Mace" "Eternal Sword" "Tiger Hook" "Eclipse Staff" "Maelstr" "Judgement Staff" "Jewelled Foil" "Dragoon Sword"
 Rarity Rare
-ItemLevel >= 84
+ItemLevel >= 86
 SetBackgroundColor 0 0 0 250
-SetBorderColor 63 191 63 250
+SetBorderColor 220 0 50 250
 
 Show
 BaseType "Ambusher" "Copper Kris" "Golden Kris" "Platinum Kris" "Fleshripper" "Vaal Axe" "Lion Sword" "Vaal Greatsword" "Ambusher" "Coronal Maul" "Exquisite Blade"  "Harbinger Bow" "Gemini Claw" "Void Sceptre" "Opal Sceptre" "Profane Wand" "Prophecy Wand" "Opal Wand" "Sambar Sceptre" "Imbued Wand" "Demon Dagger" "Imperial Skean" "Vaal Hatchet" "Runic Hatchet" "Behemoth Mace" "Eternal Sword" "Tiger Hook" "Eclipse Staff" "Maelstr" "Judgement Staff" "Jewelled Foil" "Dragoon Sword"
 Rarity Normal Magic
-ItemLevel >= 84
+ItemLevel >= 86
 SetBackgroundColor 0 0 0 250
-SetBorderColor 63 191 63 250
+SetBorderColor 220 0 50 250
 
 # Chests
 
 Show
 BaseType "Glorious Plate" "Astral Plate" "Zodiac Leather" "Assassin's Garb" "Vaal Regalia" "Full Dragonscale" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Carnal Armour" "Blood Raiment"
 Rarity Rare
-ItemLevel >= 84
+ItemLevel >= 86
 SetBackgroundColor 0 0 0 250
-SetBorderColor 63 191 63 250
+SetBorderColor 220 0 50 250
 
 Show
 BaseType "Glorious Plate" "Astral Plate" "Zodiac Leather" "Assassin's Garb" "Vaal Regalia" "Full Dragonscale" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Carnal Armour" "Blood Raiment"
 Rarity Normal Magic
-ItemLevel >= 84
+ItemLevel >= 86
 SetBackgroundColor 0 0 0 250
-SetBorderColor 63 191 63 250
+SetBorderColor 220 0 50 250
 
 # Shields
 
 Show
 BaseType "Sacrificial Garb" "Colossal Tower Shield" "Lacquered Buckler" "Titanium Spirit Shield" "Harmonic Spirit Shield" "Vaal Spirit Shield" "Champion Kite Shield" "Archon Kite Shield"
 Rarity Rare
-ItemLevel >= 84
+ItemLevel >= 86
 SetBackgroundColor 0 0 0 250
-SetBorderColor 63 191 63 250
+SetBorderColor 220 0 50 250
 
 Show
 BaseType "Sacrificial Garb" "Colossal Tower Shield" "Lacquered Buckler" "Titanium Spirit Shield" "Harmonic Spirit Shield" "Vaal Spirit Shield" "Champion Kite Shield" "Archon Kite Shield"
 Rarity Normal Magic
-ItemLevel >= 84
+ItemLevel >= 86
 SetBackgroundColor 0 0 0 250
-SetBorderColor 63 191 63 250
+SetBorderColor 220 0 50 250
 
 # Helms
 
 
 Show
 BaseType "Royal Burgonet" "Eternal Burgonet"
-ItemLevel >= 84
+ItemLevel >= 86
 SetFontSize 40
 SetTextColor 63 191 63 250
 SetBackgroundColor 0 0 0 250
-SetBorderColor 63 191 63 250
+SetBorderColor 220 0 50 250
 
 
 Show
 BaseType "Royal Burgonet" "Eternal Burgonet" "Lion Pelt" "Sinner Tricorne" "Hubris Circlet" "Nightmare Bascinet" "Praetor Crown" "Deicide Mask" "Vaal Mask"
 Rarity Rare
-ItemLevel >= 84
+ItemLevel >= 86
 SetBackgroundColor 0 0 0 250
-SetBorderColor 63 191 63 250
+SetBorderColor 220 0 50 250
 
 Show
 BaseType "Royal Burgonet" "Eternal Burgonet" "Lion Pelt" "Sinner Tricorne" "Hubris Circlet" "Nightmare Bascinet" "Praetor Crown" "Deicide Mask" "Vaal Mask"
 Rarity Normal Magic
-ItemLevel >= 84
+ItemLevel >= 86
 SetBackgroundColor 0 0 0 250
-SetBorderColor 63 191 63 250
+SetBorderColor 220 0 50 250
 
 # Boots
 
 Show
 BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Assassin's Boots"
 Rarity Rare
-ItemLevel >= 84
+ItemLevel >= 86
 SetBackgroundColor 0 0 0 250
-SetBorderColor 63 191 63 250
+SetBorderColor 220 0 50 250
 
 Show
 BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Assassin's Boots"
 Rarity Normal Magic
-ItemLevel >= 84
+ItemLevel >= 86
 SetBackgroundColor 0 0 0 250
-SetBorderColor 63 191 63 250
+SetBorderColor 220 0 50 250
 
 # Gloves
 
 Show
 BaseType "Titan Gauntlets" "Vaal Gauntlets" "Slink Gloves" "Stealth Gloves" "Sorcerer Gloves" "Assassin's Mitts" "Arcanist Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts"
 Rarity Rare
-ItemLevel >= 84
+ItemLevel >= 86
 SetBackgroundColor 0 0 0 250
-SetBorderColor 63 191 63 250
+SetBorderColor 220 0 50 250
 
 Show
 BaseType "Titan Gauntlets" "Vaal Gauntlets" "Slink Gloves" "Stealth Gloves" "Sorcerer Gloves" "Assassin's Mitts" "Arcanist Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts"
 Rarity Normal Magic
-ItemLevel >= 84
+ItemLevel >= 86
 SetBackgroundColor 0 0 0 250
-SetBorderColor 63 191 63 250
+SetBorderColor 220 0 50 250
 
 # Rings & Amulets
 
@@ -565,26 +556,38 @@ SetFontSize 35
 Show
 BaseType "Diamond Ring" "Coral Ring" "Moonstone Ring" "Amethyst Ring" "Two-Stone Ring" "Onyx Amulet" "Agate Amulet" "Unset Ring" "Turquoise Amulet" "Citrine Amulet"
 Rarity Rare
-ItemLevel >= 84
+ItemLevel >= 86
 SetBackgroundColor 0 0 0 250
-SetBorderColor 63 191 63 250
+SetBorderColor 220 0 50 250
 
 
 Show
 BaseType "Diamond Ring" "Coral Ring" "Moonstone Ring" "Amethyst Ring" "Two-Stone Ring" "Onyx Amulet" "Agate Amulet" "Unset Ring" "Turquoise Amulet" "Citrine Amulet"
 Rarity Normal Magic
-ItemLevel >= 84
+ItemLevel >= 86
 SetBackgroundColor 0 0 0 250
-SetBorderColor 63 191 63 250
+SetBorderColor 220 0 50 250
 
 
 # Belts
 Show
 BaseType "Rustic Sash" "Chain Belt" "Leather Belt" "Heavy Belt" "Studded Belt" "Cloth Belt" 
-ItemLevel >= 84
+ItemLevel >= 86
+SetBackgroundColor 0 0 0 250
+SetBorderColor 220 0 50 250
+
+Show
+Class "Shields"
+BaseType "Spirit Shield"
+Rarity = Rare
 SetBackgroundColor 0 0 0 250
 SetBorderColor 63 191 63 250
 
+Show
+Class "Gloves" "Boots" "Helmets"
+Rarity = Rare
+SetBackgroundColor 0 0 0 250
+SetBorderColor 63 191 63 250
 
 
 ### Labyrinth Misc
