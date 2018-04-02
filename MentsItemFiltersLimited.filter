@@ -1,4 +1,4 @@
-# Ment's Item Filters Limited ( Hidden Drops: Gems without Exp/Quality | Low ilvl Drops [under 60 Rare Under 75 White] | Large RGB Vendor Items | low Quality Flasks ) v3.1b #
+# Ment's Item Filters Limited ( Hidden Drops: Gems without Exp/Quality | Low ilvl Drops [under 60 Rare Under 75 White] | Large RGB Vendor Items | low Quality Flasks ) v3.2a #
  
 #Ment's Filter highlights
  
@@ -293,6 +293,24 @@ BaseType "Portal Scroll" "Scroll of Wisdom"
 #PlayAlertSound 9 1
 SetFontSize 36
 SetBackgroundColor 0 0 0 140
+
+Show
+Class Currency
+BaseType "Necromancy Net" "Thaumaturgical Net"
+PlayAlertSound 5 250
+SetFontSize 45
+SetTextColor 255 255 150 250
+SetBackgroundColor 0 0 220 200
+SetBorderColor 255 255 150
+
+Show
+Class Currency
+BaseType "Simple Rope Net" "Reinforced Rope Net" "Strong Rope Net" "Simple Iron Net" "Reinforced Iron Net" "Strong Iron Net" "Simple Steel Net" "Reinforced Steel Net" "Strong Steel Net"
+PlayAlertSound 4 100
+SetFontSize 40
+SetTextColor 255 255 150 250
+SetBackgroundColor 0 0 100 200
+SetBorderColor 255 255 150
 
 Hide
 BaseType "Transmutation Shard" "Alteration Shard"
