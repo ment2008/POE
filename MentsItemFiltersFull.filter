@@ -1,8 +1,7 @@
-# Ment's Item Filters Full v3.2a #
+# Ment's Item Filters Full v3.3a #
  
 #Ment's Filter highlights 
  
-#I don't see any point by making filter for each item in the game. This will cause a lot of (visual) confusion. People won't see specific drops. Besides that, new players won't be able to edit it due to the heavy and long list of 1000 lines.
 #Keep it simple, most of the old colours remain the same.
 #Keep it organized, sizeable rarity (white low size, magic mid size, rare normal size).
 #Fit it to your screen, you won't get a mess over the whole screen.
@@ -17,10 +16,11 @@
 # Labyrinth Misc
 # Abyss Jewel
 # Essesnce
+# Incursion
 # Talisman Gear
 # Unique Gear
 # RGB
-# Elder Gear
+# Elder & Shaper Gear
 # Rare Gear
 # Gems
 # Misc Items
@@ -32,7 +32,7 @@
 # Magic-Normal Gear
 # 
 #-----------------------------------------------------------------------------------------------------------
- 
+
 ### Currency
  
 Show
@@ -624,6 +624,33 @@ SetBorderColor 0 0 0 255
 SetBackgroundColor 50 100 130 250
 SetFontSize 40
 PlayAlertSound 2 250
+
+### Incursion
+
+Show
+Identified True
+HasExplicitMod "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Topotante's" "Xopec's" "Guatelitzi's" "Citaqualotl's" "Tacati's"
+SetFontSize 45
+PlayAlertSound 3 150
+SetTextColor 255 255 255 250
+SetBackgroundColor 100 0 0 150
+ 
+Show
+Class "Incursion Item"
+SetFontSize 45
+PlayAlertSound 3 150
+SetTextColor 255 100 100 250
+SetBackgroundColor 50 50 50 250
+SetBorderColor 255 255 150
+
+Show
+Class Currency
+BaseType "Vial of"
+SetFontSize 43
+PlayAlertSound 4 150
+SetTextColor 255 255 150 250
+SetBackgroundColor 50 50 50 250
+SetBorderColor 255 255 150
 	
 ### Talisman Gear
  
