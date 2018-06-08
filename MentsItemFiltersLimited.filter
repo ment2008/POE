@@ -1,8 +1,7 @@
-# Ment's Item Filters Limited ( Hidden Drops: Gems without Exp/Quality | Low ilvl Drops [under 60 Rare Under 75 White] | Large RGB Vendor Items | low Quality Flasks ) v3.2a #
+# Ment's Item Filters Limited ( Hidden Drops: Gems without Exp/Quality | Low ilvl Drops [under 60 Rare Under 75 White] | Large RGB Vendor Items | low Quality Flasks ) v3.3a #
  
 #Ment's Filter highlights
  
-#I don't see any point by making filter for each item in the game. This will cause a lot of (visual) confusion. People won't see specific drops. Besides that, new players won't be able to edit it due to the heavy and long list of 1000 lines.
 #Keep it simple, most of the old colours remain the same.
 #Keep it organized, sizeable rarity (white low size, magic mid size, rare normal size).
 #Fit it to your screen, you won't get a mess over the whole screen.
@@ -18,6 +17,7 @@
 # Labyrinth Misc
 # Abyss Jewel
 # Essesnce
+# Incursion
 # Talisman Gear
 # Unique Gear
 # RGB
@@ -305,10 +305,26 @@ SetBorderColor 255 255 150
 
 Show
 Class Currency
-BaseType "Simple Rope Net" "Reinforced Rope Net" "Strong Rope Net" "Simple Iron Net" "Reinforced Iron Net" "Strong Iron Net" "Simple Steel Net" "Reinforced Steel Net" "Strong Steel Net"
+BaseType "Strong Rope Net" "Strong Iron Net" "Strong Steel Net"
 PlayAlertSound 4 100
 SetFontSize 40
 SetTextColor 255 255 150 250
+SetBackgroundColor 0 0 100 200
+SetBorderColor 255 255 150 
+
+Show
+Class Currency
+BaseType "Reinforced Rope Net" "Reinforced Iron Net" "Reinforced Steel Net"
+SetFontSize 40
+SetTextColor 255 255 150 200
+SetBackgroundColor 0 0 100 200
+SetBorderColor 255 255 150
+
+Show
+Class Currency
+BaseType "Simple Rope Net" "Simple Iron Net" "Simple Steel Net" 
+SetFontSize 40
+SetTextColor 255 255 150 200
 SetBackgroundColor 0 0 100 200
 SetBorderColor 255 255 150
 
@@ -938,6 +954,33 @@ SetBorderColor 0 0 0 255
 SetBackgroundColor 50 100 130 250
 SetFontSize 40
 PlayAlertSound 2 250
+
+### Incursion
+
+Show
+Identified True
+HasExplicitMod "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Topotante's" "Xopec's" "Guatelitzi's" "Citaqualotl's" "Tacati's"
+SetFontSize 45
+PlayAlertSound 3 150
+SetTextColor 255 255 255 250
+SetBackgroundColor 100 0 0 150
+ 
+Show
+Class "Incursion Item"
+SetFontSize 45
+PlayAlertSound 3 150
+SetTextColor 255 100 100 250
+SetBackgroundColor 50 50 50 250
+SetBorderColor 255 255 150
+
+Show
+Class Currency
+BaseType "Vial of"
+SetFontSize 43
+PlayAlertSound 4 150
+SetTextColor 255 255 150 250
+SetBackgroundColor 50 50 50 250
+SetBorderColor 255 255 150
 
 ### Talisman Gear
  
