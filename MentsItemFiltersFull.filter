@@ -1,4 +1,4 @@
-# Ment's Item Filters Full v3.3a #
+# Ment's Item Filters Full v3.3b #
  
 #Ment's Filter highlights 
  
@@ -125,7 +125,7 @@ Show
 BaseType "Chaos Orb"
 PlayAlertSound 5 120
 #PlayAlertSound ShChaos 300
-SetFontSize 43
+SetFontSize 40
 SetTextColor 255 255 150 250
 SetBackgroundColor 50 50 50 250
 SetBorderColor 255 255 150
@@ -134,7 +134,7 @@ Show
 BaseType "Regal Orb"
 PlayAlertSound 5 120
 #PlayAlertSound ShRegal 300
-SetFontSize 43
+SetFontSize 40
 SetTextColor 255 255 150 250
 SetBackgroundColor 50 50 50 250
 SetBorderColor 255 255 150
@@ -143,7 +143,7 @@ Show
 BaseType "Vaal Orb"
 PlayAlertSound 5 120
 #PlayAlertSound ShVaal 300
-SetFontSize 43
+SetFontSize 40
 SetTextColor 255 255 150 250
 SetBackgroundColor 50 50 50 250
 SetBorderColor 255 255 150
@@ -151,7 +151,7 @@ SetBorderColor 255 255 150
 Show
 BaseType "Gemcutter's Prism"
 PlayAlertSound 5 120
-SetFontSize 43
+SetFontSize 40
 SetTextColor 255 255 150 250
 SetBackgroundColor 50 50 50 250
 SetBorderColor 255 255 150
@@ -159,7 +159,7 @@ SetBorderColor 255 255 150
 Show
 BaseType "Orb of Regret"
 PlayAlertSound 5 120
-SetFontSize 43
+SetFontSize 40
 SetTextColor 255 255 150 250
 SetBackgroundColor 50 50 50 250
 SetBorderColor 255 255 150
@@ -168,7 +168,7 @@ Show
 BaseType "Orb of Alchemy"
 PlayAlertSound 3 150
 #PlayAlertSound ShAlchemy 300
-SetFontSize 42
+SetFontSize 40
 SetTextColor 0 0 0 250
 SetBackgroundColor 255 255 204 200
 SetBorderColor 255 255 255 250
@@ -177,7 +177,7 @@ Show
 BaseType "Orb of Fusing"
 PlayAlertSound 3 150
 #PlayAlertSound ShFusing 300
-SetFontSize 42
+SetFontSize 40
 SetTextColor 0 0 0 250
 SetBackgroundColor 255 255 204 200
 SetBorderColor 255 255 255 250
@@ -185,7 +185,7 @@ SetBorderColor 255 255 255 250
 Show
 BaseType "Blessed Orb" "Orb of Scouring" "Cartographer's Chisel"
 PlayAlertSound 3 150
-SetFontSize 42
+SetFontSize 40
 SetTextColor 0 0 0 250
 SetBackgroundColor 255 255 204 200
 SetBorderColor 255 255 255 250
@@ -1001,14 +1001,13 @@ SetFontSize 45
 DropLevel <= 20
 SetBorderColor 0 191 0 250
 
- 
 ### Divination Cards
  
 # Unique Divination Cards
 
 Show
 Class "Divination Card"
-BaseType "The Immortal" "Mawr Blaidd" "Hunter's Reward" "House of Mirrors" "The Doctor" "The Fiend" "Pride Before the Fall" 
+BaseType "Abandoned Wealth" "The Master" "The Wolven King's Bite" "Immortal Resolve" "The Immortal" "Mawr Blaidd" "Hunter's Reward" "House of Mirrors" "The Doctor" "The Fiend" "Pride Before the Fall" 
 PlayAlertSound 10 300
 SetFontSize 50
 SetTextColor 255 51 51 255
@@ -1018,17 +1017,7 @@ SetBorderColor 200 150 200
 # Rare Divination Cards
 Show
 Class "Divination Card"
-BaseType "The Saint's Treasure" "Emperor of Purity" "The Queen" "The Last One Standing" "The Spark and the Flame" "Lingering Remnants" "The Brittle Emperor" "The Harvester" "Heterochromia" "Wealth and Power" "The Void" "The Vast" "The Valkyrie" "The Trial" "The Warlord" "The Thaumaturgist" "The Surveyor" "The Stormcaller" "The Sephirot" "The Penitent" "The Offering" "The Last One Standing" "The King's Heart" "The Hunger" "Hope" "The Formless Sea" "The Fox" "The Ethereal" "The Dragon's Heart" "The Devastator" "The Dark Mage" "The Dapper Prodigy" "The Chains that Bind" "The Celestial Justicar" "The Brittle Emperor" "Last Hope" "Earth Drinker" "Dialla's Subjugation" "Bowyer's Dream" "Abandoned Wealth" "The Enlightened" "Volatile Power" "The Doppelganger" "Hunter's Resolve" "The Conduit" "Coveted Possession" "Lucky Connections" "Three Faces in the Dark" "The Cataclysm" "Chaotic Disposition" "The Wrath"
-PlayAlertSound 2 150
-SetFontSize 40  
-SetTextColor 200 150 200 250
-SetBackgroundColor 0 0 0 235
-SetBorderColor 255 255 255 180
-
-# 3.1 Divination Cards
-Show
-Class "Divination Card"
-BaseType "The Ruthless Ceinture" "No Traces" "The Realm" "The Eye of the Dragon" "The Blazing Fire" "Left to Fate"
+BaseType "The Saint's Treasure" "Emperor of Purity" "The Sephirot" "The Last One Standing" "The Spark and the Flame" "Lingering Remnants" "The Brittle Emperor" "The Harvester" "Heterochromia" "Wealth and Power" "The Void" "The Vast" "The Valkyrie" "The Trial" "The Warlord" "The Thaumaturgist" "The Surveyor" "The Stormcaller" "The Sephirot" "The Penitent" "The Offering" "The Last One Standing" "The King's Heart" "The Hunger" "Hope" "The Formless Sea" "The Fox" "The Ethereal" "The Dragon's Heart" "The Devastator" "The Dark Mage" "The Dapper Prodigy" "The Chains that Bind" "The Celestial Justicar" "The Brittle Emperor" "Last Hope" "Earth Drinker" "Dialla's Subjugation" "Bowyer's Dream" "The Enlightened" "Volatile Power" "The Doppelganger" "Hunter's Resolve" "The Conduit" "Coveted Possession" "Lucky Connections" "Three Faces in the Dark" "The Cataclysm" "Chaotic Disposition" "The Wrath"
 PlayAlertSound 2 150
 SetFontSize 40  
 SetTextColor 200 150 200 250
@@ -1156,10 +1145,9 @@ SetBorderColor 192 192 192
 ### White items that worth to chance
 
 # Can be chanced anywhere
-Show
+Hide
 BaseType "Ebony Tower Shield"
 ItemLevel >= 61
-PlayAlertSound 3 150
 Rarity = Normal
 SetFontSize 40
 SetBackgroundColor 0 0 0 200
