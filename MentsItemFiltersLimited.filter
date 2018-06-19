@@ -1,13 +1,13 @@
-# Ment's Item Filters Limited ( Hidden Drops: Gems without Exp/Quality | Low ilvl Drops [under 60 Rare Under 75 White] | Large RGB Vendor Items | low Quality Flasks ) v3.3b #
+# Ment's Item Filters Limited ( Hidden Drops: Gems without Exp/Quality | Low ilvl Drops [under 60 Rare Under 75 White] | Large RGB Vendor Items | low Quality Flasks ) v3.3c #
  
 #Ment's Filter highlights
  
-#Keep it simple, most of the old colours remain the same.
-#Keep it organized, sizeable rarity (white low size, magic mid size, rare normal size).
+#Keep it simple, most of the old colors remain the same.
+#Keep it organized, seizable rarity (white low size, magic mid size, rare normal size).
 #Fit it to your screen, you won't get a mess over the whole screen.
 #A lot of tests have been made during the awakening beta. the original code have been improved to enhance the performance and the quality for the Novice~Experienced Exile.
-#Filter have been spitted into a two parts: Full & Limited, for letting the Novice players (Without basic coding knowledge) the ability to edit or modificate the script.
-#Filter have been spitted into a two parts: Full & Limited, Full for leveling and LIMITED for farming.
+#Filter have been spitted into a three parts: Full,Limited & Uber. for letting the Novice players (Without basic coding knowledge) the ability to edit or modificate the script.
+#Filter have been spitted into a two parts: Full & Limited, Full for leveling,LIMITED for mid game & Uber For end-game.
 #You still will be able to see the "Hidden" drops simply by holding the "ALT" key.
 #
 #
@@ -16,7 +16,7 @@
 # Top Bases
 # Labyrinth Misc
 # Abyss Jewel
-# Essesnce
+# Essences
 # Incursion
 # Talisman Gear
 # Unique Gear
@@ -534,6 +534,41 @@ SetBorderColor 0 255 255 255
 SetBackgroundColor 0 0 165 150
 PlayAlertSound 12 300
 
+### Incursion
+
+Show
+Identified True
+HasExplicitMod "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "Puhuarte" "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Topotante's" "Xopec's" "Guatelitzi's" "Citaqualotl's" "Tacati's"
+SetFontSize 45
+PlayAlertSound 3 150
+SetTextColor 255 255 255 250
+SetBackgroundColor 100 0 0 150
+
+Show
+Identified False
+HasExplicitMod "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "Puhuarte" "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Topotante's" "Xopec's" "Guatelitzi's" "Citaqualotl's" "Tacati's"
+SetFontSize 45
+PlayAlertSound 3 150
+SetTextColor 255 255 255 250
+SetBackgroundColor 100 0 0 150
+ 
+Show
+Class "Incursion Item"
+SetFontSize 45
+PlayAlertSound 3 150
+SetTextColor 255 100 100 250
+SetBackgroundColor 50 50 50 250
+SetBorderColor 255 255 150
+
+Show
+Class Currency
+BaseType "Vial of"
+SetFontSize 43
+PlayAlertSound 4 150
+SetTextColor 255 255 150 250
+SetBackgroundColor 50 50 50 250
+SetBorderColor 255 255 150
+
 ### Top Bases
 
 # Weapons
@@ -589,7 +624,7 @@ SetBorderColor 220 0 50 250
 
 Show
 BaseType "Royal Burgonet" "Eternal Burgonet"
-ItemLevel >= 86
+ItemLevel >= 84
 SetFontSize 40
 SetTextColor 63 191 63 250
 SetBackgroundColor 0 0 0 250
@@ -953,33 +988,6 @@ SetBorderColor 0 0 0 255
 SetBackgroundColor 50 100 130 250
 SetFontSize 40
 PlayAlertSound 2 250
-
-### Incursion
-
-Show
-Identified True
-HasExplicitMod "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Topotante's" "Xopec's" "Guatelitzi's" "Citaqualotl's" "Tacati's"
-SetFontSize 45
-PlayAlertSound 3 150
-SetTextColor 255 255 255 250
-SetBackgroundColor 100 0 0 150
- 
-Show
-Class "Incursion Item"
-SetFontSize 45
-PlayAlertSound 3 150
-SetTextColor 255 100 100 250
-SetBackgroundColor 50 50 50 250
-SetBorderColor 255 255 150
-
-Show
-Class Currency
-BaseType "Vial of"
-SetFontSize 43
-PlayAlertSound 4 150
-SetTextColor 255 255 150 250
-SetBackgroundColor 50 50 50 250
-SetBorderColor 255 255 150
 
 ### Talisman Gear
  
@@ -1815,22 +1823,6 @@ SetBackgroundColor 100 0 0 150
 
 Show
 Class Gem
-BaseType "Vaal Grace"
-SetFontSize 35
-PlayAlertSound 3 150
-SetTextColor 255 255 255 250
-SetBackgroundColor 100 0 0 150
-
-Show
-Class Gem
-BaseType "Vaal Discipline"
-SetFontSize 35
-PlayAlertSound 3 150
-SetTextColor 255 255 255 250
-SetBackgroundColor 100 0 0 150
-
-Show
-Class Gem
 Quality >= 15
 SetFontSize 38
 PlayAlertSound 2 150
@@ -1891,7 +1883,7 @@ SetBorderColor 200 150 200
 # Rare Divination Cards
 Show
 Class "Divination Card"
-BaseType "The Saint's Treasure" "Emperor of Purity" "The Sephirot" "The Last One Standing" "The Spark and the Flame" "Lingering Remnants" "The Brittle Emperor" "The Harvester" "Heterochromia" "Wealth and Power" "The Void" "The Vast" "The Valkyrie" "The Trial" "The Warlord" "The Thaumaturgist" "The Surveyor" "The Stormcaller" "The Sephirot" "The Penitent" "The Offering" "The Last One Standing" "The King's Heart" "The Hunger" "Hope" "The Formless Sea" "The Fox" "The Ethereal" "The Dragon's Heart" "The Devastator" "The Dark Mage" "The Dapper Prodigy" "The Chains that Bind" "The Celestial Justicar" "The Brittle Emperor" "Last Hope" "Earth Drinker" "Dialla's Subjugation" "Bowyer's Dream" "The Enlightened" "Volatile Power" "The Doppelganger" "Hunter's Resolve" "The Conduit" "Coveted Possession" "Lucky Connections" "Three Faces in the Dark" "The Cataclysm" "Chaotic Disposition" "The Wrath"
+BaseType "The Saint's Treasure" "Emperor of Purity" "The Sephirot" "The Last One Standing" "The Spark and the Flame" "Lingering Remnants" "The Brittle Emperor" "The Harvester" "Heterochromia" "Wealth and Power" "The Void" "The Vast" "The Valkyrie" "The Trial" "The Warlord" "The Thaumaturgist" "The Surveyor" "The Stormcaller" "The Sephirot" "The Penitent" "The Offering" "The Last One Standing" "The King's Heart" "The Hunger" "Hope" "The Formless Sea" "The Fox" "The Ethereal" "The Dragon's Heart" "The Devastator" "The Dark Mage" "The Dapper Prodigy" "The Chains that Bind" "The Celestial Justicar" "The Brittle Emperor" "Last Hope" "Earth Drinker" "Dialla's Subjugation" "Bowyer's Dream" "The Enlightened" "The Conduit" "Coveted Possession" "Lucky Connections" "Three Faces in the Dark" "The Cataclysm" "Chaotic Disposition" "The Wrath"
 PlayAlertSound 2 150
 SetFontSize 40  
 SetTextColor 200 150 200 250
@@ -2004,27 +1996,24 @@ SetBorderColor 200 70 0
 Show
 Class Map
 DropLevel >= 82
-SetFontSize 45
+SetFontSize 50
 PlayAlertSound 6 200
-SetTextColor 255 0 0 250
+SetTextColor 255 255 255 250
+SetBackgroundColor 100 0 0 200
 
 Show
 Class Map
 DropLevel >= 80
 SetFontSize 45
 PlayAlertSound 6 150
+SetTextColor 255 0 0 225
 
 Show
 Class Map
-DropLevel >= 79
+DropLevel > 77
 SetFontSize 42
-PlayAlertSound 6 100
- 
-Show
-Class Map
-DropLevel >= 77
-SetFontSize 39
-PlayAlertSound 6 50
+PlayAlertSound 6 80
+SetTextColor 255 0 0 225
  
 Show
 Class Map
