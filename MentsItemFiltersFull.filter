@@ -1,4 +1,4 @@
-# Ment's Item Filters Full v3.3c #
+# Ment's Item Filters Full v3.3d #
  
 #Ment's Filter highlights 
  
@@ -228,11 +228,11 @@ SetBackgroundColor 0 0 0 250
 Show
 Class Currency
 BaseType "Prophecy"
-SetFontSize 42
+SetFontSize 50
 PlayAlertSound 9 100
-SetTextColor 114 0 83 250
+SetTextColor 255 255 255 250
 SetBackgroundColor 0 0 0 250
-SetBorderColor 114 0 83 250
+SetBorderColor 114 0 150 250
 
 Show
 BaseType "Silver Coin"
@@ -284,14 +284,13 @@ PlayAlertSound 2 100
  
 Show
 BaseType "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Transmutation" "Orb of Augmentation"
-SetFontSize 37
+SetFontSize 42
 SetBackgroundColor 0 0 0 250
 
- 
 Show
 BaseType "Portal Scroll" "Scroll of Wisdom"
 PlayAlertSound 9 1
-SetFontSize 37
+SetFontSize 41
 SetBackgroundColor 0 0 0 250
 
 Show
@@ -995,17 +994,26 @@ SetBorderColor 0 191 0 250
 
 ### Divination Cards
  
-# Unique Divination Cards
-
+#T1 Unique Divination Card
 Show
 Class "Divination Card"
-BaseType "Abandoned Wealth" "The Master" "The Wolven King's Bite" "Immortal Resolve" "The Immortal" "Mawr Blaidd" "Hunter's Reward" "House of Mirrors" "The Doctor" "The Fiend" "Pride Before the Fall" 
+BaseType "The Wolven King's Bite" "The Immortal" "House of Mirrors" "The Doctor" "The Fiend"
+PlayAlertSound 1 300
+SetFontSize 50
+SetTextColor 0 0 0
+SetBackgroundColor 255 0 255 250
+SetBorderColor 0 0 0
+
+# Unique Divination Cards
+Show
+Class "Divination Card"
+BaseType "Abandoned Wealth" "The Master" "Immortal Resolve" "Mawr Blaidd" "Hunter's Reward" 
 PlayAlertSound 10 300
 SetFontSize 50
 SetTextColor 255 51 51 255
 SetBackgroundColor 0 0 0 250
 SetBorderColor 200 150 200
- 
+
 # Rare Divination Cards
 Show
 Class "Divination Card"
@@ -1016,17 +1024,17 @@ SetTextColor 200 150 200 250
 SetBackgroundColor 0 0 0 235
 SetBorderColor 255 255 255 180
 
-Show
+Hide
 Class "Divination Card"
-PlayAlertSound 2 10
+BaseType "The Carrion Crow"
 SetFontSize 30 
 SetTextColor 200 150 200 250
 SetBackgroundColor 0 0 0 200
 SetBorderColor 255 255 255 180
 
-Hide
+Show
 Class "Divination Card"
-BaseType "The Carrion Crow"
+PlayAlertSound 2 10
 SetFontSize 30 
 SetTextColor 200 150 200 250
 SetBackgroundColor 0 0 0 200
@@ -1037,8 +1045,9 @@ SetBorderColor 255 255 255 180
 Show
 Class "Maps" 
 ShapedMap True 
-SetFontSize 40 
+SetFontSize 50
 SetBorderColor 255 0 0 255
+SetTextColor 255 255 255 250
 PlayAlertSound 6 90
 
 Show
@@ -1048,7 +1057,7 @@ SetTextColor 255 51 51 255
 SetBorderColor 100 0 0 255
 SetBackgroundColor 0 0 0 255
 SetFontSize 45
-PlayAlertSound 10 200
+PlayAlertSound 16 100
 
 Show
 Class "Map Fragments"
@@ -1166,7 +1175,7 @@ SetBorderColor 175 96 37 250
 SetTextColor 255 255 240 200
 
 # Can be chanced anywhere
-Show
+Hide
 BaseType "Glorious Plate"
 ItemLevel >= 60
 Rarity = Normal
@@ -1182,11 +1191,11 @@ SetTextColor 255 255 240 200
 
 Show
 LinkedSockets = 6
-PlayAlertSound 1 300
+PlayAlertSound 11 250
 SetFontSize 50
 SetTextColor 255 255 255 250
-SetBackgroundColor 250 100 100 250
-SetBorderColor 255 255 255 250
+SetBackgroundColor 90 0 0 250
+SetBorderColor 255 255 255 255
 
 Show
 LinkedSockets >= 4
