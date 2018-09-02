@@ -1,4 +1,4 @@
-# Ment's Item Filters Uber Recommended for T15+ mapping  | v3.3d #
+# Ment's Item Filters Uber Recommended for T15+ mapping  | v3.4a #
  
 #Ment's Filter highlights
  
@@ -38,6 +38,8 @@
  
 Show
 BaseType "Mirror of Kalandra"
+MinimapIcon 0 Red Star
+PlayEffect Red
 PlayAlertSound 1 300
 SetFontSize 50
 SetTextColor 0 0 0
@@ -46,8 +48,9 @@ SetBorderColor 0 0 0
 
 Show
 BaseType "Exalted Orb"
+MinimapIcon 0 Yellow Star
+PlayEffect Yellow
 PlayAlertSound 1 300
-#PlayAlertSound ShExalted 300
 SetFontSize 50
 SetTextColor 0 0 0
 SetBackgroundColor 255 0 255 250
@@ -55,6 +58,8 @@ SetBorderColor 0 0 0
 
 Show
 BaseType "Eternal Orb" "Ancient Reliquary Key"
+MinimapIcon 0 Yellow Star
+PlayEffect Yellow
 PlayAlertSound 1 250
 SetFontSize 50
 SetTextColor 0 0 0
@@ -63,6 +68,8 @@ SetBorderColor 0 0 0
 
 Show
 BaseType "Albino Rhoa Feather"
+MinimapIcon 0 Yellow Star
+PlayEffect Yellow
 PlayAlertSound 5 250
 SetFontSize 50
 SetTextColor 255 255 150 250
@@ -71,6 +78,8 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Divine Orb"
+MinimapIcon 0 Yellow Star
+PlayEffect Yellow
 PlayAlertSound 5 250
 #PlayAlertSound ShDivine 300
 SetFontSize 50
@@ -80,6 +89,8 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Mirror Shard"
+MinimapIcon 0 Yellow Star
+PlayEffect Yellow
 PlayAlertSound 13 250
 SetFontSize 50
 SetTextColor 255 255 150 250
@@ -89,7 +100,7 @@ SetBorderColor 255 255 150
 Show
 BaseType "Exalted Shard" "Mirror Shard" "Ancient Orb"
 PlayAlertSound 13 250
-SetFontSize 50
+SetFontSize 45
 SetTextColor 255 255 150 250
 SetBackgroundColor 255 0 255 130
 SetBorderColor 255 255 150
@@ -97,9 +108,10 @@ SetBorderColor 255 255 150
 Show
 Class Currency
 BaseType "Blessing" "Orb of Annulment"
+PlayEffect Yellow
 PlayAlertSound 5 200
 #PlayAlertSound ShBlessed  300
-SetFontSize 50
+SetFontSize 42
 SetTextColor 255 255 150
 SetBackgroundColor 0 0 0 250
 SetBorderColor 255 255 150
@@ -107,7 +119,7 @@ SetBorderColor 255 255 150
 Show
 Class Currency
 BaseType "Splinter of Uul-Netol" "Splinter of Chayula" "Splinter of Xoph" "Splinter of Esh" "Splinter of Tul"
-SetFontSize 50
+SetFontSize 38
 SetTextColor 255 200 180 250
 SetBackgroundColor 0 0 0 250
 SetBorderColor 255 200 180 250
@@ -115,8 +127,8 @@ PlayAlertSound 14 110
 
 Show
 Class Currency
-BaseType "Engineer's Orb" "Orb of Horizons" "Annulment Shard" "Engineer's Shard" "Orb of Binding" "Binding Shard" "Ancient Shard" "Harbinger's Shard" "Horizon Shard" "Harbinger's Orb" "Orb of Annulment"
-SetFontSize 50
+BaseType "Engineer's Orb" "Orb of Binding" "Orb of Horizons" "Annulment Shard" "Engineer's Shard" "Binding Shard" "Ancient Shard" "Harbinger's Shard" "Horizon Shard" "Harbinger's Orb"
+SetFontSize 38
 SetTextColor 255 255 100
 SetBackgroundColor 0 0 0 250
 SetBorderColor 50 50 250 250
@@ -124,6 +136,8 @@ PlayAlertSound 15 200
 
 Show
 BaseType "Chaos Orb"
+MinimapIcon 0 Yellow Circle
+PlayEffect Yellow
 PlayAlertSound 5 120
 #PlayAlertSound ShChaos 300
 SetFontSize 40
@@ -133,6 +147,8 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Regal Orb"
+MinimapIcon 0 Yellow Circle
+PlayEffect Yellow
 PlayAlertSound 5 120
 #PlayAlertSound ShRegal 300
 SetFontSize 40
@@ -142,6 +158,8 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Vaal Orb"
+MinimapIcon 0 Yellow Circle
+PlayEffect Yellow
 PlayAlertSound 5 120
 #PlayAlertSound ShVaal 300
 SetFontSize 40
@@ -151,6 +169,8 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Gemcutter's Prism"
+MinimapIcon 0 Yellow Circle
+PlayEffect Yellow
 PlayAlertSound 5 120
 SetFontSize 40
 SetTextColor 255 255 150 250
@@ -159,6 +179,8 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Orb of Regret"
+MinimapIcon 0 Yellow Circle
+PlayEffect Yellow
 PlayAlertSound 5 120
 SetFontSize 40
 SetTextColor 255 255 150 250
@@ -167,6 +189,8 @@ SetBorderColor 255 255 150
  
 Show
 BaseType "Orb of Alchemy"
+MinimapIcon 1 Yellow Circle
+PlayEffect Yellow
 PlayAlertSound 3 150
 #PlayAlertSound ShAlchemy 300
 SetFontSize 40
@@ -176,6 +200,8 @@ SetBorderColor 255 255 255 250
 
 Show
 BaseType "Orb of Fusing"
+MinimapIcon 1 Yellow Circle
+PlayEffect Yellow
 PlayAlertSound 3 150
 #PlayAlertSound ShFusing 300
 SetFontSize 40
@@ -185,6 +211,8 @@ SetBorderColor 255 255 255 250
 
 Show
 BaseType "Blessed Orb" "Orb of Scouring" "Cartographer's Chisel"
+MinimapIcon 1 Yellow Circle
+PlayEffect Yellow
 PlayAlertSound 3 150
 SetFontSize 40
 SetTextColor 0 0 0 250
@@ -194,7 +222,7 @@ SetBorderColor 255 255 255 250
 Show
 BaseType "Chaos Shard" "Regal Shard"
 PlayAlertSound 9 100
-SetFontSize 50
+SetFontSize 35
 SetTextColor 255 255 100 150
 SetBackgroundColor 0 0 0 250
 SetBorderColor 50 50 250 150
@@ -202,20 +230,23 @@ SetBorderColor 50 50 250 150
 Show
 BaseType "Alchemy Shard"
 PlayAlertSound 9 100
-SetFontSize 50
+SetFontSize 32
 SetBackgroundColor 0 0 0 250
 SetBorderColor 50 50 250 100
 
 Show
 BaseType "Jeweller's Orb" "Chromatic Orb" "Orb of Alteration" "Glassblower's Bauble"
+PlayEffect White Temp
 PlayAlertSound 9 100
-SetFontSize 50
+SetFontSize 42
 SetBackgroundColor 0 0 0 250
 
 Show
 BaseType "Orb of Chance"
+MinimapIcon 2 Yellow Circle
+PlayEffect Yellow
 PlayAlertSound 9 120
-SetFontSize 50
+SetFontSize 42
 SetBackgroundColor 0 0 0 230
 SetBorderColor 175 96 37 250
 
@@ -223,12 +254,13 @@ Show
 BaseType "Perandus Coin"
 PlayAlertSound 9 100
 SetTextColor 55 110 55
-SetFontSize 50
+SetFontSize 42
 SetBackgroundColor 0 0 0 250
 
 Show
 Class Currency
 BaseType "Prophecy"
+PlayEffect White Temp
 SetFontSize 50
 PlayAlertSound 9 100
 SetTextColor 255 255 255 250
@@ -237,10 +269,12 @@ SetBorderColor 114 0 150 250
 
 Show
 BaseType "Silver Coin"
+MinimapIcon 2 Yellow Circle
+PlayEffect White Temp
 PlayAlertSound 9 100
 SetTextColor 0 0 0 250
-SetFontSize 50
-SetBackgroundColor 255 200 255 150
+SetFontSize 42
+SetBackgroundColor 192 192 192 150
 SetBorderColor 255 255 255 150
 
 Show
@@ -273,6 +307,7 @@ SetTextColor 255 255 50 130
 SetBackgroundColor 25 0 0 250
 SetBorderColor 255 255 255 250
 PlayAlertSound 2 100
+
 Show
 Class Leaguestone
 Rarity = Normal
@@ -283,24 +318,16 @@ SetBorderColor 255 255 255 250
 PlayAlertSound 2 100
  
 Show
-BaseType "Blacksmith's Whetstone" "Armourer's Scrap"
-PlayAlertSound 9 1
-SetFontSize 40
-SetBackgroundColor 0 0 0 180
-SetBorderColor 255 255 150 140
-
-Hide
-BaseType "Orb of Transmutation" "Orb of Augmentation"
-PlayAlertSound 9 1
-SetFontSize 40
-SetBackgroundColor 0 0 0 150
+BaseType "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Transmutation" "Orb of Augmentation"
+PlayEffect White Temp
+SetFontSize 42
+SetBackgroundColor 0 0 0 250
 
 Show
 BaseType "Portal Scroll" "Scroll of Wisdom"
 PlayAlertSound 9 1
-SetFontSize 40
-SetBackgroundColor 0 0 0 140
-SetBorderColor 255 255 150 80
+SetFontSize 41
+SetBackgroundColor 0 0 0 250
 
 Show
 Class Currency
@@ -313,37 +340,28 @@ SetBorderColor 255 255 150
 
 Show
 Class Currency
-BaseType "Strong Rope Net" "Strong Iron Net" "Strong Steel Net"
+BaseType "Simple Rope Net" "Reinforced Rope Net" "Strong Rope Net" "Simple Iron Net" "Reinforced Iron Net" "Strong Iron Net" "Simple Steel Net" "Reinforced Steel Net" "Strong Steel Net"
 PlayAlertSound 4 100
 SetFontSize 40
 SetTextColor 255 255 150 250
 SetBackgroundColor 0 0 100 200
-SetBorderColor 255 255 150 
-
-Hide
-Class Currency
-BaseType "Reinforced Rope Net" "Reinforced Iron Net" "Reinforced Steel Net"
-PlayAlertSound 4 50
-SetFontSize 40
-SetTextColor 255 255 150 150
-SetBackgroundColor 0 0 100 200
 SetBorderColor 255 255 150
 
-Hide
-Class Currency
-BaseType "Simple Rope Net" "Simple Iron Net" "Simple Steel Net" 
-SetFontSize 40
-SetTextColor 255 255 150 250
-SetBackgroundColor 0 0 100 200
-SetBorderColor 255 255 150
-
-Hide
-BaseType "Transmutation Shard" "Alteration Shard"
+Show
+BaseType "Frigid Fossil" "Metallic Fossil" "Jagged Fossil" "Aberrant Fossil" "Pristine Fossil" "Dense Fossil" "Corroded Fossil" "Prismatic Fossil" "Aetheric Fossil" "Serrated Fossil" "Lucent Fossil" "Shuddering Fossil" "Bound Fossil" "Perfect Fossil" "Enchanted Fossil" "Encrusted Fossil" "Faceted Fossil" "Bloodstained Fossil" "Hollow Fossil" "Fractured Fossil" "Glyphic Fossil" "Tangled Fossil" "Sanctified Fossil" "Gilded Fossil" "Scorched Fossil" "Resonator"
+SetFontSize 42
+PlayEffect Blue
+SetBackgroundColor 244 167 66 200
+SetTextColor 0 0 0 200
+SetBorderColor 0 0 0 250
+PlayAlertSound 10 150
  
 ### Socket/Links
   
 Show
 LinkedSockets = 6
+MinimapIcon 0 Red Star
+PlayEffect Red
 PlayAlertSound 11 250
 SetFontSize 50
 SetTextColor 255 255 255 250
@@ -352,6 +370,8 @@ SetBorderColor 255 255 255 255
 
 Show
 Class "Fishing Rod"
+MinimapIcon 0 Red Star
+PlayEffect Red
 PlayAlertSound 1 300
 SetFontSize 45
 SetTextColor 255 255 255
@@ -436,9 +456,8 @@ PlayAlertSound 10 150
 ### White items that worth to chance
 
 # Can be chanced anywhere
-Hide
-BaseType "Ebony Tower Shield"
-ItemLevel >= 61
+Show
+BaseType "Gold Amulet"
 Rarity = Normal
 SetFontSize 40
 SetBackgroundColor 0 0 0 200
@@ -467,7 +486,7 @@ SetTextColor 255 255 240 200
 
 # Can be chanced anywhere
 
-Hide
+Show
 BaseType "Glorious Plate"
 ItemLevel >= 60
 Rarity = Normal
@@ -503,7 +522,8 @@ Show
 ShaperItem True
 BaseType "Stygian Vise" "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Onyx Amulet" "Diamond" "Two-Stone" "Titan Gauntlets" "Slink Gloves" "Royal Burgonet" "Lion Pelt" "Titan Greaves" "Slink Boots" "Hubris Circlet" "Profane Wand" "Sambar Sceptre" "Void Sceptre" "Imbued Wand" "Pinnacle Tower Shield" "Kris" "Prismatic" "Astral Plate" "Assassin's Garb" "Vaal Axe" "Coronal Maul" "Exquisite Blade" "Fleshripper" "Harbinger Bow" "Gemini Claw" "Ambusher" "Siege Axe" "Harpy Rapier" "Demon Dagger" "Skean" "Spiraled Foil" "Jewelled Foil" "Profane Wand" "Sambar Sceptre" "Void Sceptre" "Imbued Wand" "Pinnacle Tower Shield" "Kris" "Prismatic" "Astral Plate" "Assassin's Garb"  "Vanguard Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Crystal Belt" 
 Rarity <= Rare 
-ElderItem True 
+ElderItem True
+PlayEffect White Temp
 SetFontSize 45
 SetTextColor 255 255 255 255
 SetBorderColor 0 255 255 255
@@ -514,7 +534,8 @@ Show
 ElderItem True
 BaseType "Stygian Vise" "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Onyx Amulet" "Diamond" "Two-Stone" "Titan Gauntlets" "Slink Gloves" "Royal Burgonet" "Lion Pelt" "Titan Greaves" "Slink Boots" "Hubris Circlet" "Profane Wand" "Sambar Sceptre" "Void Sceptre" "Imbued Wand" "Pinnacle Tower Shield" "Kris" "Prismatic" "Astral Plate" "Assassin's Garb" "Vaal Axe" "Coronal Maul" "Exquisite Blade" "Fleshripper" "Harbinger Bow" "Gemini Claw" "Ambusher" "Siege Axe" "Harpy Rapier" "Demon Dagger" "Skean" "Spiraled Foil" "Jewelled Foil" "Profane Wand" "Sambar Sceptre" "Void Sceptre" "Imbued Wand" "Pinnacle Tower Shield" "Kris" "Prismatic" "Astral Plate" "Assassin's Garb"  "Vanguard Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Crystal Belt" 
 Rarity <= Rare 
-ElderItem True 
+ElderItem True
+PlayEffect White Temp
 SetFontSize 45
 SetTextColor 255 255 255 255
 SetBorderColor 0 255 255 255
@@ -525,7 +546,8 @@ Show
 ElderItem True
 Class "Boots" "Gloves" "Belt" "Ring" "Amulet" "Helmet" "Dagger" "Sceptre" "Wand" "Claw" "Sword" "Axe" "Shield" "Bow" "Mace"
 Rarity <= Rare 
-ElderItem True 
+ElderItem True
+PlayEffect White Temp
 SetFontSize 45
 SetTextColor 255 255 255 255
 SetBorderColor 0 255 255 255
@@ -534,6 +556,7 @@ PlayAlertSound 12 300
 
 Show
 ElderItem True
+PlayEffect White Temp
 Rarity <= Rare
 SetFontSize 45
 SetTextColor 255 255 255 255
@@ -545,7 +568,8 @@ Show
 ShaperItem True
 Class "Boots" "Gloves" "Belt" "Ring" "Amulet" "Helmet" "Dagger" "Sceptre" "Wand" "Claw" "Sword" "Axe" "Shield" "Bow" "Mace"
 Rarity <= Rare 
-ElderItem True 
+ElderItem True
+PlayEffect White Temp
 SetFontSize 45
 SetTextColor 255 255 255 255
 SetBorderColor 0 255 255 255
@@ -554,6 +578,7 @@ PlayAlertSound 12 300
 
 Show
 ShaperItem True
+PlayEffect White Temp
 Rarity <= Rare
 SetFontSize 45
 SetTextColor 255 255 255 255
@@ -586,6 +611,15 @@ PlayAlertSound 3 150
 SetTextColor 255 100 100 250
 SetBackgroundColor 50 50 50 250
 SetBorderColor 255 255 150
+
+Show
+Class Currency
+BaseType "Vial of Sacrifice"
+PlayAlertSound 1 300
+SetFontSize 50
+SetTextColor 0 0 0
+SetBackgroundColor 255 0 255 250
+SetBorderColor 0 0 0
 
 Show
 Class Currency
@@ -1049,7 +1083,7 @@ SetFontSize 40
 
 Show
 BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
-ItemLevel >= 82
+ItemLevel >= 84
 SetTextColor 200 145 0
 SetBorderColor 255 255 0 100
 SetFontSize 38
@@ -1297,7 +1331,7 @@ SetTextColor 255 255 119 250
 # Chests
 
 Hide
-BaseType "Conquest Chainmail" "Mage's Vestment" "Bronze Plate" "Arena Plate" "Triumphant Lamellar" "Elegant Ringmail" "Sun Plate" "Gladiator Plate" "Sadist Garb" "Widowsilk Robe" "Exquisite Leather" "Saint's Hauberk" "Holy Chainmail" "Saintly Chainmail" "Full Wyrmscale" "Blood Raiment" "General's Brigandine" "Carnal Armour" "Occultist's Vestment" "Crusader Plate" "Plate Vest" "Chestplate" "Copper Plate" "War Plate" "Full Plate" "Lordly Plate" "Battle Plate" "Battle Plate" "Colosseum Plate" "Majestic Plate" "Golden Plate" "Shabby Jerkin" "Strapped Leather" "Buckskin Tunic" "Wild Leather" "Full Leather" "Sun Leather" "Thief's Garb" "Eelskin Tunic" "Frontier Leather" "Glorious Leather" "Coronal Leather" "Cutthroat's Garb" "Sharkskin Tunic" "Destiny Leather" "Simple Robe" "Silken Vest" "Scholar's Robe" "Silken Garb" "Silk Robe" "Cabalist Regalia" "Sage's Robe" "Silken Wrap" "Conjurer's Vestment" "Spidersilk Robe" "Destroyer Regalia" "Savant's Robe" "Necromancer Silks" "Scale Vest" "Light Brigandine" "Scale Doublet" "Infantry Brigandine" "Soldier's Brigandine" "Field Lamellar" "Wyrmscale Doublet" "Hussar Brigandine" "Commander's Brigandine" "Battle Lamellar" "Dragonscale Doublet" "Desert Brigandine" "Chainmail Vest" "Chainmail Tunic" "Ringmail Coat" "Chainmail Doublet" "Full Ringmail" "Full Chainmail" "Full Chainmail" "Latticed Ringmail" "Crusader Chainmail" "Ornate Ringmail" "Chain Hauberk" "Devout Chainmail" "Loricated Ringmail" "Padded Vest" "Padded Jacket" "Oiled Coat" "Scarlet Raiment" "Waxed Garb" "Bone Armour" "Quilted Jacket" "Sleek Coat" "Crimson Raiment" "Lacquered Garb" "Crypt Armour" "Sentinel Jacket" "Varnished Coat"
+BaseType "Full Scale Armour" "Conquest Chainmail" "Mage's Vestment" "Bronze Plate" "Arena Plate" "Triumphant Lamellar" "Elegant Ringmail" "Sun Plate" "Gladiator Plate" "Sadist Garb" "Widowsilk Robe" "Exquisite Leather" "Saint's Hauberk" "Holy Chainmail" "Saintly Chainmail" "Full Wyrmscale" "Blood Raiment" "General's Brigandine" "Carnal Armour" "Occultist's Vestment" "Crusader Plate" "Plate Vest" "Chestplate" "Copper Plate" "War Plate" "Full Plate" "Lordly Plate" "Battle Plate" "Battle Plate" "Colosseum Plate" "Majestic Plate" "Golden Plate" "Shabby Jerkin" "Strapped Leather" "Buckskin Tunic" "Wild Leather" "Full Leather" "Sun Leather" "Thief's Garb" "Eelskin Tunic" "Frontier Leather" "Glorious Leather" "Coronal Leather" "Cutthroat's Garb" "Sharkskin Tunic" "Destiny Leather" "Simple Robe" "Silken Vest" "Scholar's Robe" "Silken Garb" "Silk Robe" "Cabalist Regalia" "Sage's Robe" "Silken Wrap" "Conjurer's Vestment" "Spidersilk Robe" "Destroyer Regalia" "Savant's Robe" "Necromancer Silks" "Scale Vest" "Light Brigandine" "Scale Doublet" "Infantry Brigandine" "Soldier's Brigandine" "Field Lamellar" "Wyrmscale Doublet" "Hussar Brigandine" "Commander's Brigandine" "Battle Lamellar" "Dragonscale Doublet" "Desert Brigandine" "Chainmail Vest" "Chainmail Tunic" "Ringmail Coat" "Chainmail Doublet" "Full Ringmail" "Full Chainmail" "Full Chainmail" "Latticed Ringmail" "Crusader Chainmail" "Ornate Ringmail" "Chain Hauberk" "Devout Chainmail" "Loricated Ringmail" "Padded Vest" "Padded Jacket" "Oiled Coat" "Scarlet Raiment" "Waxed Garb" "Bone Armour" "Quilted Jacket" "Sleek Coat" "Crimson Raiment" "Lacquered Garb" "Crypt Armour" "Sentinel Jacket" "Varnished Coat"
 Rarity Rare
 ItemLevel > 82
 SetBackgroundColor 0 0 0 70
@@ -1305,7 +1339,7 @@ SetTextColor 255 255 119 200
 SetBorderColor 255 255 119 200
 
 Hide
-BaseType "Conquest Chainmail" "Mage's Vestment" "Bronze Plate" "Arena Plate" "Triumphant Lamellar" "Elegant Ringmail" "Sun Plate" "Gladiator Plate" "Sadist Garb" "Widowsilk Robe" "Exquisite Leather" "Saint's Hauberk" "Holy Chainmail" "Saintly Chainmail" "Full Wyrmscale" "Blood Raiment" "General's Brigandine" "Carnal Armour" "Occultist's Vestment" "Crusader Plate" "Plate Vest" "Chestplate" "Copper Plate" "War Plate" "Full Plate" "Lordly Plate" "Battle Plate" "Battle Plate" "Colosseum Plate" "Majestic Plate" "Golden Plate" "Shabby Jerkin" "Strapped Leather" "Buckskin Tunic" "Wild Leather" "Full Leather" "Sun Leather" "Thief's Garb" "Eelskin Tunic" "Frontier Leather" "Glorious Leather" "Coronal Leather" "Cutthroat's Garb" "Sharkskin Tunic" "Destiny Leather" "Simple Robe" "Silken Vest" "Scholar's Robe" "Silken Garb" "Silk Robe" "Cabalist Regalia" "Sage's Robe" "Silken Wrap" "Conjurer's Vestment" "Spidersilk Robe" "Destroyer Regalia" "Savant's Robe" "Necromancer Silks" "Scale Vest" "Light Brigandine" "Scale Doublet" "Infantry Brigandine" "Soldier's Brigandine" "Field Lamellar" "Wyrmscale Doublet" "Hussar Brigandine" "Commander's Brigandine" "Battle Lamellar" "Dragonscale Doublet" "Desert Brigandine" "Chainmail Vest" "Chainmail Tunic" "Ringmail Coat" "Chainmail Doublet" "Full Ringmail" "Full Chainmail" "Full Chainmail" "Latticed Ringmail" "Crusader Chainmail" "Ornate Ringmail" "Chain Hauberk" "Devout Chainmail" "Loricated Ringmail" "Padded Vest" "Padded Jacket" "Oiled Coat" "Scarlet Raiment" "Waxed Garb" "Bone Armour" "Quilted Jacket" "Sleek Coat" "Crimson Raiment" "Lacquered Garb" "Crypt Armour" "Sentinel Jacket" "Varnished Coat"
+BaseType "Full Scale Armour" "Conquest Chainmail" "Mage's Vestment" "Bronze Plate" "Arena Plate" "Triumphant Lamellar" "Elegant Ringmail" "Sun Plate" "Gladiator Plate" "Sadist Garb" "Widowsilk Robe" "Exquisite Leather" "Saint's Hauberk" "Holy Chainmail" "Saintly Chainmail" "Full Wyrmscale" "Blood Raiment" "General's Brigandine" "Carnal Armour" "Occultist's Vestment" "Crusader Plate" "Plate Vest" "Chestplate" "Copper Plate" "War Plate" "Full Plate" "Lordly Plate" "Battle Plate" "Battle Plate" "Colosseum Plate" "Majestic Plate" "Golden Plate" "Shabby Jerkin" "Strapped Leather" "Buckskin Tunic" "Wild Leather" "Full Leather" "Sun Leather" "Thief's Garb" "Eelskin Tunic" "Frontier Leather" "Glorious Leather" "Coronal Leather" "Cutthroat's Garb" "Sharkskin Tunic" "Destiny Leather" "Simple Robe" "Silken Vest" "Scholar's Robe" "Silken Garb" "Silk Robe" "Cabalist Regalia" "Sage's Robe" "Silken Wrap" "Conjurer's Vestment" "Spidersilk Robe" "Destroyer Regalia" "Savant's Robe" "Necromancer Silks" "Scale Vest" "Light Brigandine" "Scale Doublet" "Infantry Brigandine" "Soldier's Brigandine" "Field Lamellar" "Wyrmscale Doublet" "Hussar Brigandine" "Commander's Brigandine" "Battle Lamellar" "Dragonscale Doublet" "Desert Brigandine" "Chainmail Vest" "Chainmail Tunic" "Ringmail Coat" "Chainmail Doublet" "Full Ringmail" "Full Chainmail" "Full Chainmail" "Latticed Ringmail" "Crusader Chainmail" "Ornate Ringmail" "Chain Hauberk" "Devout Chainmail" "Loricated Ringmail" "Padded Vest" "Padded Jacket" "Oiled Coat" "Scarlet Raiment" "Waxed Garb" "Bone Armour" "Quilted Jacket" "Sleek Coat" "Crimson Raiment" "Lacquered Garb" "Crypt Armour" "Sentinel Jacket" "Varnished Coat"
 Rarity Rare
 ItemLevel > 80
 SetBackgroundColor 0 0 0 100
@@ -1313,7 +1347,7 @@ SetTextColor 255 255 119 200
 SetBorderColor 255 255 119 200
 
 Hide
-BaseType "Conquest Chainmail" "Mage's Vestment" "Bronze Plate" "Arena Plate" "Triumphant Lamellar" "Elegant Ringmail" "Sun Plate" "Gladiator Plate" "Sadist Garb" "Widowsilk Robe" "Exquisite Leather" "Saint's Hauberk" "Holy Chainmail" "Saintly Chainmail" "Full Wyrmscale" "Blood Raiment" "General's Brigandine" "Carnal Armour" "Occultist's Vestment" "Crusader Plate" "Plate Vest" "Chestplate" "Copper Plate" "War Plate" "Full Plate" "Lordly Plate" "Battle Plate" "Battle Plate" "Colosseum Plate" "Majestic Plate" "Golden Plate" "Shabby Jerkin" "Strapped Leather" "Buckskin Tunic" "Wild Leather" "Full Leather" "Sun Leather" "Thief's Garb" "Eelskin Tunic" "Frontier Leather" "Glorious Leather" "Coronal Leather" "Cutthroat's Garb" "Sharkskin Tunic" "Destiny Leather" "Simple Robe" "Silken Vest" "Scholar's Robe" "Silken Garb" "Silk Robe" "Cabalist Regalia" "Sage's Robe" "Silken Wrap" "Conjurer's Vestment" "Spidersilk Robe" "Destroyer Regalia" "Savant's Robe" "Necromancer Silks" "Scale Vest" "Light Brigandine" "Scale Doublet" "Infantry Brigandine" "Soldier's Brigandine" "Field Lamellar" "Wyrmscale Doublet" "Hussar Brigandine" "Commander's Brigandine" "Battle Lamellar" "Dragonscale Doublet" "Desert Brigandine" "Chainmail Vest" "Chainmail Tunic" "Ringmail Coat" "Chainmail Doublet" "Full Ringmail" "Full Chainmail" "Full Chainmail" "Latticed Ringmail" "Crusader Chainmail" "Ornate Ringmail" "Chain Hauberk" "Devout Chainmail" "Loricated Ringmail" "Padded Vest" "Padded Jacket" "Oiled Coat" "Scarlet Raiment" "Waxed Garb" "Bone Armour" "Quilted Jacket" "Sleek Coat" "Crimson Raiment" "Lacquered Garb" "Crypt Armour" "Sentinel Jacket" "Varnished Coat"
+BaseType "Full Scale Armour" "Conquest Chainmail" "Mage's Vestment" "Bronze Plate" "Arena Plate" "Triumphant Lamellar" "Elegant Ringmail" "Sun Plate" "Gladiator Plate" "Sadist Garb" "Widowsilk Robe" "Exquisite Leather" "Saint's Hauberk" "Holy Chainmail" "Saintly Chainmail" "Full Wyrmscale" "Blood Raiment" "General's Brigandine" "Carnal Armour" "Occultist's Vestment" "Crusader Plate" "Plate Vest" "Chestplate" "Copper Plate" "War Plate" "Full Plate" "Lordly Plate" "Battle Plate" "Battle Plate" "Colosseum Plate" "Majestic Plate" "Golden Plate" "Shabby Jerkin" "Strapped Leather" "Buckskin Tunic" "Wild Leather" "Full Leather" "Sun Leather" "Thief's Garb" "Eelskin Tunic" "Frontier Leather" "Glorious Leather" "Coronal Leather" "Cutthroat's Garb" "Sharkskin Tunic" "Destiny Leather" "Simple Robe" "Silken Vest" "Scholar's Robe" "Silken Garb" "Silk Robe" "Cabalist Regalia" "Sage's Robe" "Silken Wrap" "Conjurer's Vestment" "Spidersilk Robe" "Destroyer Regalia" "Savant's Robe" "Necromancer Silks" "Scale Vest" "Light Brigandine" "Scale Doublet" "Infantry Brigandine" "Soldier's Brigandine" "Field Lamellar" "Wyrmscale Doublet" "Hussar Brigandine" "Commander's Brigandine" "Battle Lamellar" "Dragonscale Doublet" "Desert Brigandine" "Chainmail Vest" "Chainmail Tunic" "Ringmail Coat" "Chainmail Doublet" "Full Ringmail" "Full Chainmail" "Full Chainmail" "Latticed Ringmail" "Crusader Chainmail" "Ornate Ringmail" "Chain Hauberk" "Devout Chainmail" "Loricated Ringmail" "Padded Vest" "Padded Jacket" "Oiled Coat" "Scarlet Raiment" "Waxed Garb" "Bone Armour" "Quilted Jacket" "Sleek Coat" "Crimson Raiment" "Lacquered Garb" "Crypt Armour" "Sentinel Jacket" "Varnished Coat"
 Rarity Rare
 ItemLevel >= 75
 SetBackgroundColor 0 0 0 120
@@ -1321,14 +1355,14 @@ SetTextColor 255 255 119 220
 SetBorderColor 255 255 119 220
 
 Hide
-BaseType "Conquest Chainmail" "Mage's Vestment" "Bronze Plate" "Arena Plate" "Triumphant Lamellar" "Elegant Ringmail" "Sun Plate" "Gladiator Plate" "Sadist Garb" "Widowsilk Robe" "Exquisite Leather" "Saint's Hauberk" "Holy Chainmail" "Saintly Chainmail" "Full Wyrmscale" "Blood Raiment" "General's Brigandine" "Carnal Armour" "Occultist's Vestment" "Crusader Plate" "Plate Vest" "Chestplate" "Copper Plate" "War Plate" "Full Plate" "Lordly Plate" "Battle Plate" "Battle Plate" "Colosseum Plate" "Majestic Plate" "Golden Plate" "Shabby Jerkin" "Strapped Leather" "Buckskin Tunic" "Wild Leather" "Full Leather" "Sun Leather" "Thief's Garb" "Eelskin Tunic" "Frontier Leather" "Glorious Leather" "Coronal Leather" "Cutthroat's Garb" "Sharkskin Tunic" "Destiny Leather" "Simple Robe" "Silken Vest" "Scholar's Robe" "Silken Garb" "Silk Robe" "Cabalist Regalia" "Sage's Robe" "Silken Wrap" "Conjurer's Vestment" "Spidersilk Robe" "Destroyer Regalia" "Savant's Robe" "Necromancer Silks" "Scale Vest" "Light Brigandine" "Scale Doublet" "Infantry Brigandine" "Soldier's Brigandine" "Field Lamellar" "Wyrmscale Doublet" "Hussar Brigandine" "Commander's Brigandine" "Battle Lamellar" "Dragonscale Doublet" "Desert Brigandine" "Chainmail Vest" "Chainmail Tunic" "Ringmail Coat" "Chainmail Doublet" "Full Ringmail" "Full Chainmail" "Full Chainmail" "Latticed Ringmail" "Crusader Chainmail" "Ornate Ringmail" "Chain Hauberk" "Devout Chainmail" "Loricated Ringmail" "Padded Vest" "Padded Jacket" "Oiled Coat" "Scarlet Raiment" "Waxed Garb" "Bone Armour" "Quilted Jacket" "Sleek Coat" "Crimson Raiment" "Lacquered Garb" "Crypt Armour" "Sentinel Jacket" "Varnished Coat"
+BaseType "Full Scale Armour" "Conquest Chainmail" "Mage's Vestment" "Bronze Plate" "Arena Plate" "Triumphant Lamellar" "Elegant Ringmail" "Sun Plate" "Gladiator Plate" "Sadist Garb" "Widowsilk Robe" "Exquisite Leather" "Saint's Hauberk" "Holy Chainmail" "Saintly Chainmail" "Full Wyrmscale" "Blood Raiment" "General's Brigandine" "Carnal Armour" "Occultist's Vestment" "Crusader Plate" "Plate Vest" "Chestplate" "Copper Plate" "War Plate" "Full Plate" "Lordly Plate" "Battle Plate" "Battle Plate" "Colosseum Plate" "Majestic Plate" "Golden Plate" "Shabby Jerkin" "Strapped Leather" "Buckskin Tunic" "Wild Leather" "Full Leather" "Sun Leather" "Thief's Garb" "Eelskin Tunic" "Frontier Leather" "Glorious Leather" "Coronal Leather" "Cutthroat's Garb" "Sharkskin Tunic" "Destiny Leather" "Simple Robe" "Silken Vest" "Scholar's Robe" "Silken Garb" "Silk Robe" "Cabalist Regalia" "Sage's Robe" "Silken Wrap" "Conjurer's Vestment" "Spidersilk Robe" "Destroyer Regalia" "Savant's Robe" "Necromancer Silks" "Scale Vest" "Light Brigandine" "Scale Doublet" "Infantry Brigandine" "Soldier's Brigandine" "Field Lamellar" "Wyrmscale Doublet" "Hussar Brigandine" "Commander's Brigandine" "Battle Lamellar" "Dragonscale Doublet" "Desert Brigandine" "Chainmail Vest" "Chainmail Tunic" "Ringmail Coat" "Chainmail Doublet" "Full Ringmail" "Full Chainmail" "Full Chainmail" "Latticed Ringmail" "Crusader Chainmail" "Ornate Ringmail" "Chain Hauberk" "Devout Chainmail" "Loricated Ringmail" "Padded Vest" "Padded Jacket" "Oiled Coat" "Scarlet Raiment" "Waxed Garb" "Bone Armour" "Quilted Jacket" "Sleek Coat" "Crimson Raiment" "Lacquered Garb" "Crypt Armour" "Sentinel Jacket" "Varnished Coat"
 Rarity Rare
 ItemLevel > 72
 SetBackgroundColor 0 0 0 140
 SetTextColor 255 255 119 240
 
 Hide
-BaseType "Conquest Chainmail" "Mage's Vestment" "Bronze Plate" "Arena Plate" "Triumphant Lamellar" "Elegant Ringmail" "Sun Plate" "Gladiator Plate" "Sadist Garb" "Widowsilk Robe" "Exquisite Leather" "Saint's Hauberk" "Holy Chainmail" "Saintly Chainmail" "Full Wyrmscale" "Blood Raiment" "General's Brigandine" "Carnal Armour" "Occultist's Vestment" "Crusader Plate" "Plate Vest" "Chestplate" "Copper Plate" "War Plate" "Full Plate" "Lordly Plate" "Battle Plate" "Battle Plate" "Colosseum Plate" "Majestic Plate" "Golden Plate" "Shabby Jerkin" "Strapped Leather" "Buckskin Tunic" "Wild Leather" "Full Leather" "Sun Leather" "Thief's Garb" "Eelskin Tunic" "Frontier Leather" "Glorious Leather" "Coronal Leather" "Cutthroat's Garb" "Sharkskin Tunic" "Destiny Leather" "Simple Robe" "Silken Vest" "Scholar's Robe" "Silken Garb" "Silk Robe" "Cabalist Regalia" "Sage's Robe" "Silken Wrap" "Conjurer's Vestment" "Spidersilk Robe" "Destroyer Regalia" "Savant's Robe" "Necromancer Silks" "Scale Vest" "Light Brigandine" "Scale Doublet" "Infantry Brigandine" "Soldier's Brigandine" "Field Lamellar" "Wyrmscale Doublet" "Hussar Brigandine" "Commander's Brigandine" "Battle Lamellar" "Dragonscale Doublet" "Desert Brigandine" "Chainmail Vest" "Chainmail Tunic" "Ringmail Coat" "Chainmail Doublet" "Full Ringmail" "Full Chainmail" "Full Chainmail" "Latticed Ringmail" "Crusader Chainmail" "Ornate Ringmail" "Chain Hauberk" "Devout Chainmail" "Loricated Ringmail" "Padded Vest" "Padded Jacket" "Oiled Coat" "Scarlet Raiment" "Waxed Garb" "Bone Armour" "Quilted Jacket" "Sleek Coat" "Crimson Raiment" "Lacquered Garb" "Crypt Armour" "Sentinel Jacket" "Varnished Coat"
+BaseType "Full Scale Armour" "Conquest Chainmail" "Mage's Vestment" "Bronze Plate" "Arena Plate" "Triumphant Lamellar" "Elegant Ringmail" "Sun Plate" "Gladiator Plate" "Sadist Garb" "Widowsilk Robe" "Exquisite Leather" "Saint's Hauberk" "Holy Chainmail" "Saintly Chainmail" "Full Wyrmscale" "Blood Raiment" "General's Brigandine" "Carnal Armour" "Occultist's Vestment" "Crusader Plate" "Plate Vest" "Chestplate" "Copper Plate" "War Plate" "Full Plate" "Lordly Plate" "Battle Plate" "Battle Plate" "Colosseum Plate" "Majestic Plate" "Golden Plate" "Shabby Jerkin" "Strapped Leather" "Buckskin Tunic" "Wild Leather" "Full Leather" "Sun Leather" "Thief's Garb" "Eelskin Tunic" "Frontier Leather" "Glorious Leather" "Coronal Leather" "Cutthroat's Garb" "Sharkskin Tunic" "Destiny Leather" "Simple Robe" "Silken Vest" "Scholar's Robe" "Silken Garb" "Silk Robe" "Cabalist Regalia" "Sage's Robe" "Silken Wrap" "Conjurer's Vestment" "Spidersilk Robe" "Destroyer Regalia" "Savant's Robe" "Necromancer Silks" "Scale Vest" "Light Brigandine" "Scale Doublet" "Infantry Brigandine" "Soldier's Brigandine" "Field Lamellar" "Wyrmscale Doublet" "Hussar Brigandine" "Commander's Brigandine" "Battle Lamellar" "Dragonscale Doublet" "Desert Brigandine" "Chainmail Vest" "Chainmail Tunic" "Ringmail Coat" "Chainmail Doublet" "Full Ringmail" "Full Chainmail" "Full Chainmail" "Latticed Ringmail" "Crusader Chainmail" "Ornate Ringmail" "Chain Hauberk" "Devout Chainmail" "Loricated Ringmail" "Padded Vest" "Padded Jacket" "Oiled Coat" "Scarlet Raiment" "Waxed Garb" "Bone Armour" "Quilted Jacket" "Sleek Coat" "Crimson Raiment" "Lacquered Garb" "Crypt Armour" "Sentinel Jacket" "Varnished Coat"
 Rarity Rare
 ItemLevel > 68
 SetBackgroundColor 0 0 0 150
@@ -1337,21 +1371,21 @@ SetTextColor 255 255 119 250
 # Shields
 
 Hide
-BaseType "Vaal Buckler" "Imperial Buckler" "Crusader Buckler" "Spiked Shield" "Goathide Buckler" "Pine Buckler" "Painted Buckler" "Hammered Buckler" "War Buckler" "Gilded Buckler" "Oak Buckler" "Enameled Buckler" "Corrugated Buckler" "Battle Buckler" "Golden Buckler" "Ironwood Buckler" "Lacquered Buckler"  "Spiked Bundle" "Driftwood Spiked Shield" "Alloyed Spiked Shield" "Burnished Spiked Shield" "Ornate Spiked Shield" "Redwood Spiked Shield" "Compound Spiked Shield" "Polished Spiked Shield" "Sovereign Spiked Shield" "Alder Spiked Shield" "Mosaic Kite Shield" "Plank Kite Shield" "Linden Kite Shield" "Reinforced Kite Shield" "Layered Kite Shield" "Ceremonial Kite Shield" "Etched Kite Shield" "Steel Kite Shield" "Laminated Kite Shield" "Angelic Kite Shield" "Branded Kite Shield" "Champion Kite Shield"
+BaseType "Cardinal Round Shield" "Vaal Buckler" "Imperial Buckler" "Crusader Buckler" "Spiked Shield" "Goathide Buckler" "Pine Buckler" "Painted Buckler" "Hammered Buckler" "War Buckler" "Gilded Buckler" "Oak Buckler" "Enameled Buckler" "Corrugated Buckler" "Battle Buckler" "Golden Buckler" "Ironwood Buckler" "Lacquered Buckler"  "Spiked Bundle" "Driftwood Spiked Shield" "Alloyed Spiked Shield" "Burnished Spiked Shield" "Ornate Spiked Shield" "Redwood Spiked Shield" "Compound Spiked Shield" "Polished Spiked Shield" "Sovereign Spiked Shield" "Alder Spiked Shield" "Mosaic Kite Shield" "Plank Kite Shield" "Linden Kite Shield" "Reinforced Kite Shield" "Layered Kite Shield" "Ceremonial Kite Shield" "Etched Kite Shield" "Steel Kite Shield" "Laminated Kite Shield" "Angelic Kite Shield" "Branded Kite Shield" "Champion Kite Shield"
 Rarity Rare
 SetBackgroundColor 0 0 0 70
 SetTextColor 255 255 119 200
 SetBorderColor 255 255 119 200
 
 Show
-BaseType "Vaal Buckler" "Imperial Buckler" "Crusader Buckler" "Spiked Shield" "Twig Spirit Shield" "Yew Spirit Shield" "Bone Spirit Shield" "Tarnished Spirit Shield" "Jingling Spirit Shield" "Brass Spirit Shield" "Walnut Spirit Shield" "Ivory Spirit Shield" "Ancient Spirit Shield" "Chiming Spirit Shield" "Thorium Spirit Shield" "Lacewood Spirit Shield" 
+BaseType "Cardinal Round Shield" "Vaal Buckler" "Imperial Buckler" "Crusader Buckler" "Spiked Shield" "Twig Spirit Shield" "Yew Spirit Shield" "Bone Spirit Shield" "Tarnished Spirit Shield" "Jingling Spirit Shield" "Brass Spirit Shield" "Walnut Spirit Shield" "Ivory Spirit Shield" "Ancient Spirit Shield" "Chiming Spirit Shield" "Thorium Spirit Shield" "Lacewood Spirit Shield" 
 Rarity Rare
 SetBackgroundColor 0 0 0 70
 SetTextColor 255 255 119 200
 SetBorderColor 255 255 119 200
 
 Hide
-BaseType "Vaal Buckler" "Imperial Buckler" "Crusader Buckler" "Spiked Shield" "Cardinal Round Shield" "Mosaic Kite Shield" "Ezomyte Tower Shield" "Elegant Round Shield" "Splintered Tower Shield" "Corroded Tower Shield" "Rawhide Tower Shield" "Cedar Tower Shield" "Copper Tower Shield" "Reinforced Tower Shield" "Painted Tower Shield" "Buckskin Tower Shield" "Mahogany Tower Shield" "Bronze Tower Shield" "Girded Tower Shield" "Crested Tower Shield" "Shagreen Tower Shield" "Ebony Tower Shield" "Goathide Buckler" "Pine Buckler" "Painted Buckler" "Hammered Buckler" "War Buckler" "Gilded Buckler" "Oak Buckler" "Enameled Buckler" "Corrugated Buckler" "Battle Buckler" "Golden Buckler" "Ironwood Buckler" "Lacquered Buckler" "Twig Spirit Shield" "Yew Spirit Shield" "Bone Spirit Shield" "Tarnished Spirit Shield" "Jingling Spirit Shield" "Brass Spirit Shield" "Walnut Spirit Shield" "Ivory Spirit Shield" "Ancient Spirit Shield" "Chiming Spirit Shield" "Thorium Spirit Shield" "Lacewood Spirit Shield" "Rotted Round Shield" "Fir Round Shield" "Studded Round Shield" "Scarlet Round Shield" "Splendid Round Shield" "Maple Round Shield" "Spiked Round Shield" "Crimson Round Shield" "Baroque Round Shield" "Teak Round Shield" "Spiny Round Shield" "Plank Kite Shield" "Linden Kite Shield" "Reinforced Kite Shield" "Layered Kite Shield" "Ceremonial Kite Shield" "Etched Kite Shield" "Steel Kite Shield" "Laminated Kite Shield" "Angelic Kite Shield" "Branded Kite Shield" "Champion Kite Shield" "Spiked Bundle" "Driftwood Spiked Shield" "Alloyed Spiked Shield" "Burnished Spiked Shield" "Ornate Spiked Shield" "Redwood Spiked Shield" "Compound Spiked Shield" "Polished Spiked Shield" "Sovereign Spiked Shield" "Alder Spiked Shield"
+BaseType "Cardinal Round Shield" "Vaal Buckler" "Imperial Buckler" "Crusader Buckler" "Spiked Shield" "Cardinal Round Shield" "Mosaic Kite Shield" "Ezomyte Tower Shield" "Elegant Round Shield" "Splintered Tower Shield" "Corroded Tower Shield" "Rawhide Tower Shield" "Cedar Tower Shield" "Copper Tower Shield" "Reinforced Tower Shield" "Painted Tower Shield" "Buckskin Tower Shield" "Mahogany Tower Shield" "Bronze Tower Shield" "Girded Tower Shield" "Crested Tower Shield" "Shagreen Tower Shield" "Ebony Tower Shield" "Goathide Buckler" "Pine Buckler" "Painted Buckler" "Hammered Buckler" "War Buckler" "Gilded Buckler" "Oak Buckler" "Enameled Buckler" "Corrugated Buckler" "Battle Buckler" "Golden Buckler" "Ironwood Buckler" "Lacquered Buckler" "Twig Spirit Shield" "Yew Spirit Shield" "Bone Spirit Shield" "Tarnished Spirit Shield" "Jingling Spirit Shield" "Brass Spirit Shield" "Walnut Spirit Shield" "Ivory Spirit Shield" "Ancient Spirit Shield" "Chiming Spirit Shield" "Thorium Spirit Shield" "Lacewood Spirit Shield" "Rotted Round Shield" "Fir Round Shield" "Studded Round Shield" "Scarlet Round Shield" "Splendid Round Shield" "Maple Round Shield" "Spiked Round Shield" "Crimson Round Shield" "Baroque Round Shield" "Teak Round Shield" "Spiny Round Shield" "Plank Kite Shield" "Linden Kite Shield" "Reinforced Kite Shield" "Layered Kite Shield" "Ceremonial Kite Shield" "Etched Kite Shield" "Steel Kite Shield" "Laminated Kite Shield" "Angelic Kite Shield" "Branded Kite Shield" "Champion Kite Shield" "Spiked Bundle" "Driftwood Spiked Shield" "Alloyed Spiked Shield" "Burnished Spiked Shield" "Ornate Spiked Shield" "Redwood Spiked Shield" "Compound Spiked Shield" "Polished Spiked Shield" "Sovereign Spiked Shield" "Alder Spiked Shield"
 Rarity Rare
 ItemLevel > 82
 SetBackgroundColor 0 0 0 70
@@ -1359,7 +1393,7 @@ SetTextColor 255 255 119 200
 SetBorderColor 255 255 119 200
 
 Hide
-BaseType "Vaal Buckler" "Imperial Buckler" "Crusader Buckler" "Spiked Shield" "Cardinal Round Shield" "Mosaic Kite Shield" "Ezomyte Tower Shield" "Elegant Round Shield" "Splintered Tower Shield" "Corroded Tower Shield" "Rawhide Tower Shield" "Cedar Tower Shield" "Copper Tower Shield" "Reinforced Tower Shield" "Painted Tower Shield" "Buckskin Tower Shield" "Mahogany Tower Shield" "Bronze Tower Shield" "Girded Tower Shield" "Crested Tower Shield" "Shagreen Tower Shield" "Ebony Tower Shield" "Goathide Buckler" "Pine Buckler" "Painted Buckler" "Hammered Buckler" "War Buckler" "Gilded Buckler" "Oak Buckler" "Enameled Buckler" "Corrugated Buckler" "Battle Buckler" "Golden Buckler" "Ironwood Buckler" "Lacquered Buckler" "Twig Spirit Shield" "Yew Spirit Shield" "Bone Spirit Shield" "Tarnished Spirit Shield" "Jingling Spirit Shield" "Brass Spirit Shield" "Walnut Spirit Shield" "Ivory Spirit Shield" "Ancient Spirit Shield" "Chiming Spirit Shield" "Thorium Spirit Shield" "Lacewood Spirit Shield" "Rotted Round Shield" "Fir Round Shield" "Studded Round Shield" "Scarlet Round Shield" "Splendid Round Shield" "Maple Round Shield" "Spiked Round Shield" "Crimson Round Shield" "Baroque Round Shield" "Teak Round Shield" "Spiny Round Shield" "Plank Kite Shield" "Linden Kite Shield" "Reinforced Kite Shield" "Layered Kite Shield" "Ceremonial Kite Shield" "Etched Kite Shield" "Steel Kite Shield" "Laminated Kite Shield" "Angelic Kite Shield" "Branded Kite Shield" "Champion Kite Shield" "Spiked Bundle" "Driftwood Spiked Shield" "Alloyed Spiked Shield" "Burnished Spiked Shield" "Ornate Spiked Shield" "Redwood Spiked Shield" "Compound Spiked Shield" "Polished Spiked Shield" "Sovereign Spiked Shield" "Alder Spiked Shield"
+BaseType "Cardinal Round Shield" "Vaal Buckler" "Imperial Buckler" "Crusader Buckler" "Spiked Shield" "Cardinal Round Shield" "Mosaic Kite Shield" "Ezomyte Tower Shield" "Elegant Round Shield" "Splintered Tower Shield" "Corroded Tower Shield" "Rawhide Tower Shield" "Cedar Tower Shield" "Copper Tower Shield" "Reinforced Tower Shield" "Painted Tower Shield" "Buckskin Tower Shield" "Mahogany Tower Shield" "Bronze Tower Shield" "Girded Tower Shield" "Crested Tower Shield" "Shagreen Tower Shield" "Ebony Tower Shield" "Goathide Buckler" "Pine Buckler" "Painted Buckler" "Hammered Buckler" "War Buckler" "Gilded Buckler" "Oak Buckler" "Enameled Buckler" "Corrugated Buckler" "Battle Buckler" "Golden Buckler" "Ironwood Buckler" "Lacquered Buckler" "Twig Spirit Shield" "Yew Spirit Shield" "Bone Spirit Shield" "Tarnished Spirit Shield" "Jingling Spirit Shield" "Brass Spirit Shield" "Walnut Spirit Shield" "Ivory Spirit Shield" "Ancient Spirit Shield" "Chiming Spirit Shield" "Thorium Spirit Shield" "Lacewood Spirit Shield" "Rotted Round Shield" "Fir Round Shield" "Studded Round Shield" "Scarlet Round Shield" "Splendid Round Shield" "Maple Round Shield" "Spiked Round Shield" "Crimson Round Shield" "Baroque Round Shield" "Teak Round Shield" "Spiny Round Shield" "Plank Kite Shield" "Linden Kite Shield" "Reinforced Kite Shield" "Layered Kite Shield" "Ceremonial Kite Shield" "Etched Kite Shield" "Steel Kite Shield" "Laminated Kite Shield" "Angelic Kite Shield" "Branded Kite Shield" "Champion Kite Shield" "Spiked Bundle" "Driftwood Spiked Shield" "Alloyed Spiked Shield" "Burnished Spiked Shield" "Ornate Spiked Shield" "Redwood Spiked Shield" "Compound Spiked Shield" "Polished Spiked Shield" "Sovereign Spiked Shield" "Alder Spiked Shield"
 Rarity Rare
 ItemLevel > 80
 SetBackgroundColor 0 0 0 100
@@ -1367,7 +1401,7 @@ SetTextColor 255 255 119 200
 SetBorderColor 255 255 119 200
 
 Hide
-BaseType "Vaal Buckler" "Imperial Buckler" "Crusader Buckler" "Spiked Shield" "Mosaic Kite Shield" "Ezomyte Tower Shield" "Elegant Round Shield" "Splintered Tower Shield" "Corroded Tower Shield" "Rawhide Tower Shield" "Cedar Tower Shield" "Copper Tower Shield" "Reinforced Tower Shield" "Painted Tower Shield" "Buckskin Tower Shield" "Mahogany Tower Shield" "Bronze Tower Shield" "Girded Tower Shield" "Crested Tower Shield" "Shagreen Tower Shield" "Ebony Tower Shield" "Goathide Buckler" "Pine Buckler" "Painted Buckler" "Hammered Buckler" "War Buckler" "Gilded Buckler" "Oak Buckler" "Enameled Buckler" "Corrugated Buckler" "Battle Buckler" "Golden Buckler" "Ironwood Buckler" "Lacquered Buckler" "Twig Spirit Shield" "Yew Spirit Shield" "Bone Spirit Shield" "Tarnished Spirit Shield" "Jingling Spirit Shield" "Brass Spirit Shield" "Walnut Spirit Shield" "Ivory Spirit Shield" "Ancient Spirit Shield" "Chiming Spirit Shield" "Thorium Spirit Shield" "Lacewood Spirit Shield" "Rotted Round Shield" "Fir Round Shield" "Studded Round Shield" "Scarlet Round Shield" "Splendid Round Shield" "Maple Round Shield" "Spiked Round Shield" "Crimson Round Shield" "Baroque Round Shield" "Teak Round Shield" "Spiny Round Shield" "Plank Kite Shield" "Linden Kite Shield" "Reinforced Kite Shield" "Layered Kite Shield" "Ceremonial Kite Shield" "Etched Kite Shield" "Steel Kite Shield" "Laminated Kite Shield" "Angelic Kite Shield" "Branded Kite Shield" "Champion Kite Shield" "Spiked Bundle" "Driftwood Spiked Shield" "Alloyed Spiked Shield" "Burnished Spiked Shield" "Ornate Spiked Shield" "Redwood Spiked Shield" "Compound Spiked Shield" "Polished Spiked Shield" "Sovereign Spiked Shield" "Alder Spiked Shield"
+BaseType "Cardinal Round Shield" "Vaal Buckler" "Imperial Buckler" "Crusader Buckler" "Spiked Shield" "Mosaic Kite Shield" "Ezomyte Tower Shield" "Elegant Round Shield" "Splintered Tower Shield" "Corroded Tower Shield" "Rawhide Tower Shield" "Cedar Tower Shield" "Copper Tower Shield" "Reinforced Tower Shield" "Painted Tower Shield" "Buckskin Tower Shield" "Mahogany Tower Shield" "Bronze Tower Shield" "Girded Tower Shield" "Crested Tower Shield" "Shagreen Tower Shield" "Ebony Tower Shield" "Goathide Buckler" "Pine Buckler" "Painted Buckler" "Hammered Buckler" "War Buckler" "Gilded Buckler" "Oak Buckler" "Enameled Buckler" "Corrugated Buckler" "Battle Buckler" "Golden Buckler" "Ironwood Buckler" "Lacquered Buckler" "Twig Spirit Shield" "Yew Spirit Shield" "Bone Spirit Shield" "Tarnished Spirit Shield" "Jingling Spirit Shield" "Brass Spirit Shield" "Walnut Spirit Shield" "Ivory Spirit Shield" "Ancient Spirit Shield" "Chiming Spirit Shield" "Thorium Spirit Shield" "Lacewood Spirit Shield" "Rotted Round Shield" "Fir Round Shield" "Studded Round Shield" "Scarlet Round Shield" "Splendid Round Shield" "Maple Round Shield" "Spiked Round Shield" "Crimson Round Shield" "Baroque Round Shield" "Teak Round Shield" "Spiny Round Shield" "Plank Kite Shield" "Linden Kite Shield" "Reinforced Kite Shield" "Layered Kite Shield" "Ceremonial Kite Shield" "Etched Kite Shield" "Steel Kite Shield" "Laminated Kite Shield" "Angelic Kite Shield" "Branded Kite Shield" "Champion Kite Shield" "Spiked Bundle" "Driftwood Spiked Shield" "Alloyed Spiked Shield" "Burnished Spiked Shield" "Ornate Spiked Shield" "Redwood Spiked Shield" "Compound Spiked Shield" "Polished Spiked Shield" "Sovereign Spiked Shield" "Alder Spiked Shield"
 Rarity Rare
 ItemLevel >= 75
 SetBackgroundColor 0 0 0 120
@@ -1375,14 +1409,14 @@ SetTextColor 255 255 119 220
 SetBorderColor 255 255 119 220
 
 Hide
-BaseType "Vaal Buckler" "Imperial Buckler" "Crusader Buckler" "Spiked Shield" "Mosaic Kite Shield" "Ezomyte Tower Shield" "Elegant Round Shield" "Splintered Tower Shield" "Corroded Tower Shield" "Rawhide Tower Shield" "Cedar Tower Shield" "Copper Tower Shield" "Reinforced Tower Shield" "Painted Tower Shield" "Buckskin Tower Shield" "Mahogany Tower Shield" "Bronze Tower Shield" "Girded Tower Shield" "Crested Tower Shield" "Shagreen Tower Shield" "Ebony Tower Shield" "Goathide Buckler" "Pine Buckler" "Painted Buckler" "Hammered Buckler" "War Buckler" "Gilded Buckler" "Oak Buckler" "Enameled Buckler" "Corrugated Buckler" "Battle Buckler" "Golden Buckler" "Ironwood Buckler" "Lacquered Buckler" "Twig Spirit Shield" "Yew Spirit Shield" "Bone Spirit Shield" "Tarnished Spirit Shield" "Jingling Spirit Shield" "Brass Spirit Shield" "Walnut Spirit Shield" "Ivory Spirit Shield" "Ancient Spirit Shield" "Chiming Spirit Shield" "Thorium Spirit Shield" "Lacewood Spirit Shield" "Rotted Round Shield" "Fir Round Shield" "Studded Round Shield" "Scarlet Round Shield" "Splendid Round Shield" "Maple Round Shield" "Spiked Round Shield" "Crimson Round Shield" "Baroque Round Shield" "Teak Round Shield" "Spiny Round Shield" "Plank Kite Shield" "Linden Kite Shield" "Reinforced Kite Shield" "Layered Kite Shield" "Ceremonial Kite Shield" "Etched Kite Shield" "Steel Kite Shield" "Laminated Kite Shield" "Angelic Kite Shield" "Branded Kite Shield" "Champion Kite Shield" "Spiked Bundle" "Driftwood Spiked Shield" "Alloyed Spiked Shield" "Burnished Spiked Shield" "Ornate Spiked Shield" "Redwood Spiked Shield" "Compound Spiked Shield" "Polished Spiked Shield" "Sovereign Spiked Shield" "Alder Spiked Shield"
+BaseType "Cardinal Round Shield" "Vaal Buckler" "Imperial Buckler" "Crusader Buckler" "Spiked Shield" "Mosaic Kite Shield" "Ezomyte Tower Shield" "Elegant Round Shield" "Splintered Tower Shield" "Corroded Tower Shield" "Rawhide Tower Shield" "Cedar Tower Shield" "Copper Tower Shield" "Reinforced Tower Shield" "Painted Tower Shield" "Buckskin Tower Shield" "Mahogany Tower Shield" "Bronze Tower Shield" "Girded Tower Shield" "Crested Tower Shield" "Shagreen Tower Shield" "Ebony Tower Shield" "Goathide Buckler" "Pine Buckler" "Painted Buckler" "Hammered Buckler" "War Buckler" "Gilded Buckler" "Oak Buckler" "Enameled Buckler" "Corrugated Buckler" "Battle Buckler" "Golden Buckler" "Ironwood Buckler" "Lacquered Buckler" "Twig Spirit Shield" "Yew Spirit Shield" "Bone Spirit Shield" "Tarnished Spirit Shield" "Jingling Spirit Shield" "Brass Spirit Shield" "Walnut Spirit Shield" "Ivory Spirit Shield" "Ancient Spirit Shield" "Chiming Spirit Shield" "Thorium Spirit Shield" "Lacewood Spirit Shield" "Rotted Round Shield" "Fir Round Shield" "Studded Round Shield" "Scarlet Round Shield" "Splendid Round Shield" "Maple Round Shield" "Spiked Round Shield" "Crimson Round Shield" "Baroque Round Shield" "Teak Round Shield" "Spiny Round Shield" "Plank Kite Shield" "Linden Kite Shield" "Reinforced Kite Shield" "Layered Kite Shield" "Ceremonial Kite Shield" "Etched Kite Shield" "Steel Kite Shield" "Laminated Kite Shield" "Angelic Kite Shield" "Branded Kite Shield" "Champion Kite Shield" "Spiked Bundle" "Driftwood Spiked Shield" "Alloyed Spiked Shield" "Burnished Spiked Shield" "Ornate Spiked Shield" "Redwood Spiked Shield" "Compound Spiked Shield" "Polished Spiked Shield" "Sovereign Spiked Shield" "Alder Spiked Shield"
 Rarity Rare
 ItemLevel > 72
 SetBackgroundColor 0 0 0 140
 SetTextColor 255 255 119 240
 
 Hide
-BaseType "Vaal Buckler" "Imperial Buckler" "Crusader Buckler" "Spiked Shield" "Ezomyte Tower Shield" "Elegant Round Shield" "Splintered Tower Shield" "Corroded Tower Shield" "Rawhide Tower Shield" "Cedar Tower Shield" "Copper Tower Shield" "Reinforced Tower Shield" "Painted Tower Shield" "Buckskin Tower Shield" "Mahogany Tower Shield" "Bronze Tower Shield" "Girded Tower Shield" "Crested Tower Shield" "Shagreen Tower Shield" "Ebony Tower Shield" "Goathide Buckler" "Pine Buckler" "Painted Buckler" "Hammered Buckler" "War Buckler" "Gilded Buckler" "Oak Buckler" "Enameled Buckler" "Corrugated Buckler" "Battle Buckler" "Golden Buckler" "Ironwood Buckler" "Lacquered Buckler" "Twig Spirit Shield" "Yew Spirit Shield" "Bone Spirit Shield" "Tarnished Spirit Shield" "Jingling Spirit Shield" "Brass Spirit Shield" "Walnut Spirit Shield" "Ivory Spirit Shield" "Ancient Spirit Shield" "Chiming Spirit Shield" "Thorium Spirit Shield" "Lacewood Spirit Shield" "Rotted Round Shield" "Fir Round Shield" "Studded Round Shield" "Scarlet Round Shield" "Splendid Round Shield" "Maple Round Shield" "Spiked Round Shield" "Crimson Round Shield" "Baroque Round Shield" "Teak Round Shield" "Spiny Round Shield" "Plank Kite Shield" "Linden Kite Shield" "Reinforced Kite Shield" "Layered Kite Shield" "Ceremonial Kite Shield" "Etched Kite Shield" "Steel Kite Shield" "Laminated Kite Shield" "Angelic Kite Shield" "Branded Kite Shield" "Champion Kite Shield" "Spiked Bundle" "Driftwood Spiked Shield" "Alloyed Spiked Shield" "Burnished Spiked Shield" "Ornate Spiked Shield" "Redwood Spiked Shield" "Compound Spiked Shield" "Polished Spiked Shield" "Sovereign Spiked Shield" "Alder Spiked Shield"
+BaseType "Cardinal Round Shield" "Vaal Buckler" "Imperial Buckler" "Crusader Buckler" "Spiked Shield" "Ezomyte Tower Shield" "Elegant Round Shield" "Splintered Tower Shield" "Corroded Tower Shield" "Rawhide Tower Shield" "Cedar Tower Shield" "Copper Tower Shield" "Reinforced Tower Shield" "Painted Tower Shield" "Buckskin Tower Shield" "Mahogany Tower Shield" "Bronze Tower Shield" "Girded Tower Shield" "Crested Tower Shield" "Shagreen Tower Shield" "Ebony Tower Shield" "Goathide Buckler" "Pine Buckler" "Painted Buckler" "Hammered Buckler" "War Buckler" "Gilded Buckler" "Oak Buckler" "Enameled Buckler" "Corrugated Buckler" "Battle Buckler" "Golden Buckler" "Ironwood Buckler" "Lacquered Buckler" "Twig Spirit Shield" "Yew Spirit Shield" "Bone Spirit Shield" "Tarnished Spirit Shield" "Jingling Spirit Shield" "Brass Spirit Shield" "Walnut Spirit Shield" "Ivory Spirit Shield" "Ancient Spirit Shield" "Chiming Spirit Shield" "Thorium Spirit Shield" "Lacewood Spirit Shield" "Rotted Round Shield" "Fir Round Shield" "Studded Round Shield" "Scarlet Round Shield" "Splendid Round Shield" "Maple Round Shield" "Spiked Round Shield" "Crimson Round Shield" "Baroque Round Shield" "Teak Round Shield" "Spiny Round Shield" "Plank Kite Shield" "Linden Kite Shield" "Reinforced Kite Shield" "Layered Kite Shield" "Ceremonial Kite Shield" "Etched Kite Shield" "Steel Kite Shield" "Laminated Kite Shield" "Angelic Kite Shield" "Branded Kite Shield" "Champion Kite Shield" "Spiked Bundle" "Driftwood Spiked Shield" "Alloyed Spiked Shield" "Burnished Spiked Shield" "Ornate Spiked Shield" "Redwood Spiked Shield" "Compound Spiked Shield" "Polished Spiked Shield" "Sovereign Spiked Shield" "Alder Spiked Shield"
 Rarity Rare
 ItemLevel > 68
 SetBackgroundColor 0 0 0 150
@@ -1846,6 +1880,7 @@ Show
 Class Gem
 BaseType "Empower"
 PlayAlertSound 3 150
+MinimapIcon 1 Blue Circle
 SetFontSize 40
 SetTextColor 0 255 255
 SetBorderColor 0 255 255
@@ -1855,6 +1890,7 @@ Show
 Class Gem
 BaseType "Enlighten"
 PlayAlertSound 3 150
+MinimapIcon 1 Blue Circle
 SetFontSize 40
 SetTextColor 0 255 255
 SetBorderColor 0 255 255
@@ -1928,23 +1964,36 @@ Hide
 Class Gem
 Quality = 0
 
- 
 ### Misc Items
-
-Show
-Class "Microtransactions"     
  
 Show
-Class "Hideout Doodads"       
+Class "Map Fragment"      
+ 
+Show
+Class "Microtransactions"  
+ 
+Show
+Class "Hideout Doodads"    
 
 Show
 Class Quest
+MinimapIcon 0 Green Hexagon
+PlayEffect Green
 SetFontSize 35
+DropLevel > 20
 SetBorderColor 0 191 0 200
+
+Show
+Class Quest
+MinimapIcon 0 Green Hexagon
+PlayEffect Green
+SetFontSize 45
+DropLevel <= 20
+SetBorderColor 0 191 0 250
  
 ### Divination Cards
  
-#T1 Unique Divination Card
+# T1 Divination Card
 Show
 Class "Divination Card"
 BaseType "The Wolven King's Bite" "The Immortal" "House of Mirrors" "The Doctor" "The Fiend"
@@ -1954,29 +2003,34 @@ SetTextColor 0 0 0
 SetBackgroundColor 255 0 255 250
 SetBorderColor 0 0 0
 
-# Unique Divination Cards
+# T2 Divination Cards
 Show
 Class "Divination Card"
-BaseType "Abandoned Wealth" "The Master" "Immortal Resolve" "Mawr Blaidd" "Hunter's Reward" 
+MinimapIcon 1 White Square
+PlayEffect White
+BaseType "The Endless Darkness" "Abandoned Wealth" "The Master" "Immortal Resolve" "Mawr Blaidd" "Hunter's Reward" 
 PlayAlertSound 10 300
 SetFontSize 50
 SetTextColor 255 51 51 255
 SetBackgroundColor 0 0 0 250
 SetBorderColor 200 150 200
 
-# Rare Divination Cards
+# T3 Divination Cards
 Show
 Class "Divination Card"
-BaseType "The Saint's Treasure" "Emperor of Purity" "The Sephirot" "The Last One Standing" "The Spark and the Flame" "Lingering Remnants" "The Brittle Emperor" "The Harvester" "Heterochromia" "Wealth and Power" "The Void" "The Vast" "The Valkyrie" "The Trial" "The Warlord" "The Thaumaturgist" "The Surveyor" "The Stormcaller" "The Sephirot" "The Penitent" "The Offering" "The Last One Standing" "The King's Heart" "The Hunger" "Hope" "The Formless Sea" "The Fox" "The Ethereal" "The Dragon's Heart" "The Devastator" "The Dark Mage" "The Dapper Prodigy" "The Chains that Bind" "The Celestial Justicar" "The Brittle Emperor" "Last Hope" "Earth Drinker" "Dialla's Subjugation" "Bowyer's Dream" "The Enlightened" "The Conduit" "Coveted Possession" "Lucky Connections" "Three Faces in the Dark" "The Cataclysm" "Chaotic Disposition" "The Wrath"
+MinimapIcon 2 White Square
+PlayEffect White
+BaseType "The Innocent" "The Wilted Rose" "Beauty Through Death" "The Price of Protection" "Boon of the First Ones" "The Cacophony" "The Mayor" "The Twilight Moon" "The Saint's Treasure" "Emperor of Purity" "The Sephirot" "The Last One Standing" "The Spark and the Flame" "Lingering Remnants" "The Brittle Emperor" "The Harvester" "Heterochromia" "Wealth and Power" "The Void" "The Vast" "The Valkyrie" "The Trial" "The Warlord" "The Thaumaturgist" "The Surveyor" "The Stormcaller" "The Sephirot" "The Penitent" "The Offering" "The Last One Standing" "The King's Heart" "The Hunger" "Hope" "The Formless Sea" "The Fox" "The Ethereal" "The Dragon's Heart" "The Devastator" "The Dark Mage" "The Dapper Prodigy" "The Chains that Bind" "The Celestial Justicar" "The Brittle Emperor" "Last Hope" "Earth Drinker" "Dialla's Subjugation" "Bowyer's Dream" "The Enlightened" "The Conduit" "Coveted Possession" "Lucky Connections" "Three Faces in the Dark" "The Cataclysm" "Chaotic Disposition" "The Wrath"
 PlayAlertSound 2 150
 SetFontSize 40  
 SetTextColor 200 150 200 250
 SetBackgroundColor 0 0 0 235
 SetBorderColor 255 255 255 180
 
+# T4 Divination Cards
 Hide
 Class "Divination Card"
-BaseType "The Carrion Crow"
+BaseType "The Carrion Crow" "The King's Blade"
 SetFontSize 30 
 SetTextColor 200 150 200 250
 SetBackgroundColor 0 0 0 200
@@ -2011,6 +2065,8 @@ PlayAlertSound 6 90
 Show
 Class "Maps" 
 ShapedMap True
+MinimapIcon 0 White Square
+PlayEffect White
 DropLevel >= 82
 SetFontSize 50
 PlayAlertSound 6 200
@@ -2083,6 +2139,7 @@ PlayAlertSound 6 150
 Show
 Class Map
 BaseType "Offering to the Goddess"
+PlayEffect Green
 SetFontSize 42
 SetTextColor 0 200 100 250
 SetBorderColor 0 70 0 250
@@ -2090,6 +2147,8 @@ SetBorderColor 0 70 0 250
 Show
 Class Map
 Rarity = Unique
+MinimapIcon 0 Brown Hexagon
+PlayEffect Brown
 SetFontSize 43
 SetTextColor 200 70 0
 SetBackgroundColor 100 0 0 200
@@ -2097,6 +2156,8 @@ SetBorderColor 200 70 0
 
 Show
 Class Map
+MinimapIcon 0 White Square
+PlayEffect White
 DropLevel >= 82
 SetFontSize 50
 PlayAlertSound 6 200
@@ -2105,6 +2166,8 @@ SetBackgroundColor 100 0 0 200
 
 Show
 Class Map
+MinimapIcon 1 White Square
+PlayEffect White
 DropLevel >= 80
 SetFontSize 45
 PlayAlertSound 6 150
@@ -2112,11 +2175,12 @@ SetTextColor 255 0 0 225
 
 Show
 Class Map
+PlayEffect White
 DropLevel > 77
 SetFontSize 42
 PlayAlertSound 6 80
 SetTextColor 255 0 0 225
-
+ 
 Show
 Class Map
 Rarity = Rare
