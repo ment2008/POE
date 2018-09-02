@@ -1,4 +1,4 @@
-# Ment's Item Filters Limited ( Hidden Drops: Gems without Exp/Quality | Low ilvl Drops [under 60 Rare Under 75 White] | Large RGB Vendor Items | low Quality Flasks ) v3.3d #
+# Ment's Item Filters Limited ( Hidden Drops: Gems without Exp/Quality | Low ilvl Drops [under 60 Rare Under 75 White] | Large RGB Vendor Items | low Quality Flasks ) v3.4a #
  
 #Ment's Filter highlights
  
@@ -38,6 +38,8 @@
  
 Show
 BaseType "Mirror of Kalandra"
+MinimapIcon 0 Red Star
+PlayEffect Red
 PlayAlertSound 1 300
 SetFontSize 50
 SetTextColor 0 0 0
@@ -46,8 +48,9 @@ SetBorderColor 0 0 0
 
 Show
 BaseType "Exalted Orb"
+MinimapIcon 0 Yellow Star
+PlayEffect Yellow
 PlayAlertSound 1 300
-#PlayAlertSound ShExalted 300
 SetFontSize 50
 SetTextColor 0 0 0
 SetBackgroundColor 255 0 255 250
@@ -55,6 +58,8 @@ SetBorderColor 0 0 0
 
 Show
 BaseType "Eternal Orb" "Ancient Reliquary Key"
+MinimapIcon 0 Yellow Star
+PlayEffect Yellow
 PlayAlertSound 1 250
 SetFontSize 50
 SetTextColor 0 0 0
@@ -63,6 +68,8 @@ SetBorderColor 0 0 0
 
 Show
 BaseType "Albino Rhoa Feather"
+MinimapIcon 0 Yellow Star
+PlayEffect Yellow
 PlayAlertSound 5 250
 SetFontSize 50
 SetTextColor 255 255 150 250
@@ -71,6 +78,8 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Divine Orb"
+MinimapIcon 0 Yellow Star
+PlayEffect Yellow
 PlayAlertSound 5 250
 #PlayAlertSound ShDivine 300
 SetFontSize 50
@@ -80,6 +89,8 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Mirror Shard"
+MinimapIcon 0 Yellow Star
+PlayEffect Yellow
 PlayAlertSound 13 250
 SetFontSize 50
 SetTextColor 255 255 150 250
@@ -97,6 +108,7 @@ SetBorderColor 255 255 150
 Show
 Class Currency
 BaseType "Blessing" "Orb of Annulment"
+PlayEffect Yellow
 PlayAlertSound 5 200
 #PlayAlertSound ShBlessed  300
 SetFontSize 42
@@ -115,7 +127,7 @@ PlayAlertSound 14 110
 
 Show
 Class Currency
-BaseType "Engineer's Orb" "Orb of Binding" "Orb of Horizons" "Annulment Shard" "Engineer's Shard" "Binding Shard" "Ancient Shard" "Harbinger's Shard" "Horizon Shard" "Harbinger's Orb" "Orb of Annulment"
+BaseType "Engineer's Orb" "Orb of Binding" "Orb of Horizons" "Annulment Shard" "Engineer's Shard" "Binding Shard" "Ancient Shard" "Harbinger's Shard" "Horizon Shard" "Harbinger's Orb"
 SetFontSize 38
 SetTextColor 255 255 100
 SetBackgroundColor 0 0 0 250
@@ -124,6 +136,8 @@ PlayAlertSound 15 200
 
 Show
 BaseType "Chaos Orb"
+MinimapIcon 0 Yellow Circle
+PlayEffect Yellow
 PlayAlertSound 5 120
 #PlayAlertSound ShChaos 300
 SetFontSize 40
@@ -133,6 +147,8 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Regal Orb"
+MinimapIcon 0 Yellow Circle
+PlayEffect Yellow
 PlayAlertSound 5 120
 #PlayAlertSound ShRegal 300
 SetFontSize 40
@@ -142,6 +158,8 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Vaal Orb"
+MinimapIcon 0 Yellow Circle
+PlayEffect Yellow
 PlayAlertSound 5 120
 #PlayAlertSound ShVaal 300
 SetFontSize 40
@@ -151,6 +169,8 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Gemcutter's Prism"
+MinimapIcon 0 Yellow Circle
+PlayEffect Yellow
 PlayAlertSound 5 120
 SetFontSize 40
 SetTextColor 255 255 150 250
@@ -159,6 +179,8 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Orb of Regret"
+MinimapIcon 0 Yellow Circle
+PlayEffect Yellow
 PlayAlertSound 5 120
 SetFontSize 40
 SetTextColor 255 255 150 250
@@ -167,6 +189,8 @@ SetBorderColor 255 255 150
  
 Show
 BaseType "Orb of Alchemy"
+MinimapIcon 1 Yellow Circle
+PlayEffect Yellow
 PlayAlertSound 3 150
 #PlayAlertSound ShAlchemy 300
 SetFontSize 40
@@ -176,6 +200,8 @@ SetBorderColor 255 255 255 250
 
 Show
 BaseType "Orb of Fusing"
+MinimapIcon 1 Yellow Circle
+PlayEffect Yellow
 PlayAlertSound 3 150
 #PlayAlertSound ShFusing 300
 SetFontSize 40
@@ -185,6 +211,8 @@ SetBorderColor 255 255 255 250
 
 Show
 BaseType "Blessed Orb" "Orb of Scouring" "Cartographer's Chisel"
+MinimapIcon 1 Yellow Circle
+PlayEffect Yellow
 PlayAlertSound 3 150
 SetFontSize 40
 SetTextColor 0 0 0 250
@@ -208,12 +236,15 @@ SetBorderColor 50 50 250 100
 
 Show
 BaseType "Jeweller's Orb" "Chromatic Orb" "Orb of Alteration" "Glassblower's Bauble"
+PlayEffect White Temp
 PlayAlertSound 9 100
 SetFontSize 42
 SetBackgroundColor 0 0 0 250
 
 Show
 BaseType "Orb of Chance"
+MinimapIcon 2 Yellow Circle
+PlayEffect Yellow
 PlayAlertSound 9 120
 SetFontSize 42
 SetBackgroundColor 0 0 0 230
@@ -229,6 +260,7 @@ SetBackgroundColor 0 0 0 250
 Show
 Class Currency
 BaseType "Prophecy"
+PlayEffect White Temp
 SetFontSize 50
 PlayAlertSound 9 100
 SetTextColor 255 255 255 250
@@ -237,6 +269,8 @@ SetBorderColor 114 0 150 250
 
 Show
 BaseType "Silver Coin"
+MinimapIcon 2 Yellow Circle
+PlayEffect White Temp
 PlayAlertSound 9 100
 SetTextColor 0 0 0 250
 SetFontSize 42
@@ -285,6 +319,7 @@ PlayAlertSound 2 100
  
 Show
 BaseType "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Transmutation" "Orb of Augmentation"
+PlayEffect White Temp
 SetFontSize 42
 SetBackgroundColor 0 0 0 250
 
@@ -305,37 +340,29 @@ SetBorderColor 255 255 150
 
 Show
 Class Currency
-BaseType "Strong Rope Net" "Strong Iron Net" "Strong Steel Net"
+BaseType "Simple Rope Net" "Reinforced Rope Net" "Strong Rope Net" "Simple Iron Net" "Reinforced Iron Net" "Strong Iron Net" "Simple Steel Net" "Reinforced Steel Net" "Strong Steel Net"
 PlayAlertSound 4 100
 SetFontSize 40
 SetTextColor 255 255 150 250
 SetBackgroundColor 0 0 100 200
-SetBorderColor 255 255 150 
-
-Show
-Class Currency
-BaseType "Reinforced Rope Net" "Reinforced Iron Net" "Reinforced Steel Net"
-SetFontSize 40
-SetTextColor 255 255 150 200
-SetBackgroundColor 0 0 100 200
 SetBorderColor 255 255 150
 
 Show
-Class Currency
-BaseType "Simple Rope Net" "Simple Iron Net" "Simple Steel Net" 
-SetFontSize 40
-SetTextColor 255 255 150 200
-SetBackgroundColor 0 0 100 200
-SetBorderColor 255 255 150
-
-Hide
-BaseType "Transmutation Shard" "Alteration Shard"
+BaseType "Frigid Fossil" "Metallic Fossil" "Jagged Fossil" "Aberrant Fossil" "Pristine Fossil" "Dense Fossil" "Corroded Fossil" "Prismatic Fossil" "Aetheric Fossil" "Serrated Fossil" "Lucent Fossil" "Shuddering Fossil" "Bound Fossil" "Perfect Fossil" "Enchanted Fossil" "Encrusted Fossil" "Faceted Fossil" "Bloodstained Fossil" "Hollow Fossil" "Fractured Fossil" "Glyphic Fossil" "Tangled Fossil" "Sanctified Fossil" "Gilded Fossil" "Scorched Fossil" "Resonator"
+SetFontSize 42
+PlayEffect Blue
+SetBackgroundColor 244 167 66 200
+SetTextColor 0 0 0 200
+SetBorderColor 0 0 0 250
+PlayAlertSound 10 150
  
 ### Socket/Links
   
 Show
 LinkedSockets = 6
-PlayAlertSound 11 250
+MinimapIcon 0 Red Star
+PlayEffect Red
+PlayAlertSound 1 250
 SetFontSize 50
 SetTextColor 255 255 255 250
 SetBackgroundColor 90 0 0 250
@@ -343,6 +370,8 @@ SetBorderColor 255 255 255 255
 
 Show
 Class "Fishing Rod"
+MinimapIcon 0 Red Star
+PlayEffect Red
 PlayAlertSound 1 300
 SetFontSize 45
 SetTextColor 255 255 255
@@ -427,9 +456,8 @@ PlayAlertSound 10 150
 ### White items that worth to chance
 
 # Can be chanced anywhere
-Hide
-BaseType "Ebony Tower Shield"
-ItemLevel >= 61
+Show
+BaseType "Gold Amulet"
 Rarity = Normal
 SetFontSize 40
 SetBackgroundColor 0 0 0 200
@@ -440,7 +468,6 @@ SetTextColor 255 255 240 200
 Show
 BaseType "Sorcerer Boots"
 ItemLevel >= 67
-PlayAlertSound 3 150
 Rarity = Normal
 SetFontSize 40
 SetBackgroundColor 0 0 0 200
@@ -451,7 +478,6 @@ SetTextColor 255 255 240 200
 Show
 BaseType "Sapphire Flask"
 ItemLevel >= 12
-PlayAlertSound 3 150
 Rarity = Normal
 SetFontSize 40
 SetBackgroundColor 0 0 0 200
@@ -459,7 +485,8 @@ SetBorderColor 175 96 37 250
 SetTextColor 255 255 240 200
 
 # Can be chanced anywhere
-Hide
+
+Show
 BaseType "Glorious Plate"
 ItemLevel >= 60
 Rarity = Normal
@@ -470,13 +497,14 @@ SetTextColor 255 255 240 200
 
 # More Chance Bases: "Occultist's Vestment" "Prophecy Wand" "Spine Bow" "Chain Belt" "Siege Axe" "Judgement Staff" "Imperial Bow"
 
-### Elder & Shaper Gear
+### Elder Gear
 
 Show
 ShaperItem True
 BaseType "Stygian Vise" "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Onyx Amulet" "Diamond" "Two-Stone" "Titan Gauntlets" "Slink Gloves" "Royal Burgonet" "Lion Pelt" "Titan Greaves" "Slink Boots" "Hubris Circlet" "Profane Wand" "Sambar Sceptre" "Void Sceptre" "Imbued Wand" "Pinnacle Tower Shield" "Kris" "Prismatic" "Astral Plate" "Assassin's Garb" "Vaal Axe" "Coronal Maul" "Exquisite Blade" "Fleshripper" "Harbinger Bow" "Gemini Claw" "Ambusher" "Siege Axe" "Harpy Rapier" "Demon Dagger" "Skean" "Spiraled Foil" "Jewelled Foil" "Profane Wand" "Sambar Sceptre" "Void Sceptre" "Imbued Wand" "Pinnacle Tower Shield" "Kris" "Prismatic" "Astral Plate" "Assassin's Garb"  "Vanguard Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Crystal Belt" 
 Rarity <= Rare 
 ElderItem True 
+PlayEffect White Temp
 SetFontSize 45
 SetTextColor 255 255 255 255
 SetBorderColor 0 255 255 255
@@ -485,9 +513,10 @@ PlayAlertSound 12 300
 	
 Show
 ElderItem True
-BaseType "Stygian Vise" "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Onyx Amulet" "Diamond" "Two-Stone" "Titan Gauntlets" "Slink Gloves" "Royal Burgonet" "Lion Pelt" "Titan Greaves" "Slink Boots" "Hubris Circlet" "Profane Wand" "Sambar Sceptre" "Void Sceptre" "Imbued Wand" "Pinnacle Tower Shield" "Kris" "Prismatic" "Astral Plate" "Assassin's Garb" "Vaal Axe" "Coronal Maul" "Exquisite Blade" "Fleshripper" "Harbinger Bow" "Gemini Claw" "Ambusher" "Siege Axe" "Harpy Rapier" "Demon Dagger" "Skean" "Spiraled Foil" "Jewelled Foil" "Profane Wand" "Sambar Sceptre" "Void Sceptre" "Imbued Wand" "Pinnacle Tower Shield" "Kris" "Prismatic" "Astral Plate" "Assassin's Garb"  "Vanguard Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Crystal Belt" 
+BaseType "Stygian Vise" "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt"  "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Onyx Amulet" "Diamond" "Two-Stone" "Titan Gauntlets" "Slink Gloves" "Royal Burgonet" "Lion Pelt" "Titan Greaves" "Slink Boots" "Hubris Circlet" "Profane Wand" "Sambar Sceptre" "Void Sceptre" "Imbued Wand" "Pinnacle Tower Shield" "Kris" "Prismatic" "Astral Plate" "Assassin's Garb" "Vaal Axe" "Coronal Maul" "Exquisite Blade" "Fleshripper" "Harbinger Bow" "Gemini Claw" "Ambusher" "Siege Axe" "Harpy Rapier" "Demon Dagger" "Skean" "Spiraled Foil" "Jewelled Foil" "Profane Wand" "Sambar Sceptre" "Void Sceptre" "Imbued Wand" "Pinnacle Tower Shield" "Kris" "Prismatic" "Astral Plate" "Assassin's Garb" "Crystal Belt"
 Rarity <= Rare 
-ElderItem True 
+ElderItem True
+PlayEffect White Temp
 SetFontSize 45
 SetTextColor 255 255 255 255
 SetBorderColor 0 255 255 255
@@ -498,7 +527,8 @@ Show
 ElderItem True
 Class "Boots" "Gloves" "Belt" "Ring" "Amulet" "Helmet" "Dagger" "Sceptre" "Wand" "Claw" "Sword" "Axe" "Shield" "Bow" "Mace"
 Rarity <= Rare 
-ElderItem True 
+ElderItem True
+PlayEffect White Temp
 SetFontSize 45
 SetTextColor 255 255 255 255
 SetBorderColor 0 255 255 255
@@ -507,6 +537,7 @@ PlayAlertSound 12 300
 
 Show
 ElderItem True
+PlayEffect White Temp
 Rarity <= Rare
 SetFontSize 45
 SetTextColor 255 255 255 255
@@ -518,7 +549,8 @@ Show
 ShaperItem True
 Class "Boots" "Gloves" "Belt" "Ring" "Amulet" "Helmet" "Dagger" "Sceptre" "Wand" "Claw" "Sword" "Axe" "Shield" "Bow" "Mace"
 Rarity <= Rare 
-ElderItem True 
+ElderItem True
+PlayEffect White Temp
 SetFontSize 45
 SetTextColor 255 255 255 255
 SetBorderColor 0 255 255 255
@@ -527,6 +559,7 @@ PlayAlertSound 12 300
 
 Show
 ShaperItem True
+PlayEffect White Temp
 Rarity <= Rare
 SetFontSize 45
 SetTextColor 255 255 255 255
@@ -559,6 +592,15 @@ PlayAlertSound 3 150
 SetTextColor 255 100 100 250
 SetBackgroundColor 50 50 50 250
 SetBorderColor 255 255 150
+
+Show
+Class Currency
+BaseType "Vial of Sacrifice"
+PlayAlertSound 1 300
+SetFontSize 50
+SetTextColor 0 0 0
+SetBackgroundColor 255 0 255 250
+SetBorderColor 0 0 0
 
 Show
 Class Currency
@@ -992,41 +1034,42 @@ PlayAlertSound 2 250
 ### Talisman Gear
  
 Show
- BaseType "Talisman"
- Rarity Unique
- PlayAlertSound 3 150
- SetBorderColor 200 200 200 200
+BaseType "Talisman"
+Rarity Unique
+PlayAlertSound 3 150
+SetBorderColor 200 200 200 200
  
 Show
- BaseType "Talisman"
- Rarity Rare
- PlayAlertSound 9 100
- SetBackgroundColor 35 35 35 200
- SetBorderColor 200 200 200 200
- SetTextColor 255 255 0
+BaseType "Talisman"
+Rarity Rare
+PlayAlertSound 9 100
+SetBackgroundColor 35 35 35 200
+SetBorderColor 200 200 200 200
+SetTextColor 255 255 0
 
 Show
- BaseType "Talisman"
- Rarity Magic
- PlayAlertSound 9 100
- SetBackgroundColor 35 35 35 200
- SetBorderColor 200 200 200 200
+BaseType "Talisman"
+Rarity Magic
+PlayAlertSound 9 100
+SetBackgroundColor 35 35 35 200
+SetBorderColor 200 200 200 200
  
 Hide
- BaseType "Talisman"
- Rarity Normal
- PlayAlertSound 9 100
- SetBackgroundColor 35 35 35 200
- SetBorderColor 200 200 200 200
+BaseType "Talisman"
+Rarity Normal
+PlayAlertSound 9 100
+SetBackgroundColor 35 35 35 200
+SetBorderColor 200 200 200 200
 
- 
 ### Unique Gear
-
+  
 Show
 Rarity = Unique
-SetBorderColor 175 96 37
-PlayAlertSound 2 150
+MinimapIcon 1 Brown Hexagon
+PlayEffect Brown
 SetFontSize 40
+PlayAlertSound 8 150  
+SetBorderColor 175 96 37
 
 Show 
 BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
@@ -1771,6 +1814,7 @@ Show
 Class Gem
 BaseType "Empower"
 PlayAlertSound 3 150
+MinimapIcon 1 Blue Circle
 SetFontSize 40
 SetTextColor 0 255 255
 SetBorderColor 0 255 255
@@ -1780,6 +1824,7 @@ Show
 Class Gem
 BaseType "Enlighten"
 PlayAlertSound 3 150
+MinimapIcon 1 Blue Circle
 SetFontSize 40
 SetTextColor 0 255 255
 SetBorderColor 0 255 255
@@ -1853,23 +1898,36 @@ Hide
 Class Gem
 Quality = 0
 
- 
 ### Misc Items
-
-Show
-Class "Microtransactions"     
  
 Show
-Class "Hideout Doodads"       
+Class "Map Fragment"      
+ 
+Show
+Class "Microtransactions"  
+ 
+Show
+Class "Hideout Doodads"    
 
 Show
 Class Quest
+MinimapIcon 0 Green Hexagon
+PlayEffect Green
 SetFontSize 35
+DropLevel > 20
 SetBorderColor 0 191 0 200
+
+Show
+Class Quest
+MinimapIcon 0 Green Hexagon
+PlayEffect Green
+SetFontSize 45
+DropLevel <= 20
+SetBorderColor 0 191 0 250
  
 ### Divination Cards
  
-#T1 Unique Divination Card
+# T1 Divination Card
 Show
 Class "Divination Card"
 BaseType "The Wolven King's Bite" "The Immortal" "House of Mirrors" "The Doctor" "The Fiend"
@@ -1879,29 +1937,34 @@ SetTextColor 0 0 0
 SetBackgroundColor 255 0 255 250
 SetBorderColor 0 0 0
 
-# Unique Divination Cards
+# T2 Divination Cards
 Show
 Class "Divination Card"
-BaseType "Abandoned Wealth" "The Master" "Immortal Resolve" "Mawr Blaidd" "Hunter's Reward" 
+MinimapIcon 1 White Square
+PlayEffect White
+BaseType "The Endless Darkness" "Abandoned Wealth" "The Master" "Immortal Resolve" "Mawr Blaidd" "Hunter's Reward" 
 PlayAlertSound 10 300
 SetFontSize 50
 SetTextColor 255 51 51 255
 SetBackgroundColor 0 0 0 250
 SetBorderColor 200 150 200
 
-# Rare Divination Cards
+# T3 Divination Cards
 Show
 Class "Divination Card"
-BaseType "The Saint's Treasure" "Emperor of Purity" "The Sephirot" "The Last One Standing" "The Spark and the Flame" "Lingering Remnants" "The Brittle Emperor" "The Harvester" "Heterochromia" "Wealth and Power" "The Void" "The Vast" "The Valkyrie" "The Trial" "The Warlord" "The Thaumaturgist" "The Surveyor" "The Stormcaller" "The Sephirot" "The Penitent" "The Offering" "The Last One Standing" "The King's Heart" "The Hunger" "Hope" "The Formless Sea" "The Fox" "The Ethereal" "The Dragon's Heart" "The Devastator" "The Dark Mage" "The Dapper Prodigy" "The Chains that Bind" "The Celestial Justicar" "The Brittle Emperor" "Last Hope" "Earth Drinker" "Dialla's Subjugation" "Bowyer's Dream" "The Enlightened" "The Conduit" "Coveted Possession" "Lucky Connections" "Three Faces in the Dark" "The Cataclysm" "Chaotic Disposition" "The Wrath"
+MinimapIcon 2 White Square
+PlayEffect White
+BaseType "The Innocent" "The Wilted Rose" "Beauty Through Death" "The Price of Protection" "Boon of the First Ones" "The Cacophony" "The Mayor" "The Twilight Moon" "The Saint's Treasure" "Emperor of Purity" "The Sephirot" "The Last One Standing" "The Spark and the Flame" "Lingering Remnants" "The Brittle Emperor" "The Harvester" "Heterochromia" "Wealth and Power" "The Void" "The Vast" "The Valkyrie" "The Trial" "The Warlord" "The Thaumaturgist" "The Surveyor" "The Stormcaller" "The Sephirot" "The Penitent" "The Offering" "The Last One Standing" "The King's Heart" "The Hunger" "Hope" "The Formless Sea" "The Fox" "The Ethereal" "The Dragon's Heart" "The Devastator" "The Dark Mage" "The Dapper Prodigy" "The Chains that Bind" "The Celestial Justicar" "The Brittle Emperor" "Last Hope" "Earth Drinker" "Dialla's Subjugation" "Bowyer's Dream" "The Enlightened" "The Conduit" "Coveted Possession" "Lucky Connections" "Three Faces in the Dark" "The Cataclysm" "Chaotic Disposition" "The Wrath"
 PlayAlertSound 2 150
 SetFontSize 40  
 SetTextColor 200 150 200 250
 SetBackgroundColor 0 0 0 235
 SetBorderColor 255 255 255 180
 
+# T4 Divination Cards
 Hide
 Class "Divination Card"
-BaseType "The Carrion Crow"
+BaseType "The Carrion Crow" "The King's Blade"
 SetFontSize 30 
 SetTextColor 200 150 200 250
 SetBackgroundColor 0 0 0 200
@@ -1936,6 +1999,8 @@ PlayAlertSound 6 90
 Show
 Class "Maps" 
 ShapedMap True
+MinimapIcon 0 White Square
+PlayEffect White
 DropLevel >= 82
 SetFontSize 50
 PlayAlertSound 6 200
@@ -2008,6 +2073,7 @@ PlayAlertSound 6 150
 Show
 Class Map
 BaseType "Offering to the Goddess"
+PlayEffect Green
 SetFontSize 42
 SetTextColor 0 200 100 250
 SetBorderColor 0 70 0 250
@@ -2015,6 +2081,8 @@ SetBorderColor 0 70 0 250
 Show
 Class Map
 Rarity = Unique
+MinimapIcon 0 Brown Hexagon
+PlayEffect Brown
 SetFontSize 43
 SetTextColor 200 70 0
 SetBackgroundColor 100 0 0 200
@@ -2022,6 +2090,8 @@ SetBorderColor 200 70 0
 
 Show
 Class Map
+MinimapIcon 0 White Square
+PlayEffect White
 DropLevel >= 82
 SetFontSize 50
 PlayAlertSound 6 200
@@ -2030,6 +2100,8 @@ SetBackgroundColor 100 0 0 200
 
 Show
 Class Map
+MinimapIcon 1 White Square
+PlayEffect White
 DropLevel >= 80
 SetFontSize 45
 PlayAlertSound 6 150
@@ -2037,6 +2109,7 @@ SetTextColor 255 0 0 225
 
 Show
 Class Map
+PlayEffect White
 DropLevel > 77
 SetFontSize 42
 PlayAlertSound 6 80
