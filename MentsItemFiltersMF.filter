@@ -45,7 +45,7 @@ SetBackgroundColor 255 0 255 250
 SetBorderColor 0 0 0
 
 Show
-BaseType "Exalted Orb"
+BaseType "Exalted Orb" "Timeworn Reliquary Key"
 PlayAlertSound 1 300
 #PlayAlertSound ShExalted 300
 SetFontSize 50
