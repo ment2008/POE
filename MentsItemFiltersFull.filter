@@ -492,6 +492,14 @@ SetTextColor 0 0 0 250
 SetBackgroundColor 200 200 50 200
 SetBorderColor 0 0 0
 
+Show
+Class Map
+BaseType "Offering to the Goddess"
+PlayEffect Green
+SetFontSize 42
+SetTextColor 0 200 100 250
+SetBorderColor 0 70 0 250
+
 ### Abyss Jewel
 
 Show
@@ -1021,17 +1029,6 @@ Show
 Class Gem
 SetFontSize 30
 
-### Misc Items
- 
-Show
-Class "Map Fragment"      
- 
-Show
-Class "Microtransactions"  
- 
-Show
-Class "Hideout Doodads"    
-
 Show
 Class Quest
 MinimapIcon 0 Green Hexagon
@@ -1049,11 +1046,13 @@ DropLevel <= 20
 SetBorderColor 0 191 0 250
 
 ### Divination Cards
- 
+
 # T1 Divination Card
 Show
 Class "Divination Card"
 BaseType "The Wolven King's Bite" "The Immortal" "House of Mirrors" "The Doctor" "The Fiend"
+MinimapIcon 0 Yellow Square
+PlayEffect Yellow
 PlayAlertSound 1 300
 SetFontSize 50
 SetTextColor 0 0 0
@@ -1104,16 +1103,54 @@ SetBorderColor 255 255 255 180
 ### Maps
 
 Show
-Class "Maps" 
-ShapedMap True 
-SetFontSize 50
-SetBorderColor 255 0 0 255
-SetTextColor 255 255 255 250
-PlayAlertSound 6 90
+Class "Map Fragments"
+BaseType "Mortal Hope" "Mortal Ignorance"
+MinimapIcon 0 Red Circle
+PlayEffect Red
+SetTextColor 255 0 0 255
+SetBorderColor 0 0 0 255
+SetBackgroundColor 0 0 0 255
+SetFontSize 45
+PlayAlertSound 6 200
+
+Show
+Class "Map Fragments"
+BaseType "Mortal Rage" "Mortal Grief"
+MinimapIcon 2 Red Circle
+PlayEffect Red
+SetTextColor 255 0 0 255
+SetBorderColor 0 0 0 255
+SetBackgroundColor 0 0 0 200
+SetFontSize 40
+PlayAlertSound 6 200
+
+Show
+Class "Map Fragments"
+BaseType "Sacrifice at Midnight"
+MinimapIcon 0 Red Circle
+PlayEffect Red
+SetTextColor 255 0 0 255
+SetBorderColor 0 0 0 255
+SetBackgroundColor 0 0 0 255
+SetFontSize 40
+PlayAlertSound 6 150
+
+Show
+Class "Map Fragments"
+BaseType "Sacrifice at Dawn" "Sacrifice at Dusk" "Sacrifice at Noon"
+MinimapIcon 2 Red Circle
+PlayEffect Red
+SetTextColor 255 0 0 255
+SetBorderColor 0 0 0 255
+SetBackgroundColor 0 0 0 180
+SetFontSize 35
+PlayAlertSound 6 150
 
 Show
 Class "Map Fragments"
 BaseType "Divine Vessel"
+MinimapIcon 2 Red Circle
+PlayEffect Red
 SetTextColor 255 51 51 255
 SetBorderColor 100 0 0 255
 SetBackgroundColor 0 0 0 255
@@ -1121,26 +1158,18 @@ SetFontSize 45
 PlayAlertSound 16 100
 
 Show
-Class "Map Fragments"
-BaseType "Divine Vessel"
-SetTextColor 100 0 0 255
-SetBorderColor 100 0 0 255
-SetBackgroundColor 0 0 0 255
-SetFontSize 45
-PlayAlertSound 10 200
- 
-Show
-Class Map
-PlayEffect Green
-BaseType "Offering to the Goddess"
-SetFontSize 42
-SetTextColor 0 200 100 250
-SetBorderColor 0 70 0 250 
- 
+Class "Maps"
+MinimapIcon 2 White Square
+ShapedMap True 
+SetFontSize 50
+SetBorderColor 255 0 0 255
+SetTextColor 255 255 255 250
+PlayAlertSound 6 90
+
 Show
 Class Map
 Rarity = Unique
-MinimapIcon 0 Brown Hexagon
+MinimapIcon 0 Brown Square
 PlayEffect Brown
 SetFontSize 40
 SetTextColor 200 70 0
@@ -1168,6 +1197,7 @@ SetTextColor 255 0 0 225
 
 Show
 Class Map
+MinimapIcon 2 White Square
 DropLevel > 77
 SetFontSize 42
 PlayAlertSound 6 80
@@ -1175,6 +1205,7 @@ SetTextColor 255 0 0 225
  
 Show
 Class Map
+MinimapIcon 2 Yellow Square
 Rarity = Rare
 SetFontSize 40
 SetTextColor 255 255 0
@@ -1183,11 +1214,13 @@ SetBackgroundColor 70 70 70 250
  
 Show
 Class Map
+MinimapIcon 2 Blue Square
 Rarity = Magic
 SetFontSize 38
  
 Show
 Class Map
+MinimapIcon 2 White Square
 Rarity = Normal
 SetFontSize 38
 PlayAlertSound 9 200
@@ -1196,6 +1229,7 @@ SetBorderColor 192 192 192
  
 Show
 Class Map
+MinimapIcon 2 Blue Square
 Rarity = Magic
 SetFontSize 38
 SetTextColor 0 0 255
@@ -1203,12 +1237,22 @@ SetBorderColor 0 0 255
  
 Show
 Class Map
+MinimapIcon 2 White Square
 Rarity = Normal
 SetFontSize 38
 SetTextColor 192 192 192
 SetBorderColor 192 192 192
 
 ### White items that worth to chance
+
+# Can be chanced in Zana 7 (Nemesis Map Mod)
+Show
+BaseType "Leather Belt"
+Rarity = Normal
+SetFontSize 40
+SetBackgroundColor 0 0 0 200
+SetBorderColor 175 96 37 250
+SetTextColor 255 255 240 200
 
 # Can be chanced anywhere
 Show
@@ -1283,6 +1327,29 @@ SetFontSize 45
 PlayAlertSound 9
 SetBackgroundColor 0 100 0 150
 SetBorderColor 0 0 0 250
+
+Hide
+Class "Life Flask"
+ItemLevel > 72
+SetFontSize 22
+SetBackgroundColor 0 0 0 180
+
+Show
+Class "Life Flask"
+BaseType "Divine Life Flask" "Eternal Life Flask"
+Quality > 14
+ItemLevel <= 72
+SetFontSize 40
+SetBackgroundColor 0 0 0 180
+SetBorderColor 255 0 0 200
+
+Show
+Class "Life Flask"
+BaseType "Divine Life Flask" "Eternal Life Flask"
+ItemLevel <= 72
+SetFontSize 30
+SetBackgroundColor 0 0 0 180
+SetBorderColor 255 0 0 100
 
 Show
 Class "Life Flask" "Mana Flask" "Hybrid Flask"
@@ -1607,9 +1674,19 @@ ItemLevel >= 1
 SetFontSize 30
 SetTextColor 255 255 255 180
 SetBackgroundColor 0 0 0 170  
+
+### Misc Items
  
 Show
+Class "Map Fragment"      
+ 
+Show
+Class "Microtransactions"  
+ 
+Show
+Class "Hideout Doodads"    
 
+Show
 ################################################################################################
 # Your opinions is very important to me.                                                       #
 # I appreciate your feedback and will use it to evaluate changes and make improvements.        #
