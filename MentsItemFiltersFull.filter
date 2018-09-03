@@ -46,7 +46,7 @@ SetBackgroundColor 255 0 255 250
 SetBorderColor 0 0 0
 
 Show
-BaseType "Exalted Orb"
+BaseType "Exalted Orb" "Timeworn Reliquary Key"
 MinimapIcon 0 Yellow Star
 PlayEffect Yellow
 PlayAlertSound 1 300
