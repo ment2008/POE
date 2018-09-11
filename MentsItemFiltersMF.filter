@@ -35,9 +35,11 @@
 #-----------------------------------------------------------------------------------------------------------
 
 ### Currency
- 
+
 Show
 BaseType "Mirror of Kalandra"
+MinimapIcon 0 Red Star
+PlayEffect Red
 PlayAlertSound 1 300
 SetFontSize 50
 SetTextColor 0 0 0
@@ -46,8 +48,9 @@ SetBorderColor 0 0 0
 
 Show
 BaseType "Exalted Orb" "Timeworn Reliquary Key"
-PlayAlertSound 1 300
-#PlayAlertSound ShExalted 300
+MinimapIcon 0 Yellow Star
+PlayEffect Yellow
+CustomAlertSound "Exalted.wav" 300
 SetFontSize 50
 SetTextColor 0 0 0
 SetBackgroundColor 255 0 255 250
@@ -55,7 +58,9 @@ SetBorderColor 0 0 0
 
 Show
 BaseType "Eternal Orb" "Ancient Reliquary Key"
-PlayAlertSound 1 250
+MinimapIcon 0 Yellow Star
+PlayEffect Yellow
+CustomAlertSound "Exalted.wav" 300
 SetFontSize 50
 SetTextColor 0 0 0
 SetBackgroundColor 255 0 255 250
@@ -63,6 +68,8 @@ SetBorderColor 0 0 0
 
 Show
 BaseType "Albino Rhoa Feather"
+MinimapIcon 0 Yellow Star
+PlayEffect Yellow
 PlayAlertSound 5 250
 SetFontSize 50
 SetTextColor 255 255 150 250
@@ -71,8 +78,9 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Divine Orb"
+MinimapIcon 0 Yellow Star
+PlayEffect Yellow
 PlayAlertSound 5 250
-#PlayAlertSound ShDivine 300
 SetFontSize 50
 SetTextColor 255 255 150 250
 SetBackgroundColor 220 0 220 180
@@ -80,6 +88,8 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Mirror Shard"
+MinimapIcon 0 Yellow Star
+PlayEffect Yellow
 PlayAlertSound 13 250
 SetFontSize 50
 SetTextColor 255 255 150 250
@@ -97,8 +107,8 @@ SetBorderColor 255 255 150
 Show
 Class Currency
 BaseType "Blessing" "Orb of Annulment"
+PlayEffect Yellow
 PlayAlertSound 5 200
-#PlayAlertSound ShBlessed  300
 SetFontSize 50
 SetTextColor 255 255 150
 SetBackgroundColor 0 0 0 250
@@ -115,7 +125,7 @@ PlayAlertSound 14 110
 
 Show
 Class Currency
-BaseType "Engineer's Orb" "Orb of Horizons" "Annulment Shard" "Engineer's Shard" "Orb of Binding" "Binding Shard" "Ancient Shard" "Harbinger's Shard" "Horizon Shard" "Harbinger's Orb" "Orb of Annulment"
+BaseType "Engineer's Orb" "Orb of Binding" "Orb of Horizons" "Annulment Shard" "Engineer's Shard" "Binding Shard" "Ancient Shard" "Harbinger's Shard" "Horizon Shard" "Harbinger's Orb"
 SetFontSize 50
 SetTextColor 255 255 100
 SetBackgroundColor 0 0 0 250
@@ -124,8 +134,9 @@ PlayAlertSound 15 200
 
 Show
 BaseType "Chaos Orb"
-PlayAlertSound 5 120
-#PlayAlertSound ShChaos 300
+MinimapIcon 0 Yellow Circle
+PlayEffect Yellow
+CustomAlertSound "T3Currency.wav" 300
 SetFontSize 50
 SetTextColor 255 255 150 250
 SetBackgroundColor 50 50 50 250
@@ -133,8 +144,9 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Regal Orb"
-PlayAlertSound 5 120
-#PlayAlertSound ShRegal 300
+MinimapIcon 0 Yellow Circle
+PlayEffect Yellow
+CustomAlertSound "T3Currency.wav" 300
 SetFontSize 50
 SetTextColor 255 255 150 250
 SetBackgroundColor 50 50 50 250
@@ -142,8 +154,9 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Vaal Orb"
-PlayAlertSound 5 120
-#PlayAlertSound ShVaal 300
+MinimapIcon 0 Yellow Circle
+PlayEffect Yellow
+CustomAlertSound "T3Currency.wav" 300
 SetFontSize 50
 SetTextColor 255 255 150 250
 SetBackgroundColor 50 50 50 250
@@ -151,7 +164,9 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Gemcutter's Prism"
-PlayAlertSound 5 120
+MinimapIcon 0 Yellow Circle
+PlayEffect Yellow
+CustomAlertSound "T3Currency.wav" 300
 SetFontSize 50
 SetTextColor 255 255 150 250
 SetBackgroundColor 50 50 50 250
@@ -159,7 +174,9 @@ SetBorderColor 255 255 150
 
 Show
 BaseType "Orb of Regret"
-PlayAlertSound 5 120
+MinimapIcon 0 Yellow Circle
+PlayEffect Yellow
+CustomAlertSound "T3Currency.wav" 300
 SetFontSize 50
 SetTextColor 255 255 150 250
 SetBackgroundColor 50 50 50 250
@@ -167,8 +184,9 @@ SetBorderColor 255 255 150
  
 Show
 BaseType "Orb of Alchemy"
-PlayAlertSound 3 150
-#PlayAlertSound ShAlchemy 300
+MinimapIcon 1 Yellow Circle
+PlayEffect Yellow
+PlayAlertSound 3 80
 SetFontSize 50
 SetTextColor 0 0 0 250
 SetBackgroundColor 255 255 204 200
@@ -176,8 +194,9 @@ SetBorderColor 255 255 255 250
 
 Show
 BaseType "Orb of Fusing"
-PlayAlertSound 3 150
-#PlayAlertSound ShFusing 300
+MinimapIcon 1 Yellow Circle
+PlayEffect Yellow
+PlayAlertSound 3 80
 SetFontSize 50
 SetTextColor 0 0 0 250
 SetBackgroundColor 255 255 204 200
@@ -185,7 +204,9 @@ SetBorderColor 255 255 255 250
 
 Show
 BaseType "Blessed Orb" "Orb of Scouring" "Cartographer's Chisel"
-PlayAlertSound 3 150
+MinimapIcon 1 Yellow Circle
+PlayEffect Yellow
+PlayAlertSound 3 80
 SetFontSize 50
 SetTextColor 0 0 0 250
 SetBackgroundColor 255 255 204 200
@@ -202,17 +223,20 @@ SetBorderColor 50 50 250 150
 Show
 BaseType "Alchemy Shard"
 PlayAlertSound 9 100
-SetFontSize 50
+SetFontSize 32
 SetBackgroundColor 0 0 0 250
 SetBorderColor 50 50 250 100
 
 Hide
 BaseType "Jeweller's Orb" "Chromatic Orb" "Orb of Alteration" "Glassblower's Bauble"
-SetFontSize 50
+PlayEffect White Temp
+SetFontSize 42
 SetBackgroundColor 0 0 0 250
 
 Show
 BaseType "Orb of Chance"
+MinimapIcon 2 Yellow Circle
+PlayEffect Yellow
 PlayAlertSound 9 120
 SetFontSize 50
 SetBackgroundColor 0 0 0 230
@@ -228,6 +252,7 @@ SetBackgroundColor 0 0 0 250
 Show
 Class Currency
 BaseType "Prophecy"
+PlayEffect White Temp
 SetFontSize 50
 PlayAlertSound 9 100
 SetTextColor 255 255 255 250
@@ -236,10 +261,12 @@ SetBorderColor 114 0 150 250
 
 Show
 BaseType "Silver Coin"
-PlayAlertSound 9 100
+PlayEffect White Temp
+CustomAlertSound "Silvers.wav" 300
 SetTextColor 0 0 0 250
 SetFontSize 50
-SetBackgroundColor 255 200 255 150
+SetTextColor 255 255 255 250
+SetBackgroundColor 192 192 192 180
 SetBorderColor 255 255 255 150
 
 Show
@@ -247,7 +274,7 @@ Class Leaguestone
 BaseType "Onslaught" "Domination" "Breach" "Nemesis" "Bloodline" "Perandus" "Beyond"
 Rarity = Magic
 ItemLevel >= 67
-SetFontSize 50
+SetFontSize 42
 SetTextColor 255 255 50
 SetBackgroundColor 25 0 0 250
 SetBorderColor 136 136 255 250
@@ -256,7 +283,7 @@ PlayAlertSound 2 100
 Show
 Class Leaguestone
 Rarity >= Magic
-SetFontSize 50
+SetFontSize 42
 SetTextColor 255 255 50 130
 SetBackgroundColor 25 0 0 250
 SetBorderColor 136 136 255 250
@@ -267,7 +294,7 @@ Class Leaguestone
 BaseType "Onslaught" "Domination" "Breach" "Nemesis" "Bloodline" "Perandus" "Beyond"
 Rarity = Normal
 ItemLevel >= 67
-SetFontSize 50
+SetFontSize 37
 SetTextColor 255 255 50 130
 SetBackgroundColor 25 0 0 250
 SetBorderColor 255 255 255 250
@@ -276,28 +303,22 @@ PlayAlertSound 2 100
 Show
 Class Leaguestone
 Rarity = Normal
-SetFontSize 50
+SetFontSize 37
 SetTextColor 255 255 50 120
 SetBackgroundColor 25 0 0 250
 SetBorderColor 255 255 255 250
 PlayAlertSound 2 100
  
 Hide
-BaseType "Blacksmith's Whetstone" "Armourer's Scrap"
-SetFontSize 50
-SetBackgroundColor 0 0 0 180
-SetBorderColor 255 255 150 140
-
-Hide
-BaseType "Orb of Transmutation" "Orb of Augmentation"
-SetFontSize 40
-SetBackgroundColor 0 0 0 150
+BaseType "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Transmutation" "Orb of Augmentation"
+PlayEffect White Temp
+SetFontSize 42
+SetBackgroundColor 0 0 0 250
 
 Hide
 BaseType "Portal Scroll" "Scroll of Wisdom"
-SetFontSize 40
-SetBackgroundColor 0 0 0 140
-SetBorderColor 255 255 150 80
+SetFontSize 35
+SetBackgroundColor 0 0 0 70
 
 Show
 Class Currency
@@ -310,38 +331,31 @@ SetBorderColor 255 255 150
 
 Show
 Class Currency
-BaseType "Strong Rope Net" "Strong Iron Net" "Strong Steel Net"
+BaseType "Simple Rope Net" "Reinforced Rope Net" "Strong Rope Net" "Simple Iron Net" "Reinforced Iron Net" "Strong Iron Net" "Simple Steel Net" "Reinforced Steel Net" "Strong Steel Net"
 PlayAlertSound 4 100
-SetFontSize 40
-SetTextColor 255 255 150 250
-SetBackgroundColor 0 0 100 200
-SetBorderColor 255 255 150 
-
-Hide
-Class Currency
-BaseType "Reinforced Rope Net" "Reinforced Iron Net" "Reinforced Steel Net"
-PlayAlertSound 4 50
-SetFontSize 40
-SetTextColor 255 255 150 150
-SetBackgroundColor 0 0 100 200
-SetBorderColor 255 255 150
-
-Hide
-Class Currency
-BaseType "Simple Rope Net" "Simple Iron Net" "Simple Steel Net" 
 SetFontSize 40
 SetTextColor 255 255 150 250
 SetBackgroundColor 0 0 100 200
 SetBorderColor 255 255 150
 
 Show
-BaseType "Frigid Fossil" "Metallic Fossil" "Jagged Fossil" "Aberrant Fossil" "Pristine Fossil" "Dense Fossil" "Corroded Fossil" "Prismatic Fossil" "Aetheric Fossil" "Serrated Fossil" "Lucent Fossil" "Shuddering Fossil" "Bound Fossil" "Perfect Fossil" "Enchanted Fossil" "Encrusted Fossil" "Faceted Fossil" "Bloodstained Fossil" "Hollow Fossil" "Fractured Fossil" "Glyphic Fossil" "Tangled Fossil" "Sanctified Fossil" "Gilded Fossil" "Scorched Fossil" "Resonator"
-SetFontSize 42
+BaseType "Faceted Fossil" "Fractured Fossil" "Hollow Fossil" "Shuddering Fossil" "Glyphic Fossil"
+SetFontSize 50
+MinimapIcon 1 Yellow Star
+CustomAlertSound "FossilResonatorTop.wav" 300
 PlayEffect Blue
 SetBackgroundColor 244 167 66 200
 SetTextColor 0 0 0 200
 SetBorderColor 0 0 0 250
-PlayAlertSound 10 150
+
+Show
+BaseType "Frigid Fossil" "Metallic Fossil" "Jagged Fossil" "Aberrant Fossil" "Pristine Fossil" "Dense Fossil" "Corroded Fossil" "Prismatic Fossil" "Aetheric Fossil" "Serrated Fossil" "Lucent Fossil" "Bound Fossil" "Perfect Fossil" "Enchanted Fossil" "Encrusted Fossil" "Bloodstained Fossil" "Tangled Fossil" "Sanctified Fossil" "Gilded Fossil" "Scorched Fossil" "Resonator"
+SetFontSize 50
+CustomAlertSound "FossilResonator.wav" 300
+PlayEffect Blue
+SetBackgroundColor 244 167 66 200
+SetTextColor 0 0 0 200
+SetBorderColor 0 0 0 250
 
 Hide
 BaseType "Transmutation Shard" "Alteration Shard"
@@ -406,7 +420,7 @@ SetTextColor 255 255 255
 SetBackgroundColor 0 0 50 250 
 SetBorderColor 255 255 255 150
 
-Hide
+Show
 BaseType "Stygian Vise"
 Rarity Unique
 SetFontSize 45
@@ -768,10 +782,12 @@ SetBorderColor 0 0 0
 
 Show
 BaseType "Silver Key"
-PlayAlertSound 7 100
+PlayEffect White Temp
+CustomAlertSound "Silvers.wav" 300
 SetTextColor 0 0 0 250
-SetFontSize 43
-SetBackgroundColor 192 192 192 150
+SetFontSize 50
+SetTextColor 255 255 255 250
+SetBackgroundColor 192 192 192 180
 SetBorderColor 255 255 255 150
 
 Show
@@ -1064,8 +1080,20 @@ Hide
 
 Show
 Rarity = Unique
+Class "Ring"
+SetBorderColor 255 255 37
+SetBackgroundColor 0 0 0 250
+MinimapIcon 0 Brown Hexagon
+PlayEffect Brown
+CustomAlertSound "Unique.wav" 200
+SetFontSize 40
+
+Show
+Rarity = Unique
 SetBorderColor 175 96 37
-PlayAlertSound 2 150
+MinimapIcon 0 Brown Hexagon
+PlayEffect Brown
+CustomAlertSound "Unique.wav" 150
 SetFontSize 40
 
 Show
@@ -1086,7 +1114,6 @@ SetFontSize 38
 Hide
 SocketGroup RGB
 #Full List - Class "Daggers" "Wands" "Gloves" "Boots" "Helmets" "One Hand Swords" "Claws"  "Daggers" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Axes" "One Hand Maces" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Sceptres"
-PlayAlertSound 9 100
 Width <= 2
 Height <= 2
 SetFontSize 40
@@ -1096,7 +1123,6 @@ SetTextColor 170 158 130
 Hide
 SocketGroup RGB
 #Full List - Class "Daggers" "Wands" "Gloves" "Boots" "Helmets" "One Hand Swords" "Claws"  "Daggers" "Wands" "One Hand Swords" "Thrusting One Hand Swords" "One Hand Axes" "One Hand Maces" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Sceptres"
-PlayAlertSound 9 100
 Width <= 1
 Height <= 4
 SetFontSize 40
@@ -1108,7 +1134,7 @@ SetTextColor 170 158 130
 # weapons
 
 Hide
-BaseType "Vaal Axe" "Pernarch" "Vaal Hatchet" "Runic Hatchet" "Eternal Sword" "Tiger Hook" "Judgement Staff" "Eclipse Staff" "Behemoth Mace" "Auric Mace" "Coronal Maul" "Exquisite Blade"  "Harbinger Bow"
+BaseType "Exquisite Blade" "Vaal Axe" "Pernarch" "Vaal Hatchet" "Runic Hatchet" "Eternal Sword" "Tiger Hook" "Judgement Staff" "Eclipse Staff" "Behemoth Mace" "Auric Mace" "Coronal Maul" "Exquisite Blade"  "Harbinger Bow"
 Rarity Rare
 ItemLevel >= 75
 SetBackgroundColor 70 70 70 250
@@ -1692,7 +1718,7 @@ SetTextColor 255 255 119 250
 # Swords
 
 Hide
-BaseType "Dragoon Sword" "Piledriver" "Harpy Rapier" "Rusted Spike" "Wyrmbone Rapier" "Burnished Foil" "Estoc" "Serrated Foil" "Primeval Rapier" "Fancy Foil" "Apex Rapier" "Whalebone Rapier" "Battered Foil" "Basket Rapier" "Jagged Foil" "Antique Rapier" "Elegant Foil" "Thorn Rapier" "Dragonbone Rapier" "Tempered Foil" 
+BaseType "Exquisite Blade" "Dragoon Sword" "Piledriver" "Harpy Rapier" "Rusted Spike" "Wyrmbone Rapier" "Burnished Foil" "Estoc" "Serrated Foil" "Primeval Rapier" "Fancy Foil" "Apex Rapier" "Whalebone Rapier" "Battered Foil" "Basket Rapier" "Jagged Foil" "Antique Rapier" "Elegant Foil" "Thorn Rapier" "Dragonbone Rapier" "Tempered Foil" 
 Rarity Rare
 ItemLevel > 82
 SetBackgroundColor 0 0 0 70
@@ -1700,7 +1726,7 @@ SetTextColor 255 255 119 200
 SetBorderColor 255 255 119 200
 
 Hide
-BaseType "Dragoon Sword"  "Piledriver" "Harpy Rapier" "Gladius" "Vaal Blade" "Lion Sword" "Vaal Greatsword" "Midnight Blade" "Infernal Sword" "Legion Sword" "Rusted Sword" "Copper Sword" "Sabre" "Broad Sword" "War Sword" "Ancient Sword" "Elegant Sword" "Dusk Blade" "Hook Sword" "Variscite Blade" "Cutlass" "Baselard" "Battle Sword" "Elder Sword" "Graceful Sword" "Twilight Blade" "Grappler" "Gemstone Sword" "Corsair Sword"  "Smallsword"  "Courtesan Sword" "Corroded Blade" "Longsword" "Bastard Sword" "Two-Handed Sword" "Etched Greatsword" "Ornate Sword" "Spectral Sword" "Curved Blade" "Butcher Sword" "Footman Sword" "Highland Blade" "Engraved Greatsword" "Tiger Sword" "Wraith Sword" "Lithe Blade" "Headman's Sword" "Reaver Sword" "Ezomyte Blade"
+BaseType "Exquisite Blade" "Dragoon Sword" "Piledriver" "Harpy Rapier" "Gladius" "Vaal Blade" "Lion Sword" "Vaal Greatsword" "Midnight Blade" "Infernal Sword" "Legion Sword" "Rusted Sword" "Copper Sword" "Sabre" "Broad Sword" "War Sword" "Ancient Sword" "Elegant Sword" "Dusk Blade" "Hook Sword" "Variscite Blade" "Cutlass" "Baselard" "Battle Sword" "Elder Sword" "Graceful Sword" "Twilight Blade" "Grappler" "Gemstone Sword" "Corsair Sword"  "Smallsword"  "Courtesan Sword" "Corroded Blade" "Longsword" "Bastard Sword" "Two-Handed Sword" "Etched Greatsword" "Ornate Sword" "Spectral Sword" "Curved Blade" "Butcher Sword" "Footman Sword" "Highland Blade" "Engraved Greatsword" "Tiger Sword" "Wraith Sword" "Lithe Blade" "Headman's Sword" "Reaver Sword" "Ezomyte Blade"
 Rarity Rare
 ItemLevel > 82
 SetBackgroundColor 0 0 0 70
@@ -1708,7 +1734,7 @@ SetTextColor 255 255 119 200
 SetBorderColor 255 255 119 200
 
 Hide
-BaseType "Dragoon Sword"  "Piledriver" "Harpy Rapier" "Gladius" "Vaal Blade" "Lion Sword" "Vaal Greatsword" "Midnight Blade" "Infernal Sword" "Legion Sword" "Rusted Sword" "Copper Sword" "Sabre" "Broad Sword" "War Sword" "Ancient Sword" "Elegant Sword" "Dusk Blade" "Hook Sword" "Variscite Blade" "Cutlass" "Baselard" "Battle Sword" "Elder Sword" "Graceful Sword" "Twilight Blade" "Grappler" "Gemstone Sword" "Corsair Sword" "Rusted Spike" "Whalebone Rapier" "Battered Foil" "Basket Rapier" "Jagged Foil" "Antique Rapier" "Elegant Foil" "Thorn Rapier" "Smallsword" "Wyrmbone Rapier" "Burnished Foil" "Estoc" "Serrated Foil" "Primeval Rapier" "Fancy Foil" "Apex Rapier" "Courtesan Sword" "Dragonbone Rapier" "Tempered Foil" "Corroded Blade" "Longsword" "Bastard Sword" "Two-Handed Sword" "Etched Greatsword" "Ornate Sword" "Spectral Sword" "Curved Blade" "Butcher Sword" "Footman Sword" "Highland Blade" "Engraved Greatsword" "Tiger Sword" "Wraith Sword" "Lithe Blade" "Headman's Sword" "Reaver Sword" "Ezomyte Blade"
+BaseType "Exquisite Blade" "Dragoon Sword" "Piledriver" "Harpy Rapier" "Gladius" "Vaal Blade" "Lion Sword" "Vaal Greatsword" "Midnight Blade" "Infernal Sword" "Legion Sword" "Rusted Sword" "Copper Sword" "Sabre" "Broad Sword" "War Sword" "Ancient Sword" "Elegant Sword" "Dusk Blade" "Hook Sword" "Variscite Blade" "Cutlass" "Baselard" "Battle Sword" "Elder Sword" "Graceful Sword" "Twilight Blade" "Grappler" "Gemstone Sword" "Corsair Sword" "Rusted Spike" "Whalebone Rapier" "Battered Foil" "Basket Rapier" "Jagged Foil" "Antique Rapier" "Elegant Foil" "Thorn Rapier" "Smallsword" "Wyrmbone Rapier" "Burnished Foil" "Estoc" "Serrated Foil" "Primeval Rapier" "Fancy Foil" "Apex Rapier" "Courtesan Sword" "Dragonbone Rapier" "Tempered Foil" "Corroded Blade" "Longsword" "Bastard Sword" "Two-Handed Sword" "Etched Greatsword" "Ornate Sword" "Spectral Sword" "Curved Blade" "Butcher Sword" "Footman Sword" "Highland Blade" "Engraved Greatsword" "Tiger Sword" "Wraith Sword" "Lithe Blade" "Headman's Sword" "Reaver Sword" "Ezomyte Blade"
 Rarity Rare
 ItemLevel > 80
 SetBackgroundColor 0 0 0 100
@@ -1716,7 +1742,7 @@ SetTextColor 255 255 119 200
 SetBorderColor 255 255 119 200
 
 Hide
-BaseType "Dragoon Sword"  "Piledriver" "Harpy Rapier" "Gladius" "Vaal Blade" "Lion Sword" "Vaal Greatsword" "Midnight Blade" "Infernal Sword" "Legion Sword" "Rusted Sword" "Copper Sword" "Sabre" "Broad Sword" "War Sword" "Ancient Sword" "Elegant Sword" "Dusk Blade" "Hook Sword" "Variscite Blade" "Cutlass" "Baselard" "Battle Sword" "Elder Sword" "Graceful Sword" "Twilight Blade" "Grappler" "Gemstone Sword" "Corsair Sword" "Rusted Spike" "Whalebone Rapier" "Battered Foil" "Basket Rapier" "Jagged Foil" "Antique Rapier" "Elegant Foil" "Thorn Rapier" "Smallsword" "Wyrmbone Rapier" "Burnished Foil" "Estoc" "Serrated Foil" "Primeval Rapier" "Fancy Foil" "Apex Rapier" "Courtesan Sword" "Dragonbone Rapier" "Tempered Foil" "Corroded Blade" "Longsword" "Bastard Sword" "Two-Handed Sword" "Etched Greatsword" "Ornate Sword" "Spectral Sword" "Curved Blade" "Butcher Sword" "Footman Sword" "Highland Blade" "Engraved Greatsword" "Tiger Sword" "Wraith Sword" "Lithe Blade" "Headman's Sword" "Reaver Sword" "Ezomyte Blade"
+BaseType "Exquisite Blade" "Dragoon Sword" "Piledriver" "Harpy Rapier" "Gladius" "Vaal Blade" "Lion Sword" "Vaal Greatsword" "Midnight Blade" "Infernal Sword" "Legion Sword" "Rusted Sword" "Copper Sword" "Sabre" "Broad Sword" "War Sword" "Ancient Sword" "Elegant Sword" "Dusk Blade" "Hook Sword" "Variscite Blade" "Cutlass" "Baselard" "Battle Sword" "Elder Sword" "Graceful Sword" "Twilight Blade" "Grappler" "Gemstone Sword" "Corsair Sword" "Rusted Spike" "Whalebone Rapier" "Battered Foil" "Basket Rapier" "Jagged Foil" "Antique Rapier" "Elegant Foil" "Thorn Rapier" "Smallsword" "Wyrmbone Rapier" "Burnished Foil" "Estoc" "Serrated Foil" "Primeval Rapier" "Fancy Foil" "Apex Rapier" "Courtesan Sword" "Dragonbone Rapier" "Tempered Foil" "Corroded Blade" "Longsword" "Bastard Sword" "Two-Handed Sword" "Etched Greatsword" "Ornate Sword" "Spectral Sword" "Curved Blade" "Butcher Sword" "Footman Sword" "Highland Blade" "Engraved Greatsword" "Tiger Sword" "Wraith Sword" "Lithe Blade" "Headman's Sword" "Reaver Sword" "Ezomyte Blade"
 Rarity Rare
 ItemLevel >= 75
 SetBackgroundColor 0 0 0 120
@@ -1724,14 +1750,14 @@ SetTextColor 255 255 119 220
 SetBorderColor 255 255 119 220
 
 Hide
-BaseType "Dragoon Sword"  "Piledriver" "Harpy Rapier" "Gladius" "Vaal Blade" "Lion Sword" "Vaal Greatsword" "Midnight Blade" "Infernal Sword" "Legion Sword" "Rusted Sword" "Copper Sword" "Sabre" "Broad Sword" "War Sword" "Ancient Sword" "Elegant Sword" "Dusk Blade" "Hook Sword" "Variscite Blade" "Cutlass" "Baselard" "Battle Sword" "Elder Sword" "Graceful Sword" "Twilight Blade" "Grappler" "Gemstone Sword" "Corsair Sword" "Rusted Spike" "Whalebone Rapier" "Battered Foil" "Basket Rapier" "Jagged Foil" "Antique Rapier" "Elegant Foil" "Thorn Rapier" "Smallsword" "Wyrmbone Rapier" "Burnished Foil" "Estoc" "Serrated Foil" "Primeval Rapier" "Fancy Foil" "Apex Rapier" "Courtesan Sword" "Dragonbone Rapier" "Tempered Foil" "Corroded Blade" "Longsword" "Bastard Sword" "Two-Handed Sword" "Etched Greatsword" "Ornate Sword" "Spectral Sword" "Curved Blade" "Butcher Sword" "Footman Sword" "Highland Blade" "Engraved Greatsword" "Tiger Sword" "Wraith Sword" "Lithe Blade" "Headman's Sword" "Reaver Sword" "Ezomyte Blade"
+BaseType "Exquisite Blade" "Dragoon Sword" "Piledriver" "Harpy Rapier" "Gladius" "Vaal Blade" "Lion Sword" "Vaal Greatsword" "Midnight Blade" "Infernal Sword" "Legion Sword" "Rusted Sword" "Copper Sword" "Sabre" "Broad Sword" "War Sword" "Ancient Sword" "Elegant Sword" "Dusk Blade" "Hook Sword" "Variscite Blade" "Cutlass" "Baselard" "Battle Sword" "Elder Sword" "Graceful Sword" "Twilight Blade" "Grappler" "Gemstone Sword" "Corsair Sword" "Rusted Spike" "Whalebone Rapier" "Battered Foil" "Basket Rapier" "Jagged Foil" "Antique Rapier" "Elegant Foil" "Thorn Rapier" "Smallsword" "Wyrmbone Rapier" "Burnished Foil" "Estoc" "Serrated Foil" "Primeval Rapier" "Fancy Foil" "Apex Rapier" "Courtesan Sword" "Dragonbone Rapier" "Tempered Foil" "Corroded Blade" "Longsword" "Bastard Sword" "Two-Handed Sword" "Etched Greatsword" "Ornate Sword" "Spectral Sword" "Curved Blade" "Butcher Sword" "Footman Sword" "Highland Blade" "Engraved Greatsword" "Tiger Sword" "Wraith Sword" "Lithe Blade" "Headman's Sword" "Reaver Sword" "Ezomyte Blade"
 Rarity Rare
 ItemLevel > 72
 SetBackgroundColor 0 0 0 140
 SetTextColor 255 255 119 240
 
 Hide
-BaseType "Dragoon Sword"  "Piledriver" "Harpy Rapier" "Gladius" "Vaal Blade" "Lion Sword" "Vaal Greatsword" "Midnight Blade" "Infernal Sword" "Legion Sword" "Rusted Sword" "Copper Sword" "Sabre" "Broad Sword" "War Sword" "Ancient Sword" "Elegant Sword" "Dusk Blade" "Hook Sword" "Variscite Blade" "Cutlass" "Baselard" "Battle Sword" "Elder Sword" "Graceful Sword" "Twilight Blade" "Grappler" "Gemstone Sword" "Corsair Sword" "Rusted Spike" "Whalebone Rapier" "Battered Foil" "Basket Rapier" "Jagged Foil" "Antique Rapier" "Elegant Foil" "Thorn Rapier" "Smallsword" "Wyrmbone Rapier" "Burnished Foil" "Estoc" "Serrated Foil" "Primeval Rapier" "Fancy Foil" "Apex Rapier" "Courtesan Sword" "Dragonbone Rapier" "Tempered Foil" "Corroded Blade" "Longsword" "Bastard Sword" "Two-Handed Sword" "Etched Greatsword" "Ornate Sword" "Spectral Sword" "Curved Blade" "Butcher Sword" "Footman Sword" "Highland Blade" "Engraved Greatsword" "Tiger Sword" "Wraith Sword" "Lithe Blade" "Headman's Sword" "Reaver Sword" "Ezomyte Blade"
+BaseType "Exquisite Blade" "Dragoon Sword" "Piledriver" "Harpy Rapier" "Gladius" "Vaal Blade" "Lion Sword" "Vaal Greatsword" "Midnight Blade" "Infernal Sword" "Legion Sword" "Rusted Sword" "Copper Sword" "Sabre" "Broad Sword" "War Sword" "Ancient Sword" "Elegant Sword" "Dusk Blade" "Hook Sword" "Variscite Blade" "Cutlass" "Baselard" "Battle Sword" "Elder Sword" "Graceful Sword" "Twilight Blade" "Grappler" "Gemstone Sword" "Corsair Sword" "Rusted Spike" "Whalebone Rapier" "Battered Foil" "Basket Rapier" "Jagged Foil" "Antique Rapier" "Elegant Foil" "Thorn Rapier" "Smallsword" "Wyrmbone Rapier" "Burnished Foil" "Estoc" "Serrated Foil" "Primeval Rapier" "Fancy Foil" "Apex Rapier" "Courtesan Sword" "Dragonbone Rapier" "Tempered Foil" "Corroded Blade" "Longsword" "Bastard Sword" "Two-Handed Sword" "Etched Greatsword" "Ornate Sword" "Spectral Sword" "Curved Blade" "Butcher Sword" "Footman Sword" "Highland Blade" "Engraved Greatsword" "Tiger Sword" "Wraith Sword" "Lithe Blade" "Headman's Sword" "Reaver Sword" "Ezomyte Blade"
 Rarity Rare
 ItemLevel > 68
 SetBackgroundColor 0 0 0 150
@@ -1997,12 +2023,21 @@ SetBorderColor 255 255 255 180
 Show
 Class "Divination Card"
 PlayAlertSound 2 10
-SetFontSize 30 
+SetFontSize 50 
 SetTextColor 200 150 200 250
 SetBackgroundColor 0 0 0 200
 SetBorderColor 255 255 255 180
 
 ### Maps
+
+Show
+Class Maps
+BaseType "Burial Chambers Map"
+SetFontSize 50
+MinimapIcon 0 Red Square
+PlayAlertSound 6 200
+SetBackgroundColor 100 0 0 200
+SetTextColor 255 255 255 250
 
 Show
 Class "Maps"
@@ -2106,7 +2141,7 @@ SetTextColor 255 51 51 255
 SetBorderColor 100 0 0 255
 SetBackgroundColor 0 0 0 255
 SetFontSize 45
-PlayAlertSound 16 100
+CustomAlertSound "DivineVessel.wav" 300
 
 Show
 Class Map
@@ -2176,7 +2211,7 @@ Class "Map Fragment"
 ### Flasks
 
 Hide
-BaseType "Basalt Flask" "Aquamarine Flask" "Stibnite Flask" "Sulphur Flask" "Bismuth Flask" "Silver Flask"
+BaseType "Amethyst Flask" "Basalt Flask" "Aquamarine Flask" "Stibnite Flask" "Sulphur Flask" "Bismuth Flask" "Silver Flask"
 Rarity >= Normal
 SetFontSize 35
 SetBackgroundColor 0 0 0 150
@@ -2206,10 +2241,22 @@ SetBackgroundColor 0 0 0 150
 Show
 Class "Jewel"
 Rarity = Rare
-SetFontSize 45
+SetFontSize 40
 PlayAlertSound 3 150
 SetTextColor 200 250 0 250
 SetBorderColor 200 250 0 250
+
+Hide
+Class "Jewel"
+ItemLevel >= 80
+SetFontSize 30
+SetBackgroundColor 0 0 0 200
+
+Hide
+Class "Jewel"
+ItemLevel >= 75
+SetFontSize 35
+SetBackgroundColor 0 0 0 200
 
 Hide
 Class "Jewel"
