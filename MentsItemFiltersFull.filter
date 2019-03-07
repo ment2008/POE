@@ -42,7 +42,7 @@ Show
 BaseType "Mirror of Kalandra"
 MinimapIcon 0 Red Star
 PlayEffect Red
-CustomAlertSound "Mirror.wav" 300
+CustomAlertSound "Mirror.wav"
 SetFontSize 50
 SetTextColor 0 0 0
 SetBackgroundColor 255 0 255 250
@@ -52,7 +52,7 @@ Show
 BaseType "Exalted Orb" "Timeworn Reliquary Key"
 MinimapIcon 0 Yellow Star
 PlayEffect Yellow
-CustomAlertSound "Exalted.wav" 300
+CustomAlertSound "Exalted.wav"
 SetFontSize 50
 SetTextColor 0 0 0
 SetBackgroundColor 255 0 255 250
@@ -62,7 +62,7 @@ Show
 BaseType "Eternal Orb" "Ancient Reliquary Key"
 MinimapIcon 0 Yellow Star
 PlayEffect Yellow
-CustomAlertSound "Exalted.wav" 300
+CustomAlertSound "Exalted.wav"
 SetFontSize 50
 SetTextColor 0 0 0
 SetBackgroundColor 255 0 255 250
@@ -82,7 +82,7 @@ Show
 BaseType "Divine Orb"
 MinimapIcon 0 Yellow Star
 PlayEffect Yellow
-CustomAlertSound "Divine.wav" 200
+CustomAlertSound "Divine.wav"
 SetFontSize 50
 SetTextColor 255 255 150 250
 SetBackgroundColor 220 0 220 180
@@ -144,7 +144,7 @@ Show
 BaseType "Chaos Orb"
 MinimapIcon 0 Yellow Circle
 PlayEffect Yellow
-CustomAlertSound "Chaos.wav" 300
+CustomAlertSound "Chaos.wav"
 SetFontSize 40
 SetTextColor 255 255 150 250
 SetBackgroundColor 50 50 50 250
@@ -154,7 +154,7 @@ Show
 BaseType "Regal Orb"
 MinimapIcon 0 Yellow Circle
 PlayEffect Yellow
-CustomAlertSound "T3Currency.wav" 300
+CustomAlertSound "T3Currency.wav"
 SetFontSize 40
 SetTextColor 255 255 150 250
 SetBackgroundColor 50 50 50 250
@@ -164,7 +164,7 @@ Show
 BaseType "Vaal Orb"
 MinimapIcon 0 Yellow Circle
 PlayEffect Yellow
-CustomAlertSound "T3Currency.wav" 300
+CustomAlertSound "T3Currency.wav"
 SetFontSize 40
 SetTextColor 255 255 150 250
 SetBackgroundColor 50 50 50 250
@@ -173,7 +173,7 @@ SetBorderColor 255 255 150
 Show
 BaseType "Gemcutter's Prism"
 MinimapIcon 0 Yellow Circle
-CustomAlertSound "T3Currency.wav" 300
+CustomAlertSound "T3Currency.wav"
 SetFontSize 40
 SetTextColor 255 255 150 250
 SetBackgroundColor 50 50 50 250
@@ -182,7 +182,7 @@ SetBorderColor 255 255 150
 Show
 BaseType "Orb of Regret"
 MinimapIcon 0 Yellow Circle
-CustomAlertSound "T3Currency.wav" 300
+CustomAlertSound "T3Currency.wav"
 SetFontSize 40
 SetTextColor 255 255 150 250
 SetBackgroundColor 50 50 50 250
@@ -192,7 +192,7 @@ Show
 BaseType "Orb of Alchemy"
 MinimapIcon 1 Yellow Circle
 PlayEffect Yellow
-CustomAlertSound "T4Currency.wav" 300
+CustomAlertSound "T4Currency.wav"
 SetFontSize 40
 SetTextColor 0 0 0 250
 SetBackgroundColor 255 255 204 200
@@ -202,7 +202,7 @@ Show
 BaseType "Orb of Fusing"
 MinimapIcon 1 Yellow Circle
 PlayEffect Yellow
-CustomAlertSound "T4Currency.wav" 300
+CustomAlertSound "T4Currency.wav"
 SetFontSize 40
 SetTextColor 0 0 0 250
 SetBackgroundColor 255 255 204 200
@@ -212,7 +212,7 @@ Show
 BaseType "Blessed Orb" "Orb of Scouring" "Cartographer's Chisel"
 MinimapIcon 1 Yellow Circle
 PlayEffect Yellow
-CustomAlertSound "T5Currency.wav" 300
+CustomAlertSound "T5Currency.wav"
 SetFontSize 40
 SetTextColor 0 0 0 250
 SetBackgroundColor 255 255 204 200
@@ -220,7 +220,7 @@ SetBorderColor 255 255 255 250
 
 Show
 BaseType "Chaos Shard" "Regal Shard"
-CustomAlertSound "T5Currency.wav" 300
+CustomAlertSound "T5Currency.wav"
 SetFontSize 35
 SetTextColor 255 255 100 150
 SetBackgroundColor 0 0 0 250
@@ -228,7 +228,7 @@ SetBorderColor 50 50 250 150
 
 Show
 BaseType "Alchemy Shard"
-CustomAlertSound "T5Currency.wav" 300
+CustomAlertSound "T5Currency.wav"
 SetFontSize 32
 SetBackgroundColor 0 0 0 250
 SetBorderColor 50 50 250 100
@@ -243,7 +243,7 @@ Show
 BaseType "Orb of Chance"
 MinimapIcon 2 Yellow Circle
 PlayEffect Yellow
-CustomAlertSound "T5Currency.wav" 300
+CustomAlertSound "T5Currency.wav"
 SetFontSize 42
 SetBackgroundColor 0 0 0 230
 SetBorderColor 175 96 37 250
@@ -268,7 +268,7 @@ SetBorderColor 114 0 150 250
 Show
 BaseType "Silver Coin"
 PlayEffect White Temp
-CustomAlertSound "Silvers.wav" 300
+CustomAlertSound "Silvers.wav"
 SetTextColor 0 0 0 250
 SetFontSize 50
 SetTextColor 255 255 255 250
@@ -354,7 +354,7 @@ Show
 BaseType "Faceted Fossil" "Fractured Fossil" "Hollow Fossil" "Glyphic Fossil"
 SetFontSize 50
 MinimapIcon 1 Red Star
-CustomAlertSound "FossilResonatorTop.wav" 300
+CustomAlertSound "FossilResonatorTop.wav"
 PlayEffect Red
 SetBackgroundColor 244 167 66 200
 SetTextColor 0 0 0 200
@@ -363,7 +363,7 @@ SetBorderColor 255 0 0 250
 Show
 BaseType "Frigid Fossil" "Shuddering Fossil" "Metallic Fossil" "Jagged Fossil" "Aberrant Fossil" "Pristine Fossil" "Dense Fossil" "Corroded Fossil" "Prismatic Fossil" "Aetheric Fossil" "Serrated Fossil" "Lucent Fossil" "Bound Fossil" "Perfect Fossil" "Enchanted Fossil" "Encrusted Fossil" "Bloodstained Fossil" "Tangled Fossil" "Sanctified Fossil" "Gilded Fossil" "Scorched Fossil" "Resonator"
 SetFontSize 50
-CustomAlertSound "FossilResonator.wav" 300
+CustomAlertSound "FossilResonator.wav"
 PlayEffect Blue
 SetBackgroundColor 244 167 66 200
 SetTextColor 0 0 0 200
@@ -445,7 +445,7 @@ SetBorderColor 0 0 0
 Show
 BaseType "Silver Key"
 PlayEffect White Temp
-CustomAlertSound "Silvers.wav" 300
+CustomAlertSound "Silvers.wav"
 SetTextColor 0 0 0 250
 SetFontSize 50
 SetTextColor 255 255 255 250
@@ -790,7 +790,7 @@ SetBorderColor 255 255 37
 SetBackgroundColor 0 0 0 250
 MinimapIcon 0 Brown Hexagon
 PlayEffect Brown
-CustomAlertSound "Rings.wav" 200
+CustomAlertSound "Rings.wav"
 SetFontSize 40
 
 Show
@@ -798,7 +798,7 @@ Rarity = Unique
 SetBorderColor 175 96 37
 MinimapIcon 0 Brown Hexagon
 PlayEffect Brown
-CustomAlertSound "Unique.wav" 150
+CustomAlertSound "Unique.wav"
 SetFontSize 40
  
 Show
@@ -870,7 +870,7 @@ SetBorderColor 100 50 100 250
 PlayAlertSound 2 200
 MinimapIcon 2 Yellow Hexagon
 PlayEffect Yellow Temp
-CustomAlertSound "Synthesis.wav" 300
+CustomAlertSound "Synthesis.wav"
 
 Show
 SynthesisedItem True
@@ -879,7 +879,7 @@ SetBorderColor 100 50 100 250
 PlayAlertSound 2 200
 MinimapIcon 2 Yellow Hexagon
 PlayEffect Yellow Temp
-CustomAlertSound "Synthesis.wav" 300
+CustomAlertSound "Synthesis.wav"
 
 ### Veiled Items
 
@@ -1332,7 +1332,7 @@ SetTextColor 255 51 51 255
 SetBorderColor 100 0 0 255
 SetBackgroundColor 0 0 0 255
 SetFontSize 45
-CustomAlertSound "DivineVessel.wav" 200
+CustomAlertSound "DivineVessel.wav"
 
 Show
 Class Map
