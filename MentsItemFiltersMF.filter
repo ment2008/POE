@@ -83,7 +83,7 @@ Show
 BaseType "Divine Orb"
 MinimapIcon 0 Yellow Star
 PlayEffect Yellow
-CustomAlertSound "Divine.wav" 250
+CustomAlertSound "Divine.wav"
 SetFontSize 50
 SetTextColor 255 255 150 250
 SetBackgroundColor 220 0 220 180
