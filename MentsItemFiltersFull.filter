@@ -1,4 +1,4 @@
-# Ment's Item Filters Full v3.6a #
+# Ment's Item Filters Full v3.6b #
  
 #Ment's Filter highlights 
  
@@ -82,7 +82,7 @@ Show
 BaseType "Divine Orb"
 MinimapIcon 0 Yellow Star
 PlayEffect Yellow
-CustomAlertSound "Divine.wav"
+CustomAlertSound "Divine.wav" 200
 SetFontSize 50
 SetTextColor 255 255 150 250
 SetBackgroundColor 220 0 220 180
@@ -234,7 +234,14 @@ SetBackgroundColor 0 0 0 250
 SetBorderColor 50 50 250 100
 
 Show
-BaseType "Jeweller's Orb" "Chromatic Orb" "Orb of Alteration" "Glassblower's Bauble"
+BaseType "Glassblower's Bauble"
+PlayEffect White Temp
+SetFontSize 42
+SetBorderColor 255 0 0 250
+SetBackgroundColor 0 0 0 250
+
+Show
+BaseType "Jeweller's Orb" "Chromatic Orb" "Orb of Alteration" 
 PlayEffect White Temp
 SetFontSize 42
 SetBackgroundColor 0 0 0 250
@@ -790,7 +797,7 @@ SetBorderColor 255 255 37
 SetBackgroundColor 0 0 0 250
 MinimapIcon 0 Brown Hexagon
 PlayEffect Brown
-CustomAlertSound "Rings.wav"
+CustomAlertSound "Rings.wav" 200
 SetFontSize 40
 
 Show
@@ -825,24 +832,8 @@ SetFontSize 38
 Show
 SocketGroup RGB
 PlayAlertSound 9 100
-SetFontSize 30
+SetFontSize 35
 ItemLevel >= 60
-SetBackgroundColor 0 0 0 200
-SetTextColor 170 158 130
-
-Show
-SocketGroup RGB
-PlayAlertSound 9 100
-SetFontSize 34
-ItemLevel >= 35
-SetBackgroundColor 0 0 0 200
-SetTextColor 170 158 130
-
-Show
-SocketGroup RGB
-PlayAlertSound 9 100
-SetFontSize 37
-ItemLevel >= 20
 SetBackgroundColor 0 0 0 220
 SetTextColor 170 158 130
 
@@ -850,6 +841,22 @@ Show
 SocketGroup RGB
 PlayAlertSound 9 100
 SetFontSize 40
+ItemLevel >= 35
+SetBackgroundColor 0 0 0 230
+SetTextColor 170 158 130
+
+Show
+SocketGroup RGB
+PlayAlertSound 9 100
+SetFontSize 42
+ItemLevel >= 20
+SetBackgroundColor 0 0 0 240
+SetTextColor 170 158 130
+
+Show
+SocketGroup RGB
+PlayAlertSound 9 100
+SetFontSize 45
 ItemLevel >= 1
 SetBackgroundColor 0 0 0 250
 SetTextColor 170 158 130
@@ -867,6 +874,7 @@ Show
 FracturedItem True
 SetFontSize 38
 SetBorderColor 100 50 100 250
+SetBackgroundColor 0 0 0 250
 PlayAlertSound 2 200
 MinimapIcon 2 Yellow Hexagon
 PlayEffect Yellow Temp
@@ -876,6 +884,7 @@ Show
 SynthesisedItem True
 SetFontSize 38
 SetBorderColor 100 50 100 250
+SetBackgroundColor 0 0 0 250
 PlayAlertSound 2 200
 MinimapIcon 2 Yellow Hexagon
 PlayEffect Yellow Temp
@@ -1332,7 +1341,7 @@ SetTextColor 255 51 51 255
 SetBorderColor 100 0 0 255
 SetBackgroundColor 0 0 0 255
 SetFontSize 45
-CustomAlertSound "DivineVessel.wav"
+CustomAlertSound "DivineVessel.wav" 200
 
 Show
 Class Map
@@ -1624,10 +1633,24 @@ SetBackgroundColor 0 0 0 150
 
 Hide
 Rarity = Normal
-ItemLevel >= 50
+ItemLevel >= 3
 SetFontSize 25
 SetTextColor 255 255 255 180
 SetBackgroundColor 0 0 0 150
+
+Show
+LinkedSockets >= 4
+Rarity = Rare
+ItemLevel >= 40
+SetFontSize 25
+SetBackgroundColor 0 0 0 170
+
+Show
+LinkedSockets >= 4
+Rarity = Magic
+ItemLevel >= 35
+SetFontSize 40
+SetBackgroundColor 0 0 0 170
 
 Show
 LinkedSockets >= 4
@@ -1638,13 +1661,13 @@ SetBackgroundColor 0 0 0 170
 Show
 LinkedSockets >= 4
 ItemLevel >= 40
-SetFontSize 27
+SetFontSize 35
 SetBackgroundColor 0 0 0 200
 
 Show
 LinkedSockets >= 4
 ItemLevel >= 25
-SetFontSize 30
+SetFontSize 45
 SetBackgroundColor 0 0 0 250
 
 Show
@@ -1750,6 +1773,12 @@ ItemLevel < 20
 SetFontSize 30
 SetBorderColor 0 191 0 150
 
+Hide
+Rarity = Magic
+ItemLevel >= 35
+SetFontSize 30
+SetBackgroundColor 0 0 0 180
+
 Show
 Rarity = Magic
 ItemLevel >= 20
@@ -1805,6 +1834,13 @@ Rarity = Magic
 ItemLevel < 10
 SetFontSize 33
 SetBackgroundColor 0 0 0 200
+
+Hide
+Rarity = Normal
+ItemLevel >= 35
+SetFontSize 25
+SetTextColor 255 255 255 180
+SetBackgroundColor 0 0 0 150 
 
 Show
 Rarity = Normal
