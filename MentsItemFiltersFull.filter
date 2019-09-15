@@ -53,7 +53,7 @@ SetBorderColor 0 0 0
 
 Show
 BaseType "Exalted Orb" "Timeworn Reliquary Key"
-MinimapIcon 0 Rex Star
+MinimapIcon 0 Red Star
 PlayEffect Yellow
 CustomAlertSound "Exalted.wav"
 SetFontSize 50
