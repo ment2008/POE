@@ -1,4 +1,4 @@
-# Ment's Item Filters MF Recommended for MF runs  | v3.6c #
+# Ment's Item Filters MF Recommended for MF runs  | v3.8a #
  
 #Ment's Filter highlights
  
@@ -12,6 +12,9 @@
 #
 #
 # Currency
+# Oils
+# Incubators
+# Legion Splinters
 # Socket/Links
 # Top Bases
 # Labyrinth Misc
@@ -40,6 +43,14 @@
 ### Currency
 
 Show
+StackSize >= 2
+Class Currency
+SetFontSize 50
+SetTextColor 255 255 100
+SetBackgroundColor 0 50 0 150
+SetBorderColor 255 255 150
+
+Show
 BaseType "Mirror of Kalandra"
 MinimapIcon 0 Red Star
 PlayEffect Red
@@ -51,7 +62,7 @@ SetBorderColor 0 0 0
 
 Show
 BaseType "Exalted Orb" "Timeworn Reliquary Key"
-MinimapIcon 0 Yellow Star
+MinimapIcon 0 Red Star
 PlayEffect Yellow
 CustomAlertSound "Exalted.wav"
 SetFontSize 50
@@ -83,11 +94,11 @@ Show
 BaseType "Divine Orb"
 MinimapIcon 0 Yellow Star
 PlayEffect Yellow
-CustomAlertSound "Divine.wav" 250
+CustomAlertSound "Divine.wav"
 SetFontSize 50
-SetTextColor 255 255 150 250
-SetBackgroundColor 220 0 220 180
-SetBorderColor 255 255 150
+SetTextColor 255 255 100 250
+SetBorderColor 100 150 255 255
+SetBackgroundColor 255 255 255 170
 
 Show
 BaseType "Mirror Shard"
@@ -110,6 +121,7 @@ SetBorderColor 255 255 150
 Show
 Class Currency
 BaseType "Blessing" "Orb of Annulment"
+MinimapIcon 0 Yellow Circle
 PlayEffect Yellow
 PlayAlertSound 5 200
 SetFontSize 50
@@ -345,14 +357,14 @@ SetBackgroundColor 0 0 100 200
 SetBorderColor 255 255 150
 
 Show
-BaseType "Faceted Fossil" "Fractured Fossil" "Hollow Fossil" "Shuddering Fossil" "Glyphic Fossil"
+BaseType "Faceted Fossil" "Fractured Fossil" "Hollow Fossil" "Glyphic Fossil"
 SetFontSize 50
-MinimapIcon 1 Red Star
-CustomAlertSound "FossilResonatorTop.wav"
-PlayEffect Blue
+MinimapIcon 0 Red Star
+CustomAlertSound "Exalted.wav"
+PlayEffect Red
 SetBackgroundColor 244 167 66 200
 SetTextColor 0 0 0 200
-SetBorderColor 0 0 0 250
+SetBorderColor 255 0 255 250
 
 Show
 BaseType "Frigid Fossil" "Metallic Fossil" "Jagged Fossil" "Aberrant Fossil" "Pristine Fossil" "Dense Fossil" "Corroded Fossil" "Prismatic Fossil" "Aetheric Fossil" "Serrated Fossil" "Lucent Fossil" "Bound Fossil" "Perfect Fossil" "Enchanted Fossil" "Encrusted Fossil" "Bloodstained Fossil" "Tangled Fossil" "Sanctified Fossil" "Gilded Fossil" "Scorched Fossil" "Resonator"
@@ -365,6 +377,128 @@ SetBorderColor 0 0 0 250
 
 Hide
 BaseType "Transmutation Shard" "Alteration Shard"
+
+### Oils
+
+Show
+Class Currency
+BaseType "Golden Oil" "Silver Oil"
+SetFontSize 50
+CustomAlertSound "Oil.wav"
+MinimapIcon 0 Red Triangle
+PlayEffect Red
+SetTextColor 255 255 255 250
+SetBorderColor 100 100 255 255
+SetBackgroundColor 90 200 0 130
+
+Show
+Class Currency
+BaseType "Black Oil" "Crimson Oil" "Opalescent Oil"
+SetFontSize 45
+CustomAlertSound "Oil.wav"
+MinimapIcon 1 Red Triangle
+PlayEffect Red
+SetTextColor 255 255 255 250
+SetBorderColor 200 100 255 255
+SetBackgroundColor 10 50 0 250
+
+Show
+Class Currency
+BaseType "Azure Oil" "Crimson Oil" "Teal Oil" "Violet Oil"
+SetFontSize 40
+CustomAlertSound "Oil.wav"
+MinimapIcon 2 Yellow Triangle
+PlayEffect Yellow
+SetTextColor 255 255 255 250
+SetBorderColor 100 100 255 255
+SetBackgroundColor 90 200 0 130
+
+Show
+Class Currency
+BaseType "Amber Oil" "Clear Oil" "Sepia Oil" "Verdant Oil"
+SetFontSize 40
+CustomAlertSound "Oil.wav"
+MinimapIcon 2 Blue Triangle
+SetTextColor 255 255 255 250
+SetBorderColor 100 100 255 255
+SetBackgroundColor 90 200 0 130
+PlayEffect Blue
+
+Show
+Class Currency
+BaseType "Oil"
+SetFontSize 40
+CustomAlertSound "Oil.wav"
+MinimapIcon 2 Blue Triangle
+SetTextColor 255 255 255 250
+SetBorderColor 100 100 255 255
+SetBackgroundColor 90 200 0 130
+
+### Incubators
+
+Show
+Class Incubator
+BaseType "Geomancer's Incubator"
+SetFontSize 50
+CustomAlertSound "Incubator.wav"
+MinimapIcon 1 Red Triangle
+PlayEffect Red
+SetTextColor 0 0 255 250
+SetBorderColor 100 150 255 255
+SetBackgroundColor 255 255 255 255
+
+Show
+Class Incubator
+BaseType "Time-Lost Incubator"
+SetFontSize 50
+CustomAlertSound "Incubator.wav"
+MinimapIcon 1 Red Triangle
+PlayEffect Red
+SetTextColor 0 0 255 250
+SetBorderColor 100 150 255 255
+SetBackgroundColor 255 255 255 160
+
+Show
+Class Incubator
+BaseType "Eldritch Incubator" "Foreboding Incubator" "Thaumaturge's Incubator"
+SetFontSize 45
+CustomAlertSound "Incubator.wav"
+MinimapIcon 1 Yellow Triangle
+PlayEffect Yellow
+SetTextColor 0 0 255 250
+SetBorderColor 100 150 255 255
+SetBackgroundColor 255 255 255 120
+
+Show
+Class Incubator
+SetFontSize 45
+CustomAlertSound "Incubator.wav"
+MinimapIcon 1 Yellow Triangle
+PlayEffect Yellow
+SetTextColor 255 100 255 250
+SetBorderColor 100 150 255 255
+SetBackgroundColor 90 200 0 100
+
+### Legion Splinters
+
+Show
+Class Currency
+BaseType "Timeless Maraketh Splinter" "Timeless Templar Splinter"
+SetFontSize 50
+SetTextColor 200 200 200 255
+SetBorderColor 180 20 180 150
+SetBackgroundColor 60 20 60
+PlayAlertSound 11 130
+PlayEffect White
+
+Show
+Class Currency
+BaseType "Timeless Eternal Empire Splinter" "Timeless Karui Splinter" "Timeless Vaal Splinter"
+SetFontSize 40
+SetTextColor 200 200 200 255
+SetBackgroundColor 60 20 60 180
+PlayAlertSound 11 100
+PlayEffect White
  
 ### Socket/Links
 
@@ -402,7 +536,8 @@ PlayEffect Yellow
 PlayAlertSound 3 100
 SetFontSize 50
 SetTextColor 255 255 153
-SetBorderColor 255 255 153
+SetBorderColor 0 0 0 250
+SetBackgroundColor 100 100 200 130
 
 
 Hide
@@ -483,7 +618,8 @@ SetBorderColor 175 96 37 250
 SetTextColor 255 255 240 200
 
 # Can be chanced anywhere
-Hide
+
+Show
 BaseType "Sorcerer Boots"
 ItemLevel >= 67
 Rarity = Normal
@@ -1158,7 +1294,7 @@ SetBorderColor 255 255 37
 SetBackgroundColor 0 0 0 250
 MinimapIcon 0 Brown Hexagon
 PlayEffect Brown
-CustomAlertSound "Rings.wav" 200
+CustomAlertSound "Rings.wav"
 SetFontSize 40
 
 Show
@@ -1166,7 +1302,7 @@ Rarity = Unique
 SetBorderColor 175 96 37
 MinimapIcon 0 Brown Hexagon
 PlayEffect Brown
-CustomAlertSound "Unique.wav" 150
+CustomAlertSound "Unique.wav"
 SetFontSize 40
 
 Show
@@ -1907,28 +2043,33 @@ Hide
 Class "Amulets" "Rings"
 Rarity = Rare
 ItemLevel >= 75
-SetBackgroundColor 70 70 70 250
+SetFontSize 45
+SetBackgroundColor 60 80 70 250
 SetBorderColor 255 255 0 170
 
 Hide
 BaseType "Rustic Sash" "Chain Belt" "Leather Belt" "Heavy Belt" "Studded Belt" "Cloth Belt"
 Rarity = Rare
 ItemLevel >= 75
-SetBackgroundColor 70 70 70 250
+SetFontSize 45
+SetBackgroundColor 60 80 70 250
 SetBorderColor 255 255 0 170
 
 Hide
 BaseType "Rustic Sash" "Chain Belt" "Leather Belt" "Heavy Belt" "Studded Belt" "Cloth Belt"
 Rarity = Rare
 ItemLevel >= 60
-SetBackgroundColor 70 70 70 250
+SetFontSize 45
+SetBackgroundColor 60 80 70 250
+SetBorderColor 255 255 0 170
 
 
 Hide
 BaseType "Rustic Sash" "Chain Belt" "Leather Belt" "Heavy Belt" "Studded Belt" "Cloth Belt"
 Rarity = Rare
 ItemLevel >= 75
-SetBackgroundColor 70 70 70 250
+SetFontSize 45
+SetBackgroundColor 60 80 70 250
 SetBorderColor 255 255 0 170
 
 Hide
@@ -2060,8 +2201,8 @@ Show
 Class "Divination Card"
 MinimapIcon 2 White Square
 PlayEffect White
-BaseType "Emperor of Purity" "Glimmer of Hope" "Lucky Deck" "The Aesthete" "The Dark Mage" "The Inventor" "The Thaumaturgist" "Time-Lost Relic" "No Traces" "Rebirth" "The Obscured" "The World Eater" "The Jeweller's Boon" "The Innocent" "The Wilted Rose" "The Price of Protection" "Alone in the Darkness" "The Warlord" "Sambodhi's Vow" "Humility" "The Formless Sea" "The Insatiable" "Audacity" "Blind Venture" "Boundless Realms" "Coveted Possession" "Dialla's Subjugation" "Emperor's Luck" "Gemcutter's Promise" "Hope" "Jack in the Box" "Lost Worlds" "Lucky Connections" "Lysah's Respite" "Merciless Armament" "Scholar of the Seas" "The Arena Champion" "The Avenger" "The Body" "The Cataclysm" "The Chains that Bind" "The Conduit" "The Cursed King" "The Demoness" "The Encroaching Darkness" "The Fletcher" "The Gambler" "The Harvester" "The Jester" "The Last One Standing" "The Lion" "The Lord in Black" "The Oath" "The One With All" "The Penitent" "The Road to Power" "The Siren" "The Soul" "The Spoiled Prince" "The Stormcaller" "The Sun" "The Surveyor" "The Survivalist" "The Traitor" "The Trial" "The Tyrant" "The Union" "The Wrath" "Treasure Hunter" "Vinia's Token" "Call to the First Ones" "The Wretched" "Lingering Remnants" "The Garish Power" "The Standoff" "Atziri's Arsenal" "The Realm" "Blessing of God" "The Beast" "The Rite of Elements" "The Dreamland" "The Admirer" "The Darkest Dream" "Harmony of Souls" "The Twilight Moon" "The Endless Darkness" "The Cacophony" "The Master Artisan" "A Dab of Ink" "The Mad King" "The Lord of Celebration" "The Messenger" "The Golden Era" "The Mercenary" "Forbidden Power" "The Scavenger" "The Wolverine" "The Tower" "The Ruthless Ceinture" "The Fathomless Depths" "The Dragon" "The Gemcutter" "The Gladiator" "The Forsaken" "Rain Tempter" "The Puzzle" "The Pact" "The Scholar" "A Mother's Parting Gift" "Anarchy's Price" "Assassin's Favour" "Cartographer's Delight" "Death" "Destined to Crumble" "Doedre's Madness" "Earth Drinker" "Gift of the Gemling Queen" "Grave Knowledge" "Her Mask" "Hubris" "Hunter's Resolve" "Lantador's Lost Love" "Light and Truth" "Loyalty" "Prosperity" "Rain of Chaos" "Rats" "Shard of Fate" "The Battle Born" "The Betrayal" "The Calling" "The Catalyst" "The Doppelganger" "The Drunken Aristocrat" "The Endurance" "The Explorer" "The Feast" "The Flora's Gift" "The Fox" "The Gentleman" "The Hermit" "The Incantation" "The Inoculated" "The Lich" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Pack Leader" "The Poet" "The Rabid Rhoa" "The Scarred Meadow" "The Sigil" "The Summoner" "The Surgeon" "The Twins" "The Visionary" "The Warden" "The Watcher" "The Web" "The Wolf's Shadow" "Three Faces in the Dark" "Thunderous Skies" "Tranquillity" "Turn the Other Cheek" "Volatile Power" "Mitts" "The Coming Storm" "Might is Right" "The Opulent" "Struck by Lightning" "The Blazing Fire" "The Eye of the Dragon" "The Deceiver" "Three Voices" "The Army of Blood" "The Sword King's Salute" "The Witch" "Dark Temptation" "Boon of Justice" 
-SetFontSize 30
+BaseType "The Seeker" "The Innocent" "Vanity" "Hope" "Humility" "Last Hope" "The Cartographer" "The Lion" "The Pact" "The Scavenger" "The Thaumaturgist" "The Void" "Time-Lost Relic" "The Realm" "The Breach" "The Hale Heart" "The Rite of Elements" "Harmony of Souls" "The Twilight Moon" "The Wilted Rose" "The Cacophony" "The Journey" "The Deep Ones" "The Price of Protection" "Lucky Deck" "Sambodhi's Vow" "Imperial Legacy" "The Brittle Emperor" "The Surveyor" "Assassin's Favour" "Audacity" "Blind Venture" "Boundless Realms" "Cartographer's Delight" "Coveted Possession" "Dialla's Subjugation" "Earth Drinker" "Gemcutter's Promise" "Gift of the Gemling Queen" "Glimmer of Hope" "Grave Knowledge" "Her Mask" "Hunter's Resolve" "Jack in the Box" "Light and Truth" "Lost Worlds" "Loyalty" "Lucky Connections" "Lysah's Respite" "Merciless Armament" "Prosperity" "Rain Tempter" "Scholar of the Seas" "The Aesthete" "The Arena Champion" "The Avenger" "The Body" "The Calling" "The Conduit" "The Cursed King" "The Demoness" "The Dragon" "The Drunken Aristocrat" "The Encroaching Darkness" "The Explorer" "The Feast" "The Fletcher" "The Formless Sea" "The Fox" "The Gambler" "The Gentleman" "The Harvester" "The Inventor" "The Jester" "The Lich" "The Lord in Black" "The Lover" "The Mercenary" "The Oath" "The One With All" "The Pack Leader" "The Penitent" "The Poet" "The Rabid Rhoa" "The Road to Power" "The Sigil" "The Siren" "The Spoiled Prince" "The Stormcaller" "The Summoner" "The Sun" "The Survivalist" "The Throne" "The Tower" "The Traitor" "The Trial" "The Twins" "The Tyrant" "The Union" "The Visionary" "The Warlord" "The Wolf's Shadow" "The Wrath" "Tranquillity" "Treasure Hunter" "Vinia's Token" "Mitts" "The Valley of Steel Boxes" "Call to the First Ones" "The Wretched" "Lingering Remnants" "The Coming Storm" "The Wolverine" "The Garish Power" "The Standoff" "The Forsaken" "Atziri's Arsenal" "The Ruthless Ceinture" "No Traces" "Rebirth" "The Puzzle" "The Insatiable" "Forbidden Power" "Blessing of God" "Three Voices" "The Beast" "The Sword King's Salute" "The Fathomless Depths" "The Dreamland" "The Admirer" "The Darkest Dream" "Arrogance of the Vaal" "The Mad King" "The Lord of Celebration" "The Messenger" "Boon of Justice" "Echoes of Love" "The Fool" "Demigod's Wager" "The Archmage's Right Hand" "The Heroic Shot" "The Skeleton" "Akil's Prophecy" "The Wolf's Legacy" "The Deal" "The Side Quest" "More is Never Enough" "Emperor's Luck" "The Inoculated" "The Opulent" "The Deceiver" "The Gemcutter" "Hubris" "The Cataclysm" "The Eye of the Dragon" "Destined to Crumble" "The Master Artisan" "Thirst for Knowledge" "The Golden Era" "A Mother's Parting Gift" "Anarchy's Price" "Death" "Doedre's Madness" "Lantador's Lost Love" "Rain of Chaos" "Rats" "Shard of Fate" "The Battle Born" "The Catalyst" "The Doppelganger" "The Endurance" "The Flora's Gift" "The Hermit" "The Incantation" "The Lunaris Priestess" "The Metalsmith's Gift" "The Scarred Meadow" "The Scholar" "The Surgeon" "The Warden" "The Watcher" "The Web" "Three Faces in the Dark" "Thunderous Skies" "Turn the Other Cheek" "Volatile Power" "Might is Right" "Struck by Lightning" "The Blazing Fire" "The Army of Blood" "The Witch" "Dark Temptation" "Vile Power" "The Mountain" 
+SetFontSize 50
 SetTextColor 200 150 200 250
 SetBackgroundColor 0 0 0 235
 SetBorderColor 255 255 255 180    
@@ -2071,7 +2212,7 @@ Show
 Class "Divination Card"
 MinimapIcon 2 White Square
 PlayEffect White
-BaseType "The Master" "The Brittle Emperor" "The Celestial Justicar" "The Valkyrie" "Chaotic Disposition" "Heterochromia" "Last Hope" "The Cartographer" "The Vast" "The Void" "The Wind" "The Wolf" "The Sacrifice" "The Dapper Prodigy" "The Polymath" "The Valley of Steel Boxes" "The Breach" "Perfection" "Monochrome" "Boon of the First Ones" "Bowyer's Dream" "The Hunger" "The Throne" "The Porcupine" "Left to Fate" "The Hale Heart" "The Undisputed" "Arrogance of the Vaal" "The Journey" 
+BaseType "The Dapper Prodigy" "The King's Heart" "The Hoarder" "The Porcupine" "Chaotic Disposition" "The Artist" "The Offering" "The Sephirot" "The Soul" "Boon of the First Ones" "A Dab of Ink" "Azyran's Reward" "Mawr Blaidd" "The Professor" "The Master" "Emperor of Purity" "The Jeweller's Boon" "The Undaunted" "The Endless Darkness" "The Landing" "The Primordial" "Bowyer's Dream" "The Hunger" "The Last One Standing" "The Valkyrie" "The Dreamer" "Buried Treasure" "Remembrance" "The Old Man" "The Chains that Bind" "The Gladiator" "Heterochromia" "The Betrayal" "The Dark Mage" "The Vast" "The Wolf" "Left to Fate" "The Obscured" "Perfection" "The Undisputed" "Alone in the Darkness" "Monochrome" 
 PlayAlertSound 2 150
 SetFontSize 50
 SetTextColor 200 150 200 250
@@ -2083,7 +2224,7 @@ Show
 Class "Divination Card"
 MinimapIcon 1 White Square
 PlayEffect White
-BaseType "The Nurse" "The Samurai's Eye" "Abandoned Wealth" "Hunter's Reward" "The Dragon's Heart" "Wealth and Power" "The Wolven King's Bite" "Seven Years Bad Luck" "The Queen" "Pride Before the Fall" "The Risk" "Mawr Blaidd" "The Saint's Treasure" "The Celestial Stone" "The Offering" "The Artist" "The King's Heart" "The Ethereal" "The Professor" "The Seeker" "The Enlightened" "The Hoarder" "The Landing" "The Sephirot" "The Dreamer" "The Undaunted" 
+BaseType "The Nurse" "Immortal Resolve" "The Spark and the Flame" "The Immortal" "Hunter's Reward" "The Wolven King's Bite" "The Damned" "Abandoned Wealth" "The Iron Bard" "The Dragon's Heart" "The Polymath" "The Samurai's Eye" "The Eye of Terror" "The Price of Loyalty" "Wealth and Power" "Burning Blood" "Seven Years Bad Luck" "The World Eater" "The Saint's Treasure" "The Life Thief" "Dark Dreams" "The Sacrifice" "The Ethereal" "The Celestial Justicar" "The Enlightened" "The Wind" "The Celestial Stone" "Void of the Elements" "The Bargain" "The Risk" "The Queen" "The Mayor" "Pride Before the Fall" 
 PlayAlertSound 10 300
 SetFontSize 50
 SetTextColor 255 51 51 255
@@ -2093,10 +2234,10 @@ SetBorderColor 200 150 200
 #Very Expensive more 100c
 Show
 Class "Divination Card"
-BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "The Iron Bard" "The Life Thief" "The Immortal" "The Mayor" "Immortal Resolve" "The Spark and the Flame" 
-MinimapIcon 0 Yellow Square
+BaseType "The Demon" "The Doctor" "House of Mirrors" "The Fiend" "Beauty Through Death" "Nook's Crown" "Alluring Bounty" "Pride of the First Ones" 
+MinimapIcon 0 Red Square
 PlayEffect Yellow
-PlayAlertSound 1 300
+CustomAlertSound "T1Div.wav"
 SetFontSize 50
 SetTextColor 0 0 0
 SetBackgroundColor 255 0 255 250
@@ -2106,7 +2247,7 @@ SetBorderColor 0 0 0
 Hide
 Class "Divination Card"
 BaseType "The Carrion Crow" "The King's Blade" 
-SetFontSize 30
+SetFontSize 50
 SetTextColor 200 150 200 250
 SetBackgroundColor 0 0 0 200
 SetBorderColor 255 255 255 180
@@ -2193,9 +2334,20 @@ PlayEffect Yellow
 ### Maps
 
 Show
+BlightedMap True
 Class "Maps"
 MapTier >= 15
-MinimapIcon 0 Red Square
+MinimapIcon 0 Red Circle
+SetFontSize 50
+SetTextColor 255 255 255 250
+SetBackgroundColor 100 0 0 200
+SetBorderColor 40 90 20 200
+PlayAlertSound 6 150
+
+Show
+Class "Maps"
+MapTier >= 15
+MinimapIcon 0 Red Circle
 ElderMap True
 SetFontSize 50
 SetTextColor 255 255 255 250
@@ -2205,7 +2357,7 @@ PlayAlertSound 6 150
 Show
 Class "Maps"
 MapTier >= 15
-MinimapIcon 1 White Square
+MinimapIcon 0 White Circle
 ShapedMap True 
 SetFontSize 50
 SetBorderColor 255 0 0 255
@@ -2213,9 +2365,20 @@ SetTextColor 255 255 255 250
 PlayAlertSound 6 150
 
 Show
+BlightedMap True
 Class "Maps"
 MapTier >= 11
-MinimapIcon 0 Red Square
+MinimapIcon 0 Red Circle
+SetFontSize 50
+SetTextColor 255 255 255 250
+SetBackgroundColor 100 0 0 200
+SetBorderColor 40 90 20 200
+PlayAlertSound 6 150
+
+Show
+Class "Maps"
+MapTier >= 11
+MinimapIcon 0 Red Circle
 ElderMap True
 SetFontSize 45
 PlayAlertSound 6 90
@@ -2225,7 +2388,7 @@ SetBackgroundColor 100 0 0 200
 Show
 Class "Maps"
 MapTier >= 11
-MinimapIcon 1 White Square
+MinimapIcon 0 White Circle
 ShapedMap True 
 SetFontSize 45
 SetBorderColor 255 0 0 255
@@ -2235,7 +2398,7 @@ PlayAlertSound 6 90
 Show
 Class "Maps"
 MapTier >= 6
-MinimapIcon 0 Red Square
+MinimapIcon 0 Red Circle
 ElderMap True
 SetFontSize 40
 PlayAlertSound 6 50
@@ -2245,7 +2408,7 @@ SetBackgroundColor 100 0 0 200
 Show
 Class "Maps"
 MapTier >= 6
-MinimapIcon 1 White Square
+MinimapIcon 0 White Circle
 ShapedMap True 
 SetFontSize 40
 SetBorderColor 255 0 0 255
@@ -2253,8 +2416,18 @@ SetTextColor 255 255 255 250
 PlayAlertSound 6 50
 
 Show
+BlightedMap True
 Class "Maps"
-MinimapIcon 0 Red Square
+MinimapIcon 0 Red Circle
+SetFontSize 50
+SetTextColor 255 255 255 250
+SetBackgroundColor 100 0 0 200
+SetBorderColor 40 90 20 200
+PlayAlertSound 6 150
+
+Show
+Class "Maps"
+MinimapIcon 0 Red Circle
 ElderMap True
 SetFontSize 35
 PlayAlertSound 9 200
@@ -2263,7 +2436,7 @@ SetBackgroundColor 100 0 0 200
 
 Show
 Class "Maps"
-MinimapIcon 1 White Square
+MinimapIcon 0 White Circle
 ShapedMap True 
 SetFontSize 35
 PlayAlertSound 9 200
@@ -2274,7 +2447,7 @@ Show
 Class Maps
 BaseType "Burial Chambers Map"
 SetFontSize 50
-MinimapIcon 0 Red Square
+MinimapIcon 0 Red Circle
 PlayAlertSound 6 80
 SetBackgroundColor 100 0 0 200
 SetTextColor 255 255 255 250
@@ -2283,14 +2456,14 @@ Show
 Class Maps
 BaseType "Volcano Map"
 SetFontSize 50
-MinimapIcon 0 Red Square
+MinimapIcon 0 Red Circle
 PlayAlertSound 6 80
 SetBackgroundColor 100 0 0 200
 SetTextColor 255 255 255 250
 
 Show
 Class "Maps"
-MinimapIcon 0 Red Square
+MinimapIcon 0 Red Circle
 ElderMap True
 SetFontSize 50
 PlayAlertSound 6 200
@@ -2299,7 +2472,7 @@ SetBackgroundColor 100 0 0 200
 
 Show
 Class "Maps"
-MinimapIcon 1 White Square
+MinimapIcon 0 White Circle
 ShapedMap True 
 SetFontSize 50
 SetBorderColor 255 0 0 255
@@ -2308,7 +2481,7 @@ PlayAlertSound 6 90
 
 Show
 Class "Maps"
-MinimapIcon 1 Red Square
+MinimapIcon 0 Red Circle
 ShapedMap True
 PlayEffect White
 DropLevel >= 82
@@ -2345,7 +2518,7 @@ PlayEffect Red
 SetTextColor 255 0 0 255
 SetBorderColor 0 0 0 255
 SetBackgroundColor 0 0 0 255
-SetFontSize 45
+SetFontSize 50
 PlayAlertSound 6 200
 
 Show
@@ -2356,7 +2529,7 @@ PlayEffect Red
 SetTextColor 255 0 0 255
 SetBorderColor 0 0 0 255
 SetBackgroundColor 0 0 0 200
-SetFontSize 40
+SetFontSize 50
 PlayAlertSound 6 200
 
 Show
@@ -2367,18 +2540,17 @@ PlayEffect Red
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 50
 SetBackgroundColor 0 0 0 255
-SetFontSize 40
+SetFontSize 50
 PlayAlertSound 6 80
 
 Show
 Class "Map Fragments"
 BaseType "Sacrifice at Dawn" "Sacrifice at Dusk" "Sacrifice at Noon"
 MinimapIcon 2 Red Circle
-PlayEffect Red
-SetTextColor 255 0 0 255
+SetTextColor 255 0 0 200
 SetBorderColor 0 0 0 255
 SetBackgroundColor 0 0 0 180
-SetFontSize 35
+SetFontSize 50
 PlayAlertSound 6 60
 
 Show
@@ -2390,7 +2562,7 @@ SetTextColor 255 51 51 255
 SetBorderColor 100 0 0 255
 SetBackgroundColor 0 0 0 255
 SetFontSize 45
-CustomAlertSound "DivineVessel.wav" 200
+CustomAlertSound "DivineVessel.wav"
 
 Show
 Class Map
@@ -2404,7 +2576,7 @@ SetBorderColor 200 70 0
 
 Show
 Class Map
-MinimapIcon 0 Red Square
+MinimapIcon 0 Red Circle
 PlayEffect White
 MapTier >= 16
 SetFontSize 50
@@ -2414,42 +2586,42 @@ SetBackgroundColor 100 0 0 220
 
 Show
 Class Map
-MinimapIcon 1 White Square
+MinimapIcon 0 White Circle
 PlayEffect White
 MapTier >= 11
-SetFontSize 42
+SetFontSize 45
 PlayAlertSound 6 150
 SetTextColor 255 0 0 225
 
 Show
 Class Map
-MinimapIcon 2 White Square
+MinimapIcon 0 White Circle
 PlayEffect White
 MapTier >= 6
-SetFontSize 39
+SetFontSize 45
 PlayAlertSound 9 200
 SetTextColor 255 255 255 225
  
 Show
 Class Map
-MinimapIcon 2 Yellow Square
+MinimapIcon 0 Yellow Circle
 Rarity = Rare
-SetFontSize 40
+SetFontSize 45
 SetTextColor 255 255 0
 SetBorderColor 255 255 0
 SetBackgroundColor 70 70 70 250
  
 Show
 Class Map
-MinimapIcon 1 Blue Square
+MinimapIcon 0 Blue Circle
 Rarity = Magic
-SetFontSize 38
+SetFontSize 50
  
 Show
 Class Map
-MinimapIcon 2 White Square
+MinimapIcon 0 White Circle
 Rarity = Normal
-SetFontSize 35
+SetFontSize 50
 PlayAlertSound 9 200
 SetTextColor 192 192 192
 SetBorderColor 192 192 192
@@ -2459,24 +2631,24 @@ Class "Map Fragment"
  
 Show
 Class Map
-MinimapIcon 2 Yellow Square
+MinimapIcon 2 Yellow Circle
 Rarity = Rare
-SetFontSize 40
+SetFontSize 50
 SetTextColor 255 255 0
 SetBorderColor 255 255 0
 SetBackgroundColor 70 70 70 250
  
 Show
 Class Map
-MinimapIcon 1 Blue Square
+MinimapIcon 1 Blue Circle
 Rarity = Magic
-SetFontSize 38
+SetFontSize 50
  
 Show
 Class Map
-MinimapIcon 2 White Square
+MinimapIcon 2 White Circle
 Rarity = Normal
-SetFontSize 38
+SetFontSize 50
 PlayAlertSound 9 200
 SetTextColor 192 192 192
 SetBorderColor 192 192 192
