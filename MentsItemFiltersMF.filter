@@ -1,4 +1,4 @@
-# Ment's Item Filters MF Recommended for MF runs  | v3.8a #
+# Ment's Item Filters MF Recommended for MF runs  | v3.8b #
  
 #Ment's Filter highlights
  
@@ -738,7 +738,7 @@ SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
 SetBackgroundColor 0 0 165 190
 MinimapIcon 1 Red Diamond
-PlayEffect Red Tem
+PlayEffect Red Temp
 PlayAlertSound 12 300
 
 Show
@@ -750,7 +750,7 @@ SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
 SetBackgroundColor 0 0 165 190
 MinimapIcon 1 Red Diamond
-PlayEffect Red Tem
+PlayEffect Red Temp
 PlayAlertSound 12 300
 
 Show
