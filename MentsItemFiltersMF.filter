@@ -179,7 +179,7 @@ PlayAlertSound 15 200
 
 Show
 Class Currency
-BaseType "Engineer's Orb" "Orb of Binding" "Orb of Horizons""Engineer's Shard" "Binding Shard" "Harbinger's Shard" "Horizon Shard" "Harbinger's Orb"
+BaseType "Engineer's Orb" "Orb of Binding" "Orb of Horizons" "Engineer's Shard" "Binding Shard" "Harbinger's Shard" "Horizon Shard" "Harbinger's Orb"
 SetFontSize 50
 SetTextColor 255 255 100
 SetBackgroundColor 0 0 0 250
